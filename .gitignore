@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets & local env — NEVER commit
+.env
+*.key
+
+# Local user input (keep the .example version in git, not the live file)
+linkedin-agent/data/incoming_comments.json
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Local-only run artifacts (generated HTML/JSON are committed by CI;
+# uncomment the next lines if you prefer outputs to stay out of git)
+# linkedin-agent/output/daily/*.html
+# linkedin-agent/output/comments/*.html
+# linkedin-agent/data/runs/

@@ -1,0 +1,55 @@
+# Data sources — enable/disable and parameterise here. NEVER hardcode sources
+# in agent code. Each entry maps to a @register_source("name") class.
+#
+# To add a brand-new kind of source: write sources/<x>_source.py, register it,
+# import it in sources/__init__.py, then add an entry below.
+#
+# Replace the placeholder feed URLs below with real ones for your topics.
+
+sources:
+  - name: rss
+    enabled: true
+    params:
+      max_items_per_feed: 10
+      feeds:
+        # --- replace with your chosen feeds ---
+        - https://techcrunch.com/feed/
+        - https://www.retaildive.com/feeds/news/
+
+  - name: news
+    enabled: true
+    params:
+      max_items: 12
+      keywords: [retention, loyalty, whatsapp, shopify, crm, "customer data", churn, "repeat purchase"]
+      feeds:
+        - https://feeds.feedburner.com/venturebeat/SZYF
+
+  - name: blogs
+    enabled: false           # turn on once you've set real blog feeds/pages
+    params:
+      max_items: 8
+      feeds: []
+      pages: []
+
+  - name: github
+    enabled: true
+    params:
+      max_per_query: 5
+      queries:
+        - "retention marketing"
+        - "whatsapp commerce"
+        - "customer data platform"
+        - "shopify app loyalty"
+
+  - name: urls
+    enabled: false           # enable and add URLs to inject specific articles
+    params:
+      urls: []
+
+  - name: apify
+    enabled: false           # requires APIFY_TOKEN; configure an actor below
+    params:
+      actor_id: "apify/website-content-crawler"
+      max_items: 20
+      run_input:
+        startUrls: []

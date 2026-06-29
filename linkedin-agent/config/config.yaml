@@ -1,0 +1,41 @@
+# Purands AI — run configuration
+# This single file controls a run. CI and local runs read the same file.
+
+# Which agents run, in order. Names match @register("name") in agents/.
+# Reorder, remove, or add names here — no code change needed.
+pipeline:
+  - trend_hunter
+  - research_analyst
+  - founder_voice
+  - engagement_agent
+  - editor_publisher
+  # comment_reply runs on a separate input (received comments). It is included
+  # so a full run produces the comments dashboard too; it no-ops cleanly if
+  # there are no comments to process.
+  - comment_reply
+
+# LLM provider settings. provider is swappable (anthropic | mock).
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-6        # change to claude-opus-4-8 for max quality
+  max_tokens: 2000
+  temperature: 0.7
+
+# full  = call the real LLM and live sources
+# dry-run = use the mock provider (no API key/network); great for testing layout
+mode: full
+
+# Paths are relative to the linkedin-agent/ package root.
+paths:
+  data: data
+  runs: data/runs
+  prompts: templates/prompts
+  html_templates: templates/html
+  output_daily: output/daily
+  output_comments: output/comments
+
+# How many top trends to research / write about (keeps API cost predictable).
+limits:
+  max_trends: 8
+  max_researched_for_posts: 3
+  min_confidence_to_publish: 0.6

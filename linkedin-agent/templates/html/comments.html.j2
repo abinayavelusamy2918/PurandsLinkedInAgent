@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purands AI — Comment Replies · {{ run_date }}</title>
+<style>
+  :root{--bg:#0f1115;--card:#181b22;--ink:#e8eaed;--muted:#9aa0aa;--line:#262a33;--accent:#4f8cff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.55}
+  header{position:sticky;top:0;background:rgba(15,17,21,.92);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);padding:14px 20px}
+  header h1{font-size:18px;margin:0}.sub{color:var(--muted);font-size:13px}
+  main{max-width:920px;margin:0 auto;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:14px 0}
+  .row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+  .cls{padding:3px 10px;border-radius:6px;font-size:12px;font-weight:600}
+  .Question{background:rgba(79,140,255,.15);color:#7aa6ff}
+  .Agreement{background:rgba(46,193,107,.15);color:#2ec16b}
+  .Objection{background:rgba(224,169,59,.15);color:#e0a93b}
+  .Sales\ Lead,.SalesLead{background:rgba(46,193,107,.22);color:#2ec16b}
+  .Partnership\ Opportunity,.Partnership{background:rgba(159,122,234,.18);color:#b794f4}
+  .Customer\ Support,.Support{background:rgba(79,140,255,.12);color:#7aa6ff}
+  .Spam,.Ignore{background:rgba(224,83,59,.15);color:#e0533b}
+  .score{font-size:13px;color:var(--muted)}
+  .orig{background:#0d0f13;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:14px;margin:8px 0}
+  .reply{white-space:pre-wrap;background:#0d0f13;border:1px solid var(--line);border-radius:8px;
+    padding:12px;font-size:14.5px}
+  .copybtn{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:6px 12px;
+    font-size:13px;cursor:pointer;margin-top:8px}
+  .muted{color:var(--muted);font-size:13px}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-top:8px}
+  th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left}
+</style>
+</head>
+<body>
+<header>
+  <h1>Purands AI — Received Comment Replies</h1>
+  <div class="sub">{{ run_date }} · generated {{ generated_at }} · <strong>suggestions only — never auto-posted</strong></div>
+</header>
+<main>
+  {% if replies %}
+  <div class="card">
+    <strong>Summary</strong>
+    <table>
+      <tr><th>Commenter</th><th>Class</th><th>Lead score</th></tr>
+      {% for r in replies %}
+      <tr><td>{{ r.commenter }}</td><td>{{ r.classification }}</td><td>{{ r.lead_score }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  {% for r in replies %}
+  <div class="card">
+    <div class="row">
+      <span class="cls {{ r.classification|replace(' ','') }}">{{ r.classification }}</span>
+      <span class="score">lead score: <strong>{{ r.lead_score }}</strong></span>
+    </div>
+    <div class="orig"><span class="muted">{{ r.commenter }}:</span> {{ r.original_comment }}</div>
+    {% if r.suggested_reply %}
+    <div class="reply" id="reply{{ loop.index }}">{{ r.suggested_reply }}</div>
+    <button class="copybtn" onclick="copyEl('reply{{ loop.index }}',this)">Copy reply</button>
+    {% else %}<p class="muted">No reply suggested ({{ r.classification }}).</p>{% endif %}
+    {% if r.why_it_works %}<p class="muted"><strong>Why it works:</strong> {{ r.why_it_works }}</p>{% endif %}
+    {% if r.follow_up %}<p class="muted"><strong>Follow-up:</strong> {{ r.follow_up }}</p>{% endif %}
+  </div>
+  {% endfor %}
+  {% else %}
+  <div class="card"><p class="muted">No incoming comments to process. Add comments to
+    <code>data/incoming_comments.json</code> and re-run.</p></div>
+  {% endif %}
+</main>
+<script>
+function copyEl(id,btn){
+  const t=document.getElementById(id).innerText;
+  navigator.clipboard.writeText(t).then(()=>{const o=btn.innerText;btn.innerText='Copied ✓';
+    setTimeout(()=>btn.innerText=o,1500);});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purands AI — Daily Review · {{ run_date }}</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --ink:#e8eaed; --muted:#9aa0aa; --line:#262a33;
+    --accent:#4f8cff; --high:#2ec16b; --medium:#e0a93b; --low:#e0533b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.55}
+  header{position:sticky;top:0;z-index:10;background:rgba(15,17,21,.92);backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);padding:14px 20px}
+  header h1{font-size:18px;margin:0}
+  header .sub{color:var(--muted);font-size:13px}
+  nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  nav a{font-size:13px;color:var(--accent);text-decoration:none;border:1px solid var(--line);
+    padding:4px 10px;border-radius:999px}
+  nav a:hover{background:var(--card)}
+  main{max-width:920px;margin:0 auto;padding:20px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
+  section h2{margin:0 0 12px;font-size:16px}
+  .rec{display:inline-block;padding:3px 10px;border-radius:6px;font-size:12px;font-weight:600;text-transform:uppercase}
+  .rec.publish{background:rgba(46,193,107,.15);color:var(--high)}
+  .rec.revise{background:rgba(224,169,59,.15);color:var(--medium)}
+  .rec.hold{background:rgba(224,83,59,.15);color:var(--low)}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600}
+  .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600}
+  .badge.high{background:rgba(46,193,107,.15);color:var(--high)}
+  .badge.medium{background:rgba(224,169,59,.15);color:var(--medium)}
+  .badge.low{background:rgba(224,83,59,.15);color:var(--low)}
+  details{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0;background:#13161c}
+  details summary{cursor:pointer;font-weight:600}
+  .copywrap{position:relative}
+  .post{white-space:pre-wrap;background:#0d0f13;border:1px solid var(--line);border-radius:8px;
+    padding:14px;font-size:14.5px}
+  .copybtn{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:6px 12px;
+    font-size:13px;cursor:pointer;margin-top:8px}
+  .copybtn:active{transform:translateY(1px)}
+  .hooks li,.tags span{margin:4px 0}
+  .tags span{display:inline-block;background:#0d0f13;border:1px solid var(--line);
+    border-radius:999px;padding:2px 10px;margin-right:6px;font-size:13px;color:var(--accent)}
+  a.src{color:var(--accent);font-size:13px}
+  .muted{color:var(--muted)}
+  ul{margin:6px 0 0 18px;padding:0}
+  footer{max-width:920px;margin:0 auto;padding:10px 20px 40px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Purands AI — Daily Content Review</h1>
+  <div class="sub">{{ run_date }} · generated {{ generated_at }} · <strong>review only — nothing is auto-published</strong></div>
+  <nav>
+    <a href="#post">LinkedIn Post</a>
+    <a href="#hooks">Hooks</a>
+    <a href="#rec">Recommendation</a>
+    <a href="#trends">Trends</a>
+    <a href="#research">Research</a>
+    <a href="#comments">Comments</a>
+    <a href="#risk">Risk</a>
+  </nav>
+</header>
+<main>
+
+  {% set draft = drafts[0] if drafts else none %}
+
+  <section id="rec">
+    <h2>Publishing Recommendation</h2>
+    {% set rec = editorial.publishing_recommendation|default('hold') %}
+    <span class="rec {{ rec }}">{{ rec }}</span>
+    <p class="muted">{{ editorial.reasoning }}</p>
+    <p>{{ editorial.summary }}</p>
+  </section>
+
+  <section id="post">
+    <h2>LinkedIn Post</h2>
+    {% if draft %}
+      <div class="copywrap">
+        <div class="post" id="postbody">{{ draft.body }}</div>
+        <button class="copybtn" onclick="copyEl('postbody',this)">Copy post</button>
+      </div>
+      {% if draft.cta %}<p class="muted"><strong>CTA:</strong> {{ draft.cta }}</p>{% endif %}
+      {% if draft.hashtags %}<div class="tags">{% for h in draft.hashtags %}<span>#{{ h }}</span>{% endfor %}</div>{% endif %}
+      {% if draft.based_on %}<p class="muted">Based on: {{ draft.based_on|join(', ') }}</p>{% endif %}
+    {% else %}
+      <p class="muted">No post was generated (no high-confidence trend today).</p>
+    {% endif %}
+  </section>
+
+  <section id="hooks">
+    <h2>Alternative Hooks</h2>
+    {% if draft and draft.hooks %}
+      <ol class="hooks">
+        {% for hook in draft.hooks %}
+        <li class="copywrap"><span id="hook{{ loop.index }}">{{ hook }}</span>
+          <button class="copybtn" onclick="copyEl('hook{{ loop.index }}',this)">Copy</button></li>
+        {% endfor %}
+      </ol>
+    {% else %}<p class="muted">—</p>{% endif %}
+  </section>
+
+  <section id="trends">
+    <h2>Today's Trends</h2>
+    {% if trends %}
+    <table>
+      <tr><th>#</th><th>Trend</th><th>Category</th><th>Why it matters</th></tr>
+      {% for t in trends %}
+      <tr>
+        <td>{{ t.rank }}</td>
+        <td>{{ t.title }}
+          {% if t.sources %}<br>{% for s in t.sources %}<a class="src" href="{{ s }}" target="_blank" rel="noopener">source</a> {% endfor %}{% endif %}
+        </td>
+        <td>{{ t.category }}</td>
+        <td>{{ t.rationale }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% else %}<p class="muted">No trends identified.</p>{% endif %}
+  </section>
+
+  <section id="research">
+    <h2>Research Summary &amp; Confidence</h2>
+    {% if researched %}
+      {% for r in researched %}
+      <details>
+        <summary>
+          {{ r.trend.title }}
+          <span class="badge {{ r.confidence|confidence_class }}">conf {{ '%.2f'|format(r.confidence) }}</span>
+          {% if r.verdict == 'rejected' %}<span class="badge low">rejected</span>{% endif %}
+        </summary>
+        {% if r.reject_reason %}<p class="muted">Rejected: {{ r.reject_reason }}</p>{% endif %}
+        {% if r.statistics %}<p><strong>Statistics</strong></p><ul>{% for s in r.statistics %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+        {% if r.examples %}<p><strong>Examples</strong></p><ul>{% for s in r.examples %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+        {% if r.recent_news %}<p><strong>Recent news</strong></p><ul>{% for s in r.recent_news %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+        {% if r.evidence %}<p><strong>Evidence</strong></p><ul>{% for e in r.evidence %}<li>{{ e.claim }} — {{ e.support }} {% if e.url %}<a class="src" href="{{ e.url }}" target="_blank" rel="noopener">link</a>{% endif %}</li>{% endfor %}</ul>{% endif %}
+        {% if r.risks %}<p><strong>Risks</strong></p><ul>{% for s in r.risks %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+      </details>
+      {% endfor %}
+    {% else %}<p class="muted">No research available.</p>{% endif %}
+  </section>
+
+  <section id="comments">
+    <h2>Suggested Comments (industry-leader posts)</h2>
+    {% if comments %}
+      {% for c in comments %}
+      <details>
+        <summary>{{ c.angle }} — {{ c.target_excerpt[:80] }}</summary>
+        <div class="copywrap">
+          <div class="post" id="cmt{{ loop.index }}">{{ c.comment }}</div>
+          <button class="copybtn" onclick="copyEl('cmt{{ loop.index }}',this)">Copy comment</button>
+        </div>
+        <p class="muted">Why it works: {{ c.why_it_works }}</p>
+        {% if c.target_post_url %}<a class="src" href="{{ c.target_post_url }}" target="_blank" rel="noopener">target post</a>{% endif %}
+      </details>
+      {% endfor %}
+    {% else %}<p class="muted">No comment suggestions.</p>{% endif %}
+  </section>
+
+  <section id="risk">
+    <h2>Risk Assessment</h2>
+    {% if editorial.risk_assessment %}
+      <ul>{% for risk in editorial.risk_assessment %}<li>{{ risk }}</li>{% endfor %}</ul>
+    {% else %}<p class="muted">No risks flagged.</p>{% endif %}
+  </section>
+
+</main>
+<footer>Generated by the Purands AI platform · human review required before any publishing.</footer>
+<script>
+function copyEl(id,btn){
+  const el=document.getElementById(id);
+  const text=el.innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    const old=btn.innerText;btn.innerText='Copied ✓';
+    setTimeout(()=>btn.innerText=old,1500);
+  });
+}
+</script>
+</body>
+</html>
