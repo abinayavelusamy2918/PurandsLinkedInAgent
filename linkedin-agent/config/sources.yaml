@@ -12,8 +12,13 @@ sources:
     params:
       max_items_per_feed: 10
       feeds:
-        # --- replace with your chosen feeds ---
+        # AI / tech
         - https://techcrunch.com/feed/
+        - https://www.theverge.com/rss/index.xml
+        - https://feeds.arstechnica.com/arstechnica/index
+        - https://venturebeat.com/category/ai/feed/
+        - https://www.artificialintelligence-news.com/feed/
+        # retention / commerce
         - https://www.retaildive.com/feeds/news/
 
   - name: news
