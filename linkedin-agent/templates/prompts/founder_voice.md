@@ -8,6 +8,9 @@ Follow this brand voice exactly:
 Company context:
 {purands_context}
 
+POST DIRECTIVE FOR THIS POST:
+{purands_directive}
+
 Absolute requirements:
 - Write ONE post about the single researched trend provided below.
 - 120–220 words. Lead with a concrete observation, number, or short story.

@@ -48,7 +48,10 @@
   a.src{color:var(--accent);font-size:13px}
   .muted{color:var(--muted)}
   .postcard{border:1px solid var(--line);border-radius:10px;padding:14px;margin:14px 0;background:#13161c}
+  .postcard.tied{border-color:var(--high);box-shadow:inset 3px 0 0 var(--high)}
   .postcard h3.ptitle{margin:0 0 10px;font-size:15px;color:var(--ink)}
+  .pbadge{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;font-size:11px;
+    font-weight:700;background:rgba(46,193,107,.15);color:var(--high);vertical-align:middle}
   .rtitle{font-weight:600;margin:10px 0 2px}
   ul{margin:6px 0 0 18px;padding:0}
   footer{max-width:920px;margin:0 auto;padding:10px 20px 40px;color:var(--muted);font-size:12px}
@@ -81,8 +84,10 @@
     {% if drafts %}
       {% for draft in drafts %}
       {% set pidx = loop.index %}
-      <div class="postcard">
-        <h3 class="ptitle">{{ pidx }}. {{ draft.topic }}</h3>
+      <div class="postcard{% if draft.purands_tie %} tied{% endif %}">
+        <h3 class="ptitle">{{ pidx }}. {{ draft.topic }}
+          {% if draft.purands_tie %}<span class="pbadge">★ Purands solution · high priority</span>{% endif %}
+        </h3>
         <div class="copywrap">
           <div class="post" id="postbody{{ pidx }}">{{ draft.body }}</div>
           <button class="copybtn" onclick="copyEl('postbody{{ pidx }}',this)">Copy post</button>
