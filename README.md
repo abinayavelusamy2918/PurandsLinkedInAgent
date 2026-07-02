@@ -24,6 +24,7 @@ many future agents beyond LinkedIn.
 - [GitHub Actions (daily automation)](#github-actions-daily-automation)
 - [Secrets](#secrets)
 - [Deploy](#deploy)
+- [Comment Studio (analyse any post)](#comment-studio-analyse-any-post)
 - [Testing](#testing)
 
 ---
@@ -229,6 +230,44 @@ Never commit real keys. Locally, use a `.env` file (gitignored).
 Deployment = pushing to GitHub. The daily workflow does the rest. To run on your
 own infra instead, schedule `python linkedin-agent/scripts/run_daily.py` with
 the same env vars (cron, a container, or any scheduler).
+
+---
+
+## Comment Studio (analyse any post)
+
+An interactive tool ([`linkedin-agent/studio/`](linkedin-agent/studio/)) that is
+**separate from the daily pipeline** — it is never regenerated. Paste any
+LinkedIn post URL and it:
+
+1. Scrapes the post (Apify `apimaestro/linkedin-post-detail`).
+2. Generates **one** human, opinion-only comment — never ends in a question,
+   never uses long dashes, specific to that post.
+3. For any statistic the comment cites, runs a **real web search**
+   (Apify `apify/rag-web-browser`) and shows the source link in a collapsible
+   section under the comment, so you can verify before posting.
+
+Nothing is auto-posted. Needs `OPENAI_API_KEY` and `APIFY_TOKEN`.
+
+### Run it locally
+```bash
+cd linkedin-agent
+python studio/app.py            # then open http://localhost:5000
+```
+
+### Host it (free, permanent URL)
+A [`render.yaml`](render.yaml) blueprint deploys it to **Render**'s free tier:
+
+1. https://render.com → sign in with GitHub → grant access to this repo.
+2. **New +** → **Blueprint** → pick this repo → **Apply** (auto-detects
+   `render.yaml`).
+3. Set the secret env vars in the dashboard: `OPENAI_API_KEY`, `APIFY_TOKEN`,
+   and `STUDIO_PASSWORD` (any password — locks the site so only you can use it).
+4. You get a permanent URL (e.g. `https://purands-comment-studio.onrender.com`);
+   log in with user `purands` + your `STUDIO_PASSWORD`.
+
+Notes: the free tier sleeps after ~15 min idle (first visit then takes ~30–60s
+to wake). Always set `STUDIO_PASSWORD` when hosted publicly, otherwise anyone
+with the URL can spend your API credits.
 
 ---
 
