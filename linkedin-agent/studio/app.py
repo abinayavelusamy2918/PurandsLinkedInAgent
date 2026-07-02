@@ -171,6 +171,24 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/daily")
+def daily():
+    """Serve today's (the latest) generated daily dashboard. Only the present
+    day is shown here; older dashboards remain in the repo archive."""
+    out_dir = PKG_ROOT / "output" / "daily"
+    files = [p for p in out_dir.glob("*.html")] if out_dir.exists() else []
+    if not files:
+        return (
+            "<body style='font-family:sans-serif;background:#0f1115;color:#e8eaed;"
+            "padding:40px'><h2>No daily dashboard yet</h2><p>The daily run hasn't "
+            "produced a dashboard on this deploy. It appears after the next daily "
+            "GitHub Action run.</p><p><a style='color:#4f8cff' href='/'>&larr; "
+            "Comment Studio</a></p></body>", 404,
+        )
+    latest = max(files, key=lambda p: p.stem)  # filenames are YYYY-MM-DD
+    return latest.read_text(encoding="utf-8")
+
+
 @app.route("/analyze", methods=["POST"])
 def analyze():
     url = ((request.json or {}).get("url") or "").strip()

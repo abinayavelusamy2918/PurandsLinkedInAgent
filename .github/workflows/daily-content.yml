@@ -6,7 +6,7 @@ name: Daily LinkedIn Content
 
 on:
   schedule:
-    - cron: "30 1 * * *"      # 01:30 UTC daily (~07:00 IST). Adjust as needed.
+    - cron: "30 2 * * 1-5"    # 02:30 UTC = 08:00 IST, Mon-Fri (weekdays only)
   workflow_dispatch:           # allow manual runs from the Actions tab
 
 permissions:
