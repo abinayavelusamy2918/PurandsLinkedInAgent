@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purands AI — Comment Studio</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --ink:#e8eaed; --muted:#9aa0aa; --line:#262a33;
+    --accent:#4f8cff; --high:#2ec16b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.55}
+  header{border-bottom:1px solid var(--line);padding:16px 20px}
+  header h1{font-size:18px;margin:0}
+  header .sub{color:var(--muted);font-size:13px;margin-top:4px}
+  main{max-width:800px;margin:0 auto;padding:20px}
+  .row{display:flex;gap:8px;margin:14px 0}
+  input[type=text]{flex:1;background:#0d0f13;border:1px solid var(--line);border-radius:8px;
+    color:var(--ink);padding:12px 14px;font-size:14px}
+  input[type=text]:focus{outline:none;border-color:var(--accent)}
+  button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:12px 18px;
+    font-size:14px;font-weight:600;cursor:pointer}
+  button:disabled{opacity:.5;cursor:default}
+  section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:16px 0}
+  section h2{margin:0 0 10px;font-size:15px}
+  .post{white-space:pre-wrap;background:#0d0f13;border:1px solid var(--line);border-radius:8px;
+    padding:14px;font-size:14.5px}
+  .copybtn{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:6px 12px;
+    font-size:13px;cursor:pointer;margin-top:10px}
+  .muted{color:var(--muted);font-size:13px}
+  .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;
+    background:rgba(79,140,255,.15);color:var(--accent);margin-left:6px}
+  details{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-top:12px;background:#13161c}
+  details summary{cursor:pointer;font-weight:600;font-size:14px}
+  a.src{color:var(--accent);font-size:13px}
+  ul{margin:8px 0 0 18px;padding:0}
+  .err{color:#e0533b}
+  .spinner{display:inline-block;width:14px;height:14px;border:2px solid rgba(255,255,255,.3);
+    border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;vertical-align:-2px;margin-right:6px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .hint{color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Purands AI — Comment Studio</h1>
+  <div class="sub">Paste a LinkedIn post URL to get a researched, opinion-only comment. Nothing is posted automatically.</div>
+</header>
+<main>
+  <div class="row">
+    <input type="text" id="url" placeholder="https://www.linkedin.com/posts/..." autofocus>
+    <button id="go" onclick="analyze()">Analyze</button>
+  </div>
+  <p class="hint">Tip: open the LinkedIn post, copy its URL from the address bar (or the post's ⋯ menu → Copy link to post).</p>
+
+  <div id="status"></div>
+  <div id="result"></div>
+</main>
+
+<script>
+function esc(s){const d=document.createElement('div');d.innerText=s||'';return d.innerHTML;}
+
+function copyEl(id,btn){
+  const t=document.getElementById(id).innerText;
+  navigator.clipboard.writeText(t).then(()=>{const o=btn.innerText;btn.innerText='Copied ✓';setTimeout(()=>btn.innerText=o,1500);});
+}
+
+async function analyze(){
+  const url=document.getElementById('url').value.trim();
+  const status=document.getElementById('status');
+  const result=document.getElementById('result');
+  result.innerHTML='';
+  if(!url){status.innerHTML='<p class="err">Please paste a LinkedIn post URL.</p>';return;}
+  const btn=document.getElementById('go');
+  btn.disabled=true;
+  status.innerHTML='<p class="muted"><span class="spinner"></span>Scraping post, generating comment, and searching sources… this can take 20–40 seconds.</p>';
+  try{
+    const res=await fetch('/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({url})});
+    const data=await res.json();
+    if(!res.ok){status.innerHTML='<p class="err">'+esc(data.error||'Something went wrong.')+'</p>';return;}
+    status.innerHTML='';
+    render(data);
+  }catch(e){
+    status.innerHTML='<p class="err">Request failed: '+esc(e.message)+'</p>';
+  }finally{
+    btn.disabled=false;
+  }
+}
+
+function render(d){
+  let html='';
+  // Post preview
+  html+='<section><h2>Post'+(d.post.author?(' by '+esc(d.post.author)):'')+'</h2>';
+  if(d.post.headline) html+='<p class="muted">'+esc(d.post.headline)+'</p>';
+  html+='<div class="post">'+esc(d.post.text)+'</div>';
+  if(d.post.url) html+='<p style="margin-top:8px"><a class="src" href="'+esc(d.post.url)+'" target="_blank" rel="noopener">↗ open post</a></p>';
+  html+='</section>';
+
+  // Comment
+  html+='<section><h2>Suggested comment<span class="badge">'+esc(d.angle)+'</span></h2>';
+  html+='<div class="post" id="cmt">'+esc(d.comment)+'</div>';
+  html+='<button class="copybtn" onclick="copyEl(\'cmt\',this)">Copy comment</button>';
+  if(d.why) html+='<p class="muted" style="margin-top:10px">Why it works: '+esc(d.why)+'</p>';
+
+  // Sources for stats
+  const withSrc=(d.sources||[]).filter(s=>s.claim);
+  if(withSrc.length){
+    html+='<details open><summary>Research sources for the stats in this comment ('+withSrc.length+')</summary><ul>';
+    for(const s of withSrc){
+      html+='<li>'+esc(s.claim)+' ';
+      if(s.source && s.source.url){
+        html+='<a class="src" href="'+esc(s.source.url)+'" target="_blank" rel="noopener">↗ '+esc(s.source.title||'source')+'</a>';
+      }else{
+        html+='<span class="muted">(no source found — verify before using)</span>';
+      }
+      html+='</li>';
+    }
+    html+='</ul></details>';
+  }
+  html+='</section>';
+  document.getElementById('result').innerHTML=html;
+}
+
+document.getElementById('url').addEventListener('keydown',e=>{if(e.key==='Enter')analyze();});
+</script>
+</body>
+</html>

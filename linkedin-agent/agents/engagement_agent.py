@@ -14,10 +14,9 @@ Attaches CommentSuggestions to ctx.comments.
 from __future__ import annotations
 
 import json
-import re
 
 from core.models import AgentResult, CommentSuggestion, RunContext
-from core.text import strip_long_dashes
+from core.text import strip_long_dashes, strip_trailing_question
 from .base import BaseAgent, register
 
 _BATCH_SIZE = 10
@@ -89,7 +88,7 @@ class EngagementAgent(BaseAgent):
                 if idx < 0 or idx >= len(batch):
                     continue
                 item = batch[idx]
-                text = _no_trailing_question(strip_long_dashes(c.get("comment", "").strip()))
+                text = strip_trailing_question(strip_long_dashes(c.get("comment", "").strip()))
                 if not text:
                     continue
                 comments.append(CommentSuggestion(
@@ -162,17 +161,3 @@ class EngagementAgent(BaseAgent):
             ))
             i += 1
         return out
-
-
-def _no_trailing_question(text: str) -> str:
-    """Guarantee a comment never ends open-ended. If the final sentence is a
-    question, drop it; if what remains still ends with '?', trim it."""
-    if not text:
-        return text
-    # Split into sentences keeping terminators.
-    parts = re.findall(r"[^.!?]*[.!?]|[^.!?]+$", text)
-    parts = [p for p in (p.strip() for p in parts) if p]
-    while parts and parts[-1].endswith("?"):
-        parts.pop()
-    cleaned = " ".join(parts).strip() if parts else text.rstrip(" ?")
-    return cleaned or text.rstrip(" ?")

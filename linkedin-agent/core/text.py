@@ -23,3 +23,16 @@ def strip_long_dashes(text: str) -> str:
     text = re.sub(r",\s*,", ",", text)
     text = re.sub(r"\s+([,.!?])", r"\1", text)
     return text.strip()
+
+
+def strip_trailing_question(text: str) -> str:
+    """Guarantee text never ends open-ended. If the final sentence is a question,
+    drop it; if what remains still ends with '?', trim it."""
+    if not text:
+        return text
+    parts = re.findall(r"[^.!?]*[.!?]|[^.!?]+$", text)
+    parts = [p for p in (p.strip() for p in parts) if p]
+    while parts and parts[-1].endswith("?"):
+        parts.pop()
+    cleaned = " ".join(parts).strip() if parts else text.rstrip(" ?")
+    return cleaned or text.rstrip(" ?")
