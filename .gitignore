@@ -18,6 +18,10 @@ linkedin-agent/data/incoming_comments.json
 .mypy_cache/
 .DS_Store
 
+# Dry-run sandbox — mock output, must never be committed or hosted
+linkedin-agent/output/_dryrun/
+linkedin-agent/data/_dryrun/
+
 # Local-only run artifacts (generated HTML/JSON are committed by CI;
 # uncomment the next lines if you prefer outputs to stay out of git)
 # linkedin-agent/output/daily/*.html

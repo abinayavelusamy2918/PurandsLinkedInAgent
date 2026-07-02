@@ -19,6 +19,15 @@ from .errors import ConfigError
 # linkedin-agent/  (parent of core/)
 PACKAGE_ROOT = Path(__file__).resolve().parent.parent
 
+# Where a dry-run writes instead of the real output. Keeps mock/placeholder
+# content out of the recorded + hosted output/ and data/runs/ so a dry-run can
+# never clobber a real dashboard. These dirs are gitignored.
+_DRYRUN_SANDBOX = {
+    "runs": "data/_dryrun/runs",
+    "output_daily": "output/_dryrun/daily",
+    "output_comments": "output/_dryrun/comments",
+}
+
 
 @dataclass
 class LLMSettings:
@@ -44,6 +53,19 @@ class Settings:
             return self.paths[key]
         except KeyError as exc:
             raise ConfigError(f"Unknown path key: {key!r}") from exc
+
+    def apply_dryrun_sandbox(self) -> None:
+        """Redirect every *write* path into the _dryrun sandbox.
+
+        Idempotent. Updates both the resolved `paths` (used by the orchestrator)
+        and `raw['paths']` (the relative strings agents read from ctx.config), so
+        a dry-run's dashboards + run artifacts land in output/_dryrun and
+        data/_dryrun and can never overwrite the real, recorded output.
+        """
+        raw_paths = self.raw.setdefault("paths", {})
+        for key, rel in _DRYRUN_SANDBOX.items():
+            self.paths[key] = (PACKAGE_ROOT / rel).resolve()
+            raw_paths[key] = rel
 
 
 def _read_yaml(path: Path) -> dict[str, Any]:
@@ -103,7 +125,7 @@ def load_settings(config_dir: Path | None = None) -> Settings:
     paths_cfg.setdefault("output_comments", "output/comments")
     paths = _resolve_paths(paths_cfg)
 
-    return Settings(
+    settings = Settings(
         pipeline=pipeline,
         llm=llm,
         mode=mode,
@@ -111,6 +133,9 @@ def load_settings(config_dir: Path | None = None) -> Settings:
         sources=sources,
         raw=config,
     )
+    if mode == "dry-run":
+        settings.apply_dryrun_sandbox()
+    return settings
 
 
 def require_env(name: str) -> str:

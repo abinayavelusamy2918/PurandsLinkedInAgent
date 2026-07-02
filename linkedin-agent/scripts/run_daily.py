@@ -57,10 +57,13 @@ def main(argv: list[str] | None = None) -> int:
     settings = load_settings()
     if args.dry_run:
         settings.mode = "dry-run"
+        settings.apply_dryrun_sandbox()   # dry-run output -> output/_dryrun (never clobber real)
 
     log.info("Mode=%s | provider=%s | model=%s | pipeline=%s",
              settings.mode, settings.llm.provider, settings.llm.model,
              ", ".join(settings.pipeline))
+    if settings.mode == "dry-run":
+        log.info("Dry-run sandbox: dashboards -> %s", settings.path("output_daily"))
 
     orch = Orchestrator(settings)
     ctx = orch.build_context(run_date=args.date)
