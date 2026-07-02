@@ -5,10 +5,10 @@
     "data": [
       {
         "kind": "image",
-        "caption": "AI agents enhance WhatsApp security in commerce.",
-        "alt_text": "Illustration of AI agents analyzing data for WhatsApp security.",
-        "image_prompt": "Create a flat-vector illustration showing AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) analyzing data from a WhatsApp chat interface, with a background in soft lavender gradient. The agents should be depicted as friendly and professional, symbolizing enhanced security and customer trust in digital commerce.",
-        "style": "flat-vector",
+        "caption": "AI agents enhancing WhatsApp security.",
+        "alt_text": "Illustration of AI agents analyzing data to enhance security on WhatsApp.",
+        "image_prompt": "A clean, minimal flat-vector illustration of AI agents symbolically interacting with a smartphone and data streams, representing enhanced security and impersonation detection on WhatsApp. White background with light violet accents, plenty of whitespace.",
+        "style": "isometric-flat",
         "image_path": "assets/2026-07-02/post1.png"
       },
       {
@@ -17,40 +17,37 @@
         "alt_text": ""
       },
       {
+        "kind": "image",
+        "caption": "Protecting customer data privacy.",
+        "alt_text": "Illustration of a shield protecting data streams, symbolizing customer data privacy.",
+        "image_prompt": "An isometric illustration of a shield blocking data streams, symbolizing data privacy and protection. Predominantly white with light violet accents, spacious and minimalistic.",
+        "style": "isometric-flat",
+        "image_path": "assets/2026-07-02/post3.png"
+      },
+      {
         "kind": "none",
         "caption": "",
         "alt_text": ""
       },
       {
-        "kind": "image",
-        "caption": "AI transforming retail personalization.",
-        "alt_text": "Illustration of AI enhancing retail personalization with data analysis.",
-        "image_prompt": "Create a clean flat-vector illustration depicting AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) interacting with retail customer data on screens, with a background in soft lavender gradient. The agents should appear engaged in analyzing and optimizing personalization strategies, reflecting a modern retail environment.",
-        "style": "flat-vector",
-        "image_path": "assets/2026-07-02/post4.png"
-      },
-      {
         "kind": "none",
         "caption": "",
         "alt_text": ""
       },
       {
-        "kind": "image",
-        "caption": "AI agents in marketing operations.",
-        "alt_text": "Illustration of AI agents optimizing marketing operations.",
-        "image_prompt": "Create a flat-vector illustration showing AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) optimizing marketing operations through CRM and CDP systems, with a background in soft lavender gradient. The agents should be shown managing digital interactions like win-back campaigns and churn predictions, symbolizing advanced marketing strategies.",
-        "style": "flat-vector",
-        "image_path": "assets/2026-07-02/post6.png"
+        "kind": "none",
+        "caption": "",
+        "alt_text": ""
       },
       {
         "kind": "chart",
-        "caption": "Neocloud Together AI's valuation surge.",
-        "alt_text": "Chart showing Neocloud Together AI's valuation increase after funding.",
+        "caption": "Neocloud AI's valuation jump.",
+        "alt_text": "Line chart showing Neocloud AI's valuation rise from $3.3B to $8.3B.",
         "chart": {
-          "chart_type": "bar",
-          "title": "Neocloud Together AI Valuation",
-          "x_label": "Stages",
-          "y_label": "Valuation (Billion $)",
+          "chart_type": "line",
+          "title": "Neocloud AI Valuation Increase",
+          "x_label": "Funding Rounds",
+          "y_label": "Valuation ($B)",
           "labels": [
             "Before Funding",
             "After Funding"
@@ -59,34 +56,31 @@
             3.3,
             8.3
           ],
-          "source": "Neocloud Together AI"
+          "source": "Neocloud AI Funding Data"
         }
       },
       {
-        "kind": "image",
-        "caption": "Global reach of Claude Fable 5.",
-        "alt_text": "Illustration of AI's global expansion with Claude Fable 5.",
-        "image_prompt": "Create a clean flat-vector illustration depicting global expansion of AI technology. Show advanced AI models like Claude Fable 5 (in vivid violet #7C5CFC and lilac #B9A5F7) extending across a world map with data lines, on a soft lavender gradient background, symbolizing worldwide availability and impact.",
-        "style": "flat-vector",
-        "image_path": "assets/2026-07-02/post8.png"
+        "kind": "none",
+        "caption": "",
+        "alt_text": ""
       },
       {
         "kind": "image",
-        "caption": "On-device deepfake detection with Halo.",
-        "alt_text": "Illustration of on-device deepfake detection technology.",
-        "image_prompt": "Create a flat-vector illustration showing on-device deepfake detection technology, like the Halo model, in action. Use vivid violet #7C5CFC and lilac #B9A5F7 to depict a futuristic device interface, on a soft lavender gradient background, highlighting privacy and real-time detection capabilities.",
+        "caption": "On-device deepfake detection.",
+        "alt_text": "Illustration showing a smartphone with a security shield, representing on-device deepfake detection.",
+        "image_prompt": "A flat-vector illustration of a smartphone with a security shield icon, symbolizing on-device deepfake detection. White background with light violet accents and ample whitespace.",
         "style": "flat-vector",
         "image_path": "assets/2026-07-02/post9.png"
       },
       {
         "kind": "none",
-        "caption": "Bending Spoons' stock surge.",
-        "alt_text": "Chart illustrating Bending Spoons' 40% stock increase."
+        "caption": "",
+        "alt_text": ""
       }
     ],
     "error": "",
-    "started_at": "2026-07-02T11:52:57.185153+00:00",
-    "finished_at": "2026-07-02T11:52:57.185170+00:00"
+    "started_at": "2026-07-02T12:00:55.966471+00:00",
+    "finished_at": "2026-07-02T12:00:55.966513+00:00"
   },
   {
     "agent": "editor_publisher",
@@ -94,17 +88,18 @@
     "data": {
       "editorial": {
         "publishing_recommendation": "revise",
-        "reasoning": "Several posts contain promotional language and lack concrete evidence, which could undermine credibility. Some posts are also too general or speculative without clear mechanisms explained.",
+        "reasoning": "Several posts contain exaggerated claims about AI capabilities and lack concrete examples or evidence to support assertions. They also occasionally drift into promotional language that doesn't align with our brand voice.",
         "risk_assessment": [
-          "Potentially overpromising Purands AI capabilities without specific evidence.",
-          "General AI claims without detailed support could mislead readers."
+          "Exaggerated claims about AI's impact on processes without specific evidence.",
+          "Promotional tone in posts that should be more practical and insightful.",
+          "Potentially misleading statements about AI's ability to predict and prevent issues without concrete examples."
         ],
-        "summary": "Today's drafts show a strong understanding of recent trends but occasionally slip into promotional or vague language, which could detract from their impact. The posts should be revised to ensure clarity, specificity, and alignment with our brand voice, especially when discussing Purands AI's capabilities and market trends."
+        "summary": "Today's drafts highlight relevant AI trends and Purands AI's capabilities but struggle with tone and specificity. Posts should be revised to ensure they provide practical insights and avoid overhyping AI's capabilities. Focus on clear, evidence-backed examples and maintain a conversational, straightforward tone to align with our brand voice."
       },
       "html": "/Users/abinayavelusamy/Documents/LinkedIn-Agent/Purands_LinkedIn_Agent/linkedin-agent/output/daily/2026-07-02.html"
     },
     "error": "",
-    "started_at": "2026-07-02T11:53:06.176947+00:00",
-    "finished_at": "2026-07-02T11:53:06.176952+00:00"
+    "started_at": "2026-07-02T12:01:01.041797+00:00",
+    "finished_at": "2026-07-02T12:01:01.041803+00:00"
   }
 ]

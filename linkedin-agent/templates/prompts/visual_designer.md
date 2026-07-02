@@ -22,11 +22,12 @@ For EACH post choose exactly one "kind":
 
 2. "image" - when a concept illustration would draw the eye and the post is
    qualitative (a story, an idea, a workflow) rather than numeric. The
-   "image_prompt" MUST bake in the Purands visual identity above: name the exact
-   purple palette (vivid violet #7C5CFC, lilac #B9A5F7) and the soft lavender
-   background, and describe a clean flat-vector / soft-isometric B2B SaaS
-   illustration. NO text or words rendered in the image (models garble text), no
-   logos, no brand names spelled out, no real people's faces, no charts-as-images.
+   "image_prompt" MUST bake in the Purands visual identity above: a clean,
+   minimal flat-vector / soft-isometric B2B SaaS illustration on a WHITE or soft
+   off-white background with light, airy VIOLET (#7C5CFC) accents and plenty of
+   whitespace - violet is an accent, not a full purple field. NO text or words
+   rendered in the image (models garble text), no logos, no brand names spelled
+   out, no real people's faces, no charts-as-images.
 
 3. "none" - the post is strongest as text alone. Prefer this whenever a visual
    would be generic or decorative.

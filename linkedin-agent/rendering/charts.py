@@ -15,13 +15,14 @@ from __future__ import annotations
 from html import escape
 from typing import Any
 
-# Purands brand palette (see data/brand_visual.md) on the dashboard's dark panel.
-_BG = "#1E1836"       # deep indigo base (brand dark panel)
-_LINE = "#3a3357"     # subtle lilac-grey gridlines
-_INK = "#f3f0fb"      # near-white ink
-_MUTED = "#b9a5f7"    # lilac for axis/labels
-_ACCENT = "#7C5CFC"   # vivid violet (bars, primary series)
-_HIGH = "#B9A5F7"     # lilac (line series)
+# Purands brand palette (see data/brand_visual.md): clean white card, violet
+# accents - easy on the eyes, not a heavy saturated panel.
+_BG = "#FFFFFF"       # white card
+_LINE = "#ECE8F6"     # very light lilac gridlines
+_INK = "#2A2340"      # deep indigo-grey ink
+_MUTED = "#6E6885"    # muted grey-violet for axis/labels
+_ACCENT = "#7C5CFC"   # violet (bars, primary series)
+_HIGH = "#A98FF3"     # soft violet (line series)
 
 _W, _H = 720, 340
 _PAD_L, _PAD_R, _PAD_T, _PAD_B = 56, 24, 44, 64
