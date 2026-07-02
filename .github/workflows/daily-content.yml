@@ -46,21 +46,11 @@ jobs:
           LOG_LEVEL: INFO
         run: python scripts/run_daily.py
 
-      - name: Publish latest dashboard to GitHub Pages (docs/)
-        run: |
-          latest=$(ls -t linkedin-agent/output/daily/*.html 2>/dev/null | head -1)
-          if [ -n "$latest" ]; then
-            mkdir -p docs
-            cp "$latest" docs/index.html
-            touch docs/.nojekyll
-            echo "Published $latest -> docs/index.html"
-          fi
-
       - name: Commit generated dashboards
         run: |
           git config user.name  "purands-content-bot"
           git config user.email "actions@github.com"
-          git add linkedin-agent/output/ linkedin-agent/data/runs/ docs/ || true
+          git add linkedin-agent/output/ linkedin-agent/data/runs/ || true
           if git diff --cached --quiet; then
             echo "No new output to commit."
           else
