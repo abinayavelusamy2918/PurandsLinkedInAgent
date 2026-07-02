@@ -69,6 +69,42 @@ class AnthropicProvider(LLMClient):
         return text
 
 
+class OpenAIProvider(LLMClient):
+    """OpenAI provider. Reads OPENAI_API_KEY from the environment.
+
+    Uses the Chat Completions API. Set `model` in config.yaml (e.g. gpt-4o,
+    gpt-4o-mini, gpt-4.1).
+    """
+
+    def __init__(self, settings: LLMSettings) -> None:
+        super().__init__(settings)
+        try:
+            from openai import OpenAI  # imported lazily so dry-run/tests need no SDK
+        except ImportError as exc:  # pragma: no cover
+            raise LLMError("openai package not installed; `pip install openai`") from exc
+        self._client = OpenAI(api_key=require_env("OPENAI_API_KEY"))
+
+    def complete(self, system: str, prompt: str, *, max_tokens: int | None = None,
+                 temperature: float | None = None) -> str:
+        try:
+            resp = self._client.chat.completions.create(
+                model=self.settings.model,
+                max_tokens=max_tokens or self.settings.max_tokens,
+                temperature=temperature if temperature is not None else self.settings.temperature,
+                messages=[
+                    {"role": "system", "content": system},
+                    {"role": "user", "content": prompt},
+                ],
+            )
+        except Exception as exc:  # noqa: BLE001 — wrap any SDK/network error
+            raise LLMError(f"OpenAI request failed: {exc}") from exc
+
+        text = (resp.choices[0].message.content or "").strip()
+        if not text:
+            raise LLMError("OpenAI returned an empty completion")
+        return text
+
+
 class MockProvider(LLMClient):
     """Deterministic offline provider for dry-run and tests.
 
@@ -84,6 +120,7 @@ class MockProvider(LLMClient):
 
 _PROVIDERS: dict[str, type[LLMClient]] = {
     "anthropic": AnthropicProvider,
+    "openai": OpenAIProvider,
     "mock": MockProvider,
 }
 

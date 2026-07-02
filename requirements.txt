@@ -2,6 +2,7 @@
 # Pinned to minor versions for reproducible CI runs.
 
 anthropic>=0.39,<1.0        # LLM provider (Claude)
+openai>=1.40,<2.0          # LLM provider (OpenAI / GPT)
 PyYAML>=6.0,<7.0            # config + sources YAML
 Jinja2>=3.1,<4.0           # HTML report rendering
 feedparser>=6.0,<7.0       # RSS / Atom feed parsing

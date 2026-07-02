@@ -39,9 +39,10 @@ jobs:
       - name: Run agent pipeline
         working-directory: linkedin-agent
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}      # optional
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    # provided automatically
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}     # active provider (config: openai)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # only if you switch provider
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}           # required for the linkedin source
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}         # provided automatically
           LOG_LEVEL: INFO
         run: python scripts/run_daily.py
 

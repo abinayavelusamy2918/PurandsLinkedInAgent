@@ -13,4 +13,5 @@ from . import (  # noqa: F401  (imported for registration side-effect)
     blog_source,
     news_source,
     github_source,
+    linkedin_source,
 )

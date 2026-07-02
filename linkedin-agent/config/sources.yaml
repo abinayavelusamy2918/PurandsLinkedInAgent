@@ -53,3 +53,23 @@ sources:
       max_items: 20
       run_input:
         startUrls: []
+
+  # Real LinkedIn posts to comment on. Feeds the Engagement Agent, which drafts
+  # a human-sounding comment per post; the dashboard links straight to each post.
+  # Uses Apify actor harvestapi/linkedin-post-search (no LinkedIn login/cookies).
+  # Requires APIFY_TOKEN. Edit search_queries to change what topics it finds.
+  - name: linkedin
+    enabled: true
+    params:
+      search_queries:
+        - artificial intelligence
+        - AI agents
+        - generative AI
+        - large language models
+        - machine learning
+        - AI startups
+        - tech industry
+      max_posts_per_query: 10   # posts pulled per query before ranking
+      posted_limit: week        # any | 1h | 24h | week | month | 3months | ...
+      sort_by: relevance        # relevance | date
+      max_items: 40             # overall cap fetched (agent then picks top 5)

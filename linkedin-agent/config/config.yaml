@@ -16,8 +16,8 @@ pipeline:
 
 # LLM provider settings. provider is swappable (anthropic | mock).
 llm:
-  provider: anthropic
-  model: claude-sonnet-4-6        # change to claude-opus-4-8 for max quality
+  provider: openai               # anthropic | openai | mock
+  model: gpt-4o                  # e.g. gpt-4o, gpt-4o-mini, gpt-4.1
   max_tokens: 2000
   temperature: 0.7
 
@@ -39,3 +39,4 @@ limits:
   max_trends: 8
   max_researched_for_posts: 3
   min_confidence_to_publish: 0.6
+  max_leader_posts: 5            # LinkedIn posts to draft comments on per day

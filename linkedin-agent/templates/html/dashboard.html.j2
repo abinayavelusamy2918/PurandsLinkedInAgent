@@ -145,17 +145,19 @@
   </section>
 
   <section id="comments">
-    <h2>Suggested Comments (industry-leader posts)</h2>
+    <h2>Suggested LinkedIn Comments (top {{ comments|length }})</h2>
+    <p class="muted">Open each post, then paste the copied comment. Nothing is posted automatically.</p>
     {% if comments %}
       {% for c in comments %}
       <details>
-        <summary>{{ c.angle }} — {{ c.target_excerpt[:80] }}</summary>
+        <summary>{{ c.angle }}{% if c.target_author %} · {{ c.target_author }}{% endif %} — {{ c.target_excerpt[:80] }}</summary>
+        {% if c.target_author %}<p class="muted"><strong>Post by:</strong> {{ c.target_author }}</p>{% endif %}
         <div class="copywrap">
           <div class="post" id="cmt{{ loop.index }}">{{ c.comment }}</div>
           <button class="copybtn" onclick="copyEl('cmt{{ loop.index }}',this)">Copy comment</button>
         </div>
         <p class="muted">Why it works: {{ c.why_it_works }}</p>
-        {% if c.target_post_url %}<a class="src" href="{{ c.target_post_url }}" target="_blank" rel="noopener">target post</a>{% endif %}
+        {% if c.target_post_url %}<a class="src" href="{{ c.target_post_url }}" target="_blank" rel="noopener">↗ Open LinkedIn post to paste comment</a>{% endif %}
       </details>
       {% endfor %}
     {% else %}<p class="muted">No comment suggestions.</p>{% endif %}
