@@ -1,0 +1,40 @@
+[
+  {
+    "trend": {
+      "title": "WhatsApp-first win-back flows outperform email in APAC",
+      "category": "WhatsApp Commerce",
+      "rank": 1,
+      "rationale": "Sample (dry-run) trend for offline pipeline testing.",
+      "signals": [
+        "high open rates",
+        "mobile-first markets"
+      ],
+      "sources": [
+        "https://example.com/whatsapp-winback"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.72,
+    "evidence": [
+      {
+        "claim": "Sample claim",
+        "support": "Sample supporting stat",
+        "url": "https://example.com"
+      }
+    ],
+    "statistics": [
+      "Sample: 30% higher reply rate (dry-run)"
+    ],
+    "examples": [
+      "Sample brand example"
+    ],
+    "recent_news": [
+      "Sample recent news item"
+    ],
+    "risks": [
+      "Sample risk / caveat"
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]

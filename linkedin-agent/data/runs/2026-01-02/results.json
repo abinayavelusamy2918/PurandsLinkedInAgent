@@ -1,0 +1,405 @@
+[
+  {
+    "agent": "trend_hunter",
+    "ok": true,
+    "data": [
+      {
+        "title": "WhatsApp-first win-back flows outperform email in APAC",
+        "category": "WhatsApp Commerce",
+        "rank": 1,
+        "rationale": "Sample (dry-run) trend for offline pipeline testing.",
+        "signals": [
+          "high open rates",
+          "mobile-first markets"
+        ],
+        "sources": [
+          "https://example.com/whatsapp-winback"
+        ],
+        "region": "APAC"
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.347350+00:00",
+    "finished_at": "2026-07-02T12:08:33.347351+00:00"
+  },
+  {
+    "agent": "research_analyst",
+    "ok": true,
+    "data": [
+      {
+        "trend": {
+          "title": "WhatsApp-first win-back flows outperform email in APAC",
+          "category": "WhatsApp Commerce",
+          "rank": 1,
+          "rationale": "Sample (dry-run) trend for offline pipeline testing.",
+          "signals": [
+            "high open rates",
+            "mobile-first markets"
+          ],
+          "sources": [
+            "https://example.com/whatsapp-winback"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.72,
+        "evidence": [
+          {
+            "claim": "Sample claim",
+            "support": "Sample supporting stat",
+            "url": "https://example.com"
+          }
+        ],
+        "statistics": [
+          "Sample: 30% higher reply rate (dry-run)"
+        ],
+        "examples": [
+          "Sample brand example"
+        ],
+        "recent_news": [
+          "Sample recent news item"
+        ],
+        "risks": [
+          "Sample risk / caveat"
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.347367+00:00",
+    "finished_at": "2026-07-02T12:08:33.347368+00:00"
+  },
+  {
+    "agent": "founder_voice",
+    "ok": true,
+    "data": [
+      {
+        "topic": "WhatsApp-first win-back flows outperform email in APAC",
+        "body": "[DRY-RUN] Sample post body about 'WhatsApp-first win-back flows outperform email in APAC' in founder voice. Enable mode: full with an API key to generate a real post.",
+        "hooks": [
+          "Sample hook one.",
+          "Sample hook two.",
+          "Sample hook three."
+        ],
+        "cta": "Here's the one thing I'd change first.",
+        "hashtags": [
+          "AI",
+          "retention",
+          "tech"
+        ],
+        "based_on": [
+          "WhatsApp-first win-back flows outperform email in APAC"
+        ],
+        "purands_tie": true,
+        "visual": {}
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.347382+00:00",
+    "finished_at": "2026-07-02T12:08:33.347383+00:00"
+  },
+  {
+    "agent": "visual_designer",
+    "ok": true,
+    "data": [
+      {
+        "kind": "chart",
+        "caption": "[DRY-RUN] Sample chart from post numbers.",
+        "alt_text": "Bar chart of sample retention figures.",
+        "chart": {
+          "chart_type": "bar",
+          "title": "Sample metric by channel",
+          "x_label": "",
+          "y_label": "%",
+          "labels": [
+            "WhatsApp",
+            "Email",
+            "SMS"
+          ],
+          "values": [
+            42,
+            18,
+            11
+          ],
+          "source": "dry-run sample"
+        }
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.347388+00:00",
+    "finished_at": "2026-07-02T12:08:33.347388+00:00"
+  },
+  {
+    "agent": "engagement_agent",
+    "ok": true,
+    "data": [
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-11",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-22",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-33",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-14",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-25",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-36",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-17",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-28",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-39",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-110",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-211",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-312",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-113",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-214",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-315",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-116",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-217",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-318",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-119",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-220",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-321",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-122",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-223",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-324",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-125",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-226",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-327",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      },
+      {
+        "target_author": "Dr. Anya Rao",
+        "target_post_url": "https://www.linkedin.com/posts/example-anya-rao_ai-agents-activity-128",
+        "target_excerpt": "[DRY-RUN] Everyone's shipping AI agents, but almost no one is measuring whether they actually reduce human workload.",
+        "comment": "The deflection rate everyone celebrates hides the real cost: our own agent deflected 32% of tickets, but the escalations came in with worse context than a blank form. Handoff quality is the metric that actually matters, and most dashboards ignore it.",
+        "angle": "respectful challenge",
+        "why_it_works": "Adds a concrete counter-metric and takes a firm stance — no hedging."
+      },
+      {
+        "target_author": "Marcus Bell",
+        "target_post_url": "https://www.linkedin.com/posts/example-marcus-bell_llm-cost-activity-229",
+        "target_excerpt": "[DRY-RUN] Most companies don't have an LLM problem, they have a retrieval problem. Better context beats a bigger model.",
+        "comment": "This is exactly right, and the numbers back it up. Swapping to a smaller model with clean, recent context cut our costs ~40% with no noticeable quality drop. The real work lives in the data pipeline, not the model card.",
+        "angle": "expansion",
+        "why_it_works": "States a clear opinion and reinforces it with a specific outcome."
+      },
+      {
+        "target_author": "Priya Nair",
+        "target_post_url": "https://www.linkedin.com/posts/example-priya-nair_genai-retention-activity-330",
+        "target_excerpt": "[DRY-RUN] GenAI will transform retention marketing in APAC. WhatsApp + AI personalization is the next big unlock.",
+        "comment": "Personalization is the smaller half of this. In APAC the real lever is timing — a WhatsApp win-back three days after a lapsed order beats a perfectly worded email a week later. Channel latency, not copy, is what moves the number.",
+        "angle": "insight",
+        "why_it_works": "Takes a definite position and names the underrated factor."
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.347464+00:00",
+    "finished_at": "2026-07-02T12:08:33.347465+00:00"
+  },
+  {
+    "agent": "editor_publisher",
+    "ok": true,
+    "data": {
+      "editorial": {
+        "publishing_recommendation": "revise",
+        "reasoning": "Review before publishing.",
+        "risk_assessment": [],
+        "summary": "[DRY-RUN] Sample editorial assessment."
+      },
+      "html": "/Users/abinayavelusamy/Documents/LinkedIn-Agent/Purands_LinkedIn_Agent/linkedin-agent/output/daily/2026-01-02.html"
+    },
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.354798+00:00",
+    "finished_at": "2026-07-02T12:08:33.354802+00:00"
+  },
+  {
+    "agent": "comment_reply",
+    "ok": true,
+    "data": [],
+    "error": "",
+    "started_at": "2026-07-02T12:08:33.354821+00:00",
+    "finished_at": "2026-07-02T12:08:33.354823+00:00"
+  }
+]
