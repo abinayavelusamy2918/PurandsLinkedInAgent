@@ -20,6 +20,16 @@ sources:
         - https://www.artificialintelligence-news.com/feed/
         # retention / commerce
         - https://www.retaildive.com/feeds/news/
+        # real-time aggregators & communities
+        - https://news.ycombinator.com/rss
+        - https://hnrss.org/frontpage
+        - https://www.techmeme.com/feed.xml
+        # technical research
+        - https://rss.arxiv.org/rss/cs.AI
+        - https://www.marktechpost.com/feed/
+        # tech & business analysis
+        - https://venturebeat.com/feed/
+        - https://www.technologyreview.com/topic/artificial-intelligence/feed/
 
   - name: news
     enabled: true
