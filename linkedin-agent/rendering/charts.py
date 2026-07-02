@@ -15,13 +15,13 @@ from __future__ import annotations
 from html import escape
 from typing import Any
 
-# Dashboard palette (see templates/html/dashboard.html.j2 :root).
-_BG = "#0d0f13"
-_LINE = "#262a33"
-_INK = "#e8eaed"
-_MUTED = "#9aa0aa"
-_ACCENT = "#4f8cff"
-_HIGH = "#2ec16b"
+# Purands brand palette (see data/brand_visual.md) on the dashboard's dark panel.
+_BG = "#1E1836"       # deep indigo base (brand dark panel)
+_LINE = "#3a3357"     # subtle lilac-grey gridlines
+_INK = "#f3f0fb"      # near-white ink
+_MUTED = "#b9a5f7"    # lilac for axis/labels
+_ACCENT = "#7C5CFC"   # vivid violet (bars, primary series)
+_HIGH = "#B9A5F7"     # lilac (line series)
 
 _W, _H = 720, 340
 _PAD_L, _PAD_R, _PAD_T, _PAD_B = 56, 24, 44, 64

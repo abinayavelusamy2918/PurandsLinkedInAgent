@@ -8,6 +8,10 @@ best as clean text.
 Brand voice (match any caption/label to this tone):
 {brand_voice}
 
+Brand visual identity (EVERY generated visual must resemble these Purands brand
+posts - follow the palette and style exactly):
+{brand_visual}
+
 For EACH post choose exactly one "kind":
 
 1. "chart" - ONLY when the post already contains concrete numbers that a simple
@@ -17,11 +21,12 @@ For EACH post choose exactly one "kind":
    use a chart. Keep it to 2 to 6 data points.
 
 2. "image" - when a concept illustration would draw the eye and the post is
-   qualitative (a story, an idea, a workflow) rather than numeric. The style must
-   be clean, modern, professional and brand-appropriate: think crisp editorial,
-   minimal isometric, or flat-vector business illustration. NO text or words
-   rendered in the image (models garble text), no logos, no real people's faces,
-   no charts-as-images.
+   qualitative (a story, an idea, a workflow) rather than numeric. The
+   "image_prompt" MUST bake in the Purands visual identity above: name the exact
+   purple palette (vivid violet #7C5CFC, lilac #B9A5F7) and the soft lavender
+   background, and describe a clean flat-vector / soft-isometric B2B SaaS
+   illustration. NO text or words rendered in the image (models garble text), no
+   logos, no brand names spelled out, no real people's faces, no charts-as-images.
 
 3. "none" - the post is strongest as text alone. Prefer this whenever a visual
    would be generic or decorative.

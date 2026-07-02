@@ -20,10 +20,10 @@
     "purands_tie": true,
     "visual": {
       "kind": "image",
-      "caption": "AI agents enhancing security in WhatsApp commerce.",
-      "alt_text": "Illustration of AI agents analyzing data for security in a digital communication platform.",
-      "image_prompt": "A clean, modern illustration showing AI agents analyzing data streams to secure a digital messaging platform, symbolizing the integration of AI with CRM and CDP systems to mitigate impersonation threats.",
-      "style": "isometric-flat",
+      "caption": "AI agents enhance WhatsApp security in commerce.",
+      "alt_text": "Illustration of AI agents analyzing data for WhatsApp security.",
+      "image_prompt": "Create a flat-vector illustration showing AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) analyzing data from a WhatsApp chat interface, with a background in soft lavender gradient. The agents should be depicted as friendly and professional, symbolizing enhanced security and customer trust in digital commerce.",
+      "style": "flat-vector",
       "image_path": "assets/2026-07-02/post1.png"
     }
   },
@@ -72,12 +72,9 @@
     ],
     "purands_tie": true,
     "visual": {
-      "kind": "image",
-      "caption": "Data privacy in AI-driven marketing platforms.",
-      "alt_text": "Illustration of AI systems encrypting data to ensure privacy and security.",
-      "image_prompt": "A flat-vector illustration of a shield symbolizing data encryption, with AI elements and digital communication icons, representing secure data handling in AI-driven marketing platforms.",
-      "style": "flat-vector",
-      "image_path": "assets/2026-07-02/post3.png"
+      "kind": "none",
+      "caption": "",
+      "alt_text": ""
     }
   },
   {
@@ -101,9 +98,12 @@
     ],
     "purands_tie": true,
     "visual": {
-      "kind": "none",
-      "caption": "",
-      "alt_text": ""
+      "kind": "image",
+      "caption": "AI transforming retail personalization.",
+      "alt_text": "Illustration of AI enhancing retail personalization with data analysis.",
+      "image_prompt": "Create a clean flat-vector illustration depicting AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) interacting with retail customer data on screens, with a background in soft lavender gradient. The agents should appear engaged in analyzing and optimizing personalization strategies, reflecting a modern retail environment.",
+      "style": "flat-vector",
+      "image_path": "assets/2026-07-02/post4.png"
     }
   },
   {
@@ -154,10 +154,10 @@
     "purands_tie": true,
     "visual": {
       "kind": "image",
-      "caption": "AI agents revolutionizing marketing operations.",
-      "alt_text": "Illustration of AI agents interacting with CRM systems to enhance marketing operations.",
-      "image_prompt": "A modern and professional illustration of AI agents working with CRM and CDP systems, symbolizing their role in optimizing marketing operations and customer engagement.",
-      "style": "modern-professional",
+      "caption": "AI agents in marketing operations.",
+      "alt_text": "Illustration of AI agents optimizing marketing operations.",
+      "image_prompt": "Create a flat-vector illustration showing AI agents (in vivid violet #7C5CFC and lilac #B9A5F7) optimizing marketing operations through CRM and CDP systems, with a background in soft lavender gradient. The agents should be shown managing digital interactions like win-back campaigns and churn predictions, symbolizing advanced marketing strategies.",
+      "style": "flat-vector",
       "image_path": "assets/2026-07-02/post6.png"
     }
   },
@@ -182,22 +182,22 @@
     "purands_tie": false,
     "visual": {
       "kind": "chart",
-      "caption": "Neocloud's valuation jump with new funding.",
-      "alt_text": "Line chart showing Neocloud's valuation increase after raising $800M.",
+      "caption": "Neocloud Together AI's valuation surge.",
+      "alt_text": "Chart showing Neocloud Together AI's valuation increase after funding.",
       "chart": {
-        "chart_type": "line",
-        "title": "Neocloud Together AI Valuation Increase",
-        "x_label": "Funding Rounds",
-        "y_label": "Valuation (Billion USD)",
+        "chart_type": "bar",
+        "title": "Neocloud Together AI Valuation",
+        "x_label": "Stages",
+        "y_label": "Valuation (Billion $)",
         "labels": [
-          "Pre-Raising",
-          "Post-Raising"
+          "Before Funding",
+          "After Funding"
         ],
         "values": [
           3.3,
           8.3
         ],
-        "source": "Company reports, 2026"
+        "source": "Neocloud Together AI"
       }
     }
   },
@@ -222,9 +222,12 @@
     ],
     "purands_tie": false,
     "visual": {
-      "kind": "none",
-      "caption": "",
-      "alt_text": ""
+      "kind": "image",
+      "caption": "Global reach of Claude Fable 5.",
+      "alt_text": "Illustration of AI's global expansion with Claude Fable 5.",
+      "image_prompt": "Create a clean flat-vector illustration depicting global expansion of AI technology. Show advanced AI models like Claude Fable 5 (in vivid violet #7C5CFC and lilac #B9A5F7) extending across a world map with data lines, on a soft lavender gradient background, symbolizing worldwide availability and impact.",
+      "style": "flat-vector",
+      "image_path": "assets/2026-07-02/post8.png"
     }
   },
   {
@@ -247,10 +250,10 @@
     "purands_tie": false,
     "visual": {
       "kind": "image",
-      "caption": "On-device deepfake detection for enhanced privacy.",
-      "alt_text": "Illustration of a mobile device using AI to detect deepfakes.",
-      "image_prompt": "An editorial illustration showing a smartphone leveraging AI technology to detect deepfakes in real-time, emphasizing privacy and speed in digital interactions.",
-      "style": "editorial",
+      "caption": "On-device deepfake detection with Halo.",
+      "alt_text": "Illustration of on-device deepfake detection technology.",
+      "image_prompt": "Create a flat-vector illustration showing on-device deepfake detection technology, like the Halo model, in action. Use vivid violet #7C5CFC and lilac #B9A5F7 to depict a futuristic device interface, on a soft lavender gradient background, highlighting privacy and real-time detection capabilities.",
+      "style": "flat-vector",
       "image_path": "assets/2026-07-02/post9.png"
     }
   },
@@ -273,24 +276,9 @@
     ],
     "purands_tie": false,
     "visual": {
-      "kind": "chart",
-      "caption": "Bending Spoons' stock surge on trading debut.",
-      "alt_text": "Bar chart showing Bending Spoons' stock increase on its first trading day.",
-      "chart": {
-        "chart_type": "bar",
-        "title": "Bending Spoons First Day Stock Surge",
-        "x_label": "Trading Day",
-        "y_label": "Stock Price Change (%)",
-        "labels": [
-          "Opening",
-          "Closing"
-        ],
-        "values": [
-          0.0,
-          40.0
-        ],
-        "source": "Market data, 2026"
-      }
+      "kind": "none",
+      "caption": "Bending Spoons' stock surge.",
+      "alt_text": "Chart illustrating Bending Spoons' 40% stock increase."
     }
   }
 ]

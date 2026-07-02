@@ -81,6 +81,7 @@ class VisualDesigner(BaseAgent):
         prompt = self.prompts.get("visual_designer")
         system, user = prompt.render(
             brand_voice=self.brand(ctx, "brand_voice"),
+            brand_visual=self.brand(ctx, "brand_visual"),
             run_date=ctx.run_date,
             posts=json.dumps(posts, ensure_ascii=False, indent=2),
         )
