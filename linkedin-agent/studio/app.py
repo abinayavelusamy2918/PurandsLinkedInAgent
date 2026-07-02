@@ -44,7 +44,7 @@ def _load_dotenv() -> None:
 _load_dotenv()
 
 import requests  # noqa: E402
-from flask import Flask, jsonify, render_template, request  # noqa: E402
+from flask import Flask, Response, jsonify, render_template, request  # noqa: E402
 
 from core.config import load_settings, require_env  # noqa: E402
 from core.llm import build_llm  # noqa: E402
@@ -55,8 +55,35 @@ APIFY_SEARCH_ACTOR = "apify/rag-web-browser"
 
 app = Flask(__name__, template_folder=str(Path(__file__).parent / "templates"))
 
-_settings = load_settings()
-_llm = build_llm(_settings.llm, mode="full")
+# LLM is built lazily on first use so the web app boots even before a request
+# (and so a missing key surfaces as a clean error, not a boot crash).
+_llm = None
+
+
+def _get_llm():
+    global _llm
+    if _llm is None:
+        _llm = build_llm(load_settings().llm, mode="full")
+    return _llm
+
+
+# Optional password protection (recommended when hosted publicly). If
+# STUDIO_PASSWORD is set, the whole app requires HTTP Basic auth.
+_STUDIO_USER = os.getenv("STUDIO_USER", "purands")
+_STUDIO_PASSWORD = os.getenv("STUDIO_PASSWORD")
+
+
+@app.before_request
+def _require_auth():
+    if not _STUDIO_PASSWORD:
+        return None  # no password configured -> open
+    auth = request.authorization
+    if not auth or auth.username != _STUDIO_USER or auth.password != _STUDIO_PASSWORD:
+        return Response(
+            "Authentication required.", 401,
+            {"WWW-Authenticate": 'Basic realm="Purands Comment Studio"'},
+        )
+    return None
 
 _SYSTEM = (
     "You draft ONE LinkedIn comment as a real person who works at Purands AI "
@@ -115,7 +142,7 @@ def _generate_comment(post: dict) -> dict:
         "Write one strong, human comment stating a clear opinion. Do not end with "
         "a question."
     )
-    return _llm.complete_json(_SYSTEM, user) or {}
+    return _get_llm().complete_json(_SYSTEM, user) or {}
 
 
 def _search_source(query: str) -> dict | None:
