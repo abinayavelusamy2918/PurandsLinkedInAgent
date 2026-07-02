@@ -47,6 +47,9 @@
     border-radius:999px;padding:2px 10px;margin-right:6px;font-size:13px;color:var(--accent)}
   a.src{color:var(--accent);font-size:13px}
   .muted{color:var(--muted)}
+  .postcard{border:1px solid var(--line);border-radius:10px;padding:14px;margin:14px 0;background:#13161c}
+  .postcard h3.ptitle{margin:0 0 10px;font-size:15px;color:var(--ink)}
+  .rtitle{font-weight:600;margin:10px 0 2px}
   ul{margin:6px 0 0 18px;padding:0}
   footer{max-width:920px;margin:0 auto;padding:10px 20px 40px;color:var(--muted);font-size:12px}
 </style>
@@ -56,18 +59,14 @@
   <h1>Purands AI — Daily Content Review</h1>
   <div class="sub">{{ run_date }} · generated {{ generated_at }} · <strong>review only — nothing is auto-published</strong></div>
   <nav>
-    <a href="#post">LinkedIn Post</a>
-    <a href="#hooks">Hooks</a>
     <a href="#rec">Recommendation</a>
+    <a href="#posts">Posts ({{ drafts|length }})</a>
     <a href="#trends">Trends</a>
-    <a href="#research">Research</a>
-    <a href="#comments">Comments</a>
+    <a href="#comments">Comments ({{ comments|length }})</a>
     <a href="#risk">Risk</a>
   </nav>
 </header>
 <main>
-
-  {% set draft = drafts[0] if drafts else none %}
 
   <section id="rec">
     <h2>Publishing Recommendation</h2>
@@ -77,31 +76,60 @@
     <p>{{ editorial.summary }}</p>
   </section>
 
-  <section id="post">
-    <h2>LinkedIn Post</h2>
-    {% if draft %}
-      <div class="copywrap">
-        <div class="post" id="postbody">{{ draft.body }}</div>
-        <button class="copybtn" onclick="copyEl('postbody',this)">Copy post</button>
-      </div>
-      {% if draft.cta %}<p class="muted"><strong>CTA:</strong> {{ draft.cta }}</p>{% endif %}
-      {% if draft.hashtags %}<div class="tags">{% for h in draft.hashtags %}<span>#{{ h }}</span>{% endfor %}</div>{% endif %}
-      {% if draft.based_on %}<p class="muted">Based on: {{ draft.based_on|join(', ') }}</p>{% endif %}
-    {% else %}
-      <p class="muted">No post was generated (no high-confidence trend today).</p>
-    {% endif %}
-  </section>
+  <section id="posts">
+    <h2>LinkedIn Posts ({{ drafts|length }})</h2>
+    {% if drafts %}
+      {% for draft in drafts %}
+      {% set pidx = loop.index %}
+      <div class="postcard">
+        <h3 class="ptitle">{{ pidx }}. {{ draft.topic }}</h3>
+        <div class="copywrap">
+          <div class="post" id="postbody{{ pidx }}">{{ draft.body }}</div>
+          <button class="copybtn" onclick="copyEl('postbody{{ pidx }}',this)">Copy post</button>
+        </div>
+        {% if draft.hashtags %}<div class="tags">{% for h in draft.hashtags %}<span>#{{ h }}</span>{% endfor %}</div>{% endif %}
+        {% if draft.cta %}<p class="muted"><strong>CTA:</strong> {{ draft.cta }}</p>{% endif %}
 
-  <section id="hooks">
-    <h2>Alternative Hooks</h2>
-    {% if draft and draft.hooks %}
-      <ol class="hooks">
-        {% for hook in draft.hooks %}
-        <li class="copywrap"><span id="hook{{ loop.index }}">{{ hook }}</span>
-          <button class="copybtn" onclick="copyEl('hook{{ loop.index }}',this)">Copy</button></li>
-        {% endfor %}
-      </ol>
-    {% else %}<p class="muted">—</p>{% endif %}
+        {% if draft.hooks %}
+        <details>
+          <summary>Alternative hooks</summary>
+          <ol class="hooks">
+            {% for hook in draft.hooks %}
+            <li class="copywrap"><span id="p{{ pidx }}h{{ loop.index }}">{{ hook }}</span>
+              <button class="copybtn" onclick="copyEl('p{{ pidx }}h{{ loop.index }}',this)">Copy</button></li>
+            {% endfor %}
+          </ol>
+        </details>
+        {% endif %}
+
+        <details>
+          <summary>Research behind this post (sources, summaries &amp; confidence)</summary>
+          {% for title in draft.based_on %}
+            {% set r = research_by_title.get(title) %}
+            {% if r %}
+              <p class="rtitle">{{ r.trend.title }}
+                <span class="badge {{ r.confidence|confidence_class }}">conf {{ '%.2f'|format(r.confidence) }}</span>
+                {% if r.trend.category %}<span class="muted">· {{ r.trend.category }}</span>{% endif %}
+              </p>
+              {% if r.trend.rationale %}<p class="muted">{{ r.trend.rationale }}</p>{% endif %}
+              {% if r.evidence %}<p><strong>Sources &amp; what I took from each</strong></p>
+                <ul>{% for e in r.evidence %}<li>{{ e.claim }}: {{ e.support }}
+                  {% if e.url %}<a class="src" href="{{ e.url }}" target="_blank" rel="noopener">↗ read source</a>{% endif %}</li>{% endfor %}</ul>{% endif %}
+              {% if r.statistics %}<p><strong>Statistics</strong></p><ul>{% for s in r.statistics %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+              {% if r.examples %}<p><strong>Examples</strong></p><ul>{% for s in r.examples %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+              {% if r.recent_news %}<p><strong>Recent news</strong></p><ul>{% for s in r.recent_news %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+              {% if r.trend.sources %}<p><strong>Original trend links</strong></p><ul>{% for s in r.trend.sources %}<li><a class="src" href="{{ s }}" target="_blank" rel="noopener">{{ s }}</a></li>{% endfor %}</ul>{% endif %}
+              {% if r.risks %}<p><strong>Risks / caveats</strong></p><ul>{% for s in r.risks %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
+            {% else %}
+              <p class="muted">Research detail not found for: {{ title }}</p>
+            {% endif %}
+          {% endfor %}
+        </details>
+      </div>
+      {% endfor %}
+    {% else %}
+      <p class="muted">No posts were generated (no high-confidence trends today).</p>
+    {% endif %}
   </section>
 
   <section id="trends">
@@ -123,34 +151,13 @@
     {% else %}<p class="muted">No trends identified.</p>{% endif %}
   </section>
 
-  <section id="research">
-    <h2>Research Summary &amp; Confidence</h2>
-    {% if researched %}
-      {% for r in researched %}
-      <details>
-        <summary>
-          {{ r.trend.title }}
-          <span class="badge {{ r.confidence|confidence_class }}">conf {{ '%.2f'|format(r.confidence) }}</span>
-          {% if r.verdict == 'rejected' %}<span class="badge low">rejected</span>{% endif %}
-        </summary>
-        {% if r.reject_reason %}<p class="muted">Rejected: {{ r.reject_reason }}</p>{% endif %}
-        {% if r.statistics %}<p><strong>Statistics</strong></p><ul>{% for s in r.statistics %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
-        {% if r.examples %}<p><strong>Examples</strong></p><ul>{% for s in r.examples %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
-        {% if r.recent_news %}<p><strong>Recent news</strong></p><ul>{% for s in r.recent_news %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
-        {% if r.evidence %}<p><strong>Evidence</strong></p><ul>{% for e in r.evidence %}<li>{{ e.claim }} — {{ e.support }} {% if e.url %}<a class="src" href="{{ e.url }}" target="_blank" rel="noopener">link</a>{% endif %}</li>{% endfor %}</ul>{% endif %}
-        {% if r.risks %}<p><strong>Risks</strong></p><ul>{% for s in r.risks %}<li>{{ s }}</li>{% endfor %}</ul>{% endif %}
-      </details>
-      {% endfor %}
-    {% else %}<p class="muted">No research available.</p>{% endif %}
-  </section>
-
   <section id="comments">
-    <h2>Suggested LinkedIn Comments (top {{ comments|length }})</h2>
+    <h2>Suggested LinkedIn Comments ({{ comments|length }})</h2>
     <p class="muted">Open each post, then paste the copied comment. Nothing is posted automatically.</p>
     {% if comments %}
       {% for c in comments %}
       <details>
-        <summary>{{ c.angle }}{% if c.target_author %} · {{ c.target_author }}{% endif %} — {{ c.target_excerpt[:80] }}</summary>
+        <summary>{{ loop.index }}. {{ c.angle }}{% if c.target_author %} · {{ c.target_author }}{% endif %} — {{ c.target_excerpt[:80] }}</summary>
         {% if c.target_author %}<p class="muted"><strong>Post by:</strong> {{ c.target_author }}</p>{% endif %}
         <div class="copywrap">
           <div class="post" id="cmt{{ loop.index }}">{{ c.comment }}</div>

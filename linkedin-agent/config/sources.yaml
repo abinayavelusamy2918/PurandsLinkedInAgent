@@ -74,7 +74,7 @@ sources:
         - machine learning
         - AI startups
         - tech industry
-      max_posts_per_query: 10   # posts pulled per query before ranking
+      max_posts_per_query: 12   # posts pulled per query before ranking
       posted_limit: week        # any | 1h | 24h | week | month | 3months | ...
       sort_by: relevance        # relevance | date
-      max_items: 40             # overall cap fetched (agent then picks top 5)
+      max_items: 60             # overall cap fetched (agent then picks top 30)

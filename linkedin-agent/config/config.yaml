@@ -18,7 +18,7 @@ pipeline:
 llm:
   provider: openai               # anthropic | openai | mock
   model: gpt-4o                  # e.g. gpt-4o, gpt-4o-mini, gpt-4.1
-  max_tokens: 4000              # research JSON for many trends needs room (2000 truncates)
+  max_tokens: 8000              # room for many trends/posts/comments without JSON truncation
   temperature: 0.7
 
 # full  = call the real LLM and live sources
@@ -36,7 +36,7 @@ paths:
 
 # How many top trends to research / write about (keeps API cost predictable).
 limits:
-  max_trends: 8
-  max_researched_for_posts: 3
+  max_trends: 14                 # find enough trends to write 10+ posts from
+  max_posts: 10                  # LinkedIn posts to generate per day (one per top trend)
   min_confidence_to_publish: 0.5   # lower = more posts written (less strict quality gate)
-  max_leader_posts: 5            # LinkedIn posts to draft comments on per day
+  max_leader_posts: 30           # LinkedIn posts to draft comments on per day

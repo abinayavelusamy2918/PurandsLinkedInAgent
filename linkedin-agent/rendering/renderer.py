@@ -52,11 +52,15 @@ def render_dashboard(ctx: RunContext, editorial: dict[str, Any], out_dir: Path) 
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     template = _env().get_template("dashboard.html.j2")
+    researched = [r.to_dict() for r in ctx.researched]
+    # Lookup so each post can show the research (links + summaries) behind it.
+    research_by_title = {r["trend"]["title"]: r for r in researched}
     html = template.render(
         run_date=ctx.run_date,
         generated_at=datetime.now().strftime("%Y-%m-%d %H:%M"),
         trends=[t.to_dict() for t in ctx.trends],
-        researched=[r.to_dict() for r in ctx.researched],
+        researched=researched,
+        research_by_title=research_by_title,
         drafts=[d.to_dict() for d in ctx.drafts],
         comments=[c.to_dict() for c in ctx.comments],
         editorial=editorial,

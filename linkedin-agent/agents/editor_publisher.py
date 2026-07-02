@@ -46,12 +46,17 @@ class EditorPublisher(BaseAgent):
 
         prompt = self.prompts.get("editor_publisher")
         top = sorted(ctx.researched, key=lambda r: r.confidence, reverse=True)[:3]
+        # Assess all posts for the day (send topic + body of each to keep it compact).
+        drafts_summary = [
+            {"topic": d.topic, "body": d.body, "hashtags": d.hashtags}
+            for d in ctx.drafts
+        ]
         system, user = prompt.render(
             brand_voice=self.brand(ctx, "brand_voice"),
             run_date=ctx.run_date,
             researched=json.dumps([r.to_dict() for r in top], ensure_ascii=False, indent=2),
-            draft=json.dumps(ctx.drafts[0].to_dict(), ensure_ascii=False, indent=2),
-            comments=json.dumps([c.to_dict() for c in ctx.comments], ensure_ascii=False, indent=2),
+            draft=json.dumps(drafts_summary, ensure_ascii=False, indent=2),
+            comments=json.dumps([c.to_dict() for c in ctx.comments[:5]], ensure_ascii=False, indent=2),
         )
         try:
             d = self.llm.complete_json(system, user)
