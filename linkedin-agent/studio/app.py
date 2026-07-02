@@ -175,6 +175,7 @@ def index():
 
 _DAILY_DIR = PKG_ROOT / "output" / "daily"
 _DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+_ARCHIVE_DAYS = 30            # archive lists only the most recent N dashboards
 
 
 def _daily_dates() -> list[str]:
@@ -224,15 +225,22 @@ def daily_date(date: str):
 @app.route("/archive")
 def archive():
     """List every available daily dashboard, newest first."""
-    dates = _daily_dates()
+    all_dates = _daily_dates()
+    dates = all_dates[:_ARCHIVE_DAYS]      # only the most recent N days
     if not dates:
         rows = '<li class="muted">No dashboards yet.</li>'
+        subtitle = "nothing is auto-published"
     else:
         items = []
         for i, d in enumerate(dates):
             tag = ' <span class="tag">Latest</span>' if i == 0 else ''
             items.append(f'<li><a href="/daily/{d}">{d}</a>{tag}</li>')
         rows = "\n".join(items)
+        plural = "s" if len(dates) != 1 else ""
+        if len(all_dates) > len(dates):
+            subtitle = f"last {len(dates)} day{plural} · newest first · nothing is auto-published"
+        else:
+            subtitle = f"{len(dates)} dashboard{plural} · newest first · nothing is auto-published"
     return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Purands AI - Daily Archive</title>
@@ -249,7 +257,7 @@ def archive():
   .muted{{color:#9aa0aa}} .back{{color:#7C5CFC;text-decoration:none;font-size:13px}}
 </style></head><body><main>
   <h1>Daily Content Archive</h1>
-  <div class="sub">{len(dates)} dashboard{"s" if len(dates) != 1 else ""} · newest first · nothing is auto-published</div>
+  <div class="sub">{subtitle}</div>
   <p><a class="back" href="/">&larr; Comment Studio</a></p>
   <ul>
 {rows}
