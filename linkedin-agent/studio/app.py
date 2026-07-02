@@ -21,7 +21,9 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
+from html import escape
 from pathlib import Path
 
 # Make the linkedin-agent package root importable regardless of CWD.
@@ -171,29 +173,95 @@ def index():
     return render_template("index.html")
 
 
+_DAILY_DIR = PKG_ROOT / "output" / "daily"
+_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _daily_dates() -> list[str]:
+    """All available dashboard dates (YYYY-MM-DD), newest first."""
+    if not _DAILY_DIR.exists():
+        return []
+    return sorted((p.stem for p in _DAILY_DIR.glob("*.html") if _DATE_RE.match(p.stem)),
+                  reverse=True)
+
+
+def _read_dashboard(path: Path) -> str:
+    """Read a dashboard and make its asset links absolute (/assets/...), so images
+    resolve no matter which route depth served the page (/daily or /daily/<date>)."""
+    html = path.read_text(encoding="utf-8")
+    return html.replace('src="assets/', 'src="/assets/').replace('href="assets/', 'href="/assets/')
+
+
+def _no_dashboard(msg: str):
+    return (
+        "<body style='font-family:sans-serif;background:#0f1115;color:#e8eaed;"
+        f"padding:40px'><h2>{escape(msg)}</h2><p><a style='color:#7C5CFC' "
+        "href='/archive'>&larr; Archive</a> · <a style='color:#7C5CFC' href='/'>"
+        "Comment Studio</a></p></body>", 404,
+    )
+
+
 @app.route("/daily")
 def daily():
-    """Serve today's (the latest) generated daily dashboard. Only the present
-    day is shown here; older dashboards remain in the repo archive."""
-    out_dir = PKG_ROOT / "output" / "daily"
-    files = [p for p in out_dir.glob("*.html")] if out_dir.exists() else []
-    if not files:
-        return (
-            "<body style='font-family:sans-serif;background:#0f1115;color:#e8eaed;"
-            "padding:40px'><h2>No daily dashboard yet</h2><p>The daily run hasn't "
-            "produced a dashboard on this deploy. It appears after the next daily "
-            "GitHub Action run.</p><p><a style='color:#4f8cff' href='/'>&larr; "
-            "Comment Studio</a></p></body>", 404,
-        )
-    latest = max(files, key=lambda p: p.stem)  # filenames are YYYY-MM-DD
-    return latest.read_text(encoding="utf-8")
+    """Serve today's (the latest) generated daily dashboard."""
+    dates = _daily_dates()
+    if not dates:
+        return _no_dashboard("No daily dashboard yet")
+    return _read_dashboard(_DAILY_DIR / f"{dates[0]}.html")
+
+
+@app.route("/daily/<date>")
+def daily_date(date: str):
+    """Serve a specific day's dashboard from the archive."""
+    if not _DATE_RE.match(date):
+        return _no_dashboard("Invalid date")
+    f = _DAILY_DIR / f"{date}.html"
+    if not f.exists():
+        return _no_dashboard(f"No dashboard for {date}")
+    return _read_dashboard(f)
+
+
+@app.route("/archive")
+def archive():
+    """List every available daily dashboard, newest first."""
+    dates = _daily_dates()
+    if not dates:
+        rows = '<li class="muted">No dashboards yet.</li>'
+    else:
+        items = []
+        for i, d in enumerate(dates):
+            tag = ' <span class="tag">Latest</span>' if i == 0 else ''
+            items.append(f'<li><a href="/daily/{d}">{d}</a>{tag}</li>')
+        rows = "\n".join(items)
+    return f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purands AI - Daily Archive</title>
+<style>
+  body{{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#0f1115;color:#e8eaed;line-height:1.55}}
+  main{{max-width:640px;margin:0 auto;padding:44px 20px}}
+  h1{{font-size:20px;margin:0 0 4px}} .sub{{color:#9aa0aa;font-size:13px;margin-bottom:22px}}
+  ul{{list-style:none;margin:0;padding:0}}
+  li{{padding:11px 14px;border:1px solid #262a33;border-radius:8px;margin:8px 0;background:#181b22}}
+  li a{{color:#7C5CFC;text-decoration:none;font-size:15px;font-weight:600}}
+  .tag{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;
+    background:rgba(124,92,252,.15);color:#7C5CFC;padding:2px 8px;border-radius:999px;margin-left:8px}}
+  .muted{{color:#9aa0aa}} .back{{color:#7C5CFC;text-decoration:none;font-size:13px}}
+</style></head><body><main>
+  <h1>Daily Content Archive</h1>
+  <div class="sub">{len(dates)} dashboard{"s" if len(dates) != 1 else ""} · newest first · nothing is auto-published</div>
+  <p><a class="back" href="/">&larr; Comment Studio</a></p>
+  <ul>
+{rows}
+  </ul>
+</main></body></html>"""
 
 
 @app.route("/assets/<path:subpath>")
-def daily_assets(subpath):
-    """Serve the daily dashboard's generated images (referenced as assets/... in
-    the dashboard HTML), so they render on the hosted /daily page."""
-    assets_root = PKG_ROOT / "output" / "daily" / "assets"
+def daily_assets(subpath: str):
+    """Serve the daily dashboards' generated images (referenced as assets/... in
+    the dashboard HTML) so they render on the hosted pages."""
+    assets_root = _DAILY_DIR / "assets"
     return send_from_directory(str(assets_root), subpath)
 
 
