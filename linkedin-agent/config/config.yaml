@@ -29,7 +29,7 @@ llm:
 # manually. Images are saved to output/daily/assets/<date>/ and are downloadable
 # from the dashboard.
 images:
-  enabled: false                 # true = generate real PNGs (OPENAI_API_KEY required)
+  enabled: true                  # true = generate real PNGs (OPENAI_API_KEY required)
   provider: openai               # openai | mock
   model: gpt-image-1             # e.g. gpt-image-1, dall-e-3
   size: 1024x1024

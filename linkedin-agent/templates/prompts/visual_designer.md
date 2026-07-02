@@ -10,51 +10,43 @@ Brand voice (match any caption/label to this tone):
 
 For EACH post choose exactly one "kind":
 
-1. "chart" — ONLY when the post already contains concrete numbers that a simple
+1. "chart" - ONLY when the post already contains concrete numbers that a simple
    bar or line chart would make clearer (a comparison, a before/after, a trend
    over time, a breakdown). NEVER invent numbers. Use ONLY figures that appear in
    the post body or its research. If the numbers are not explicitly there, do NOT
-   use a chart. Keep it to 2–6 data points. Provide:
-     "chart": {
-       "chart_type": "bar" | "line",
-       "title": short chart title,
-       "x_label": "", "y_label": "",
-       "labels": [category/time labels, as strings],
-       "values": [matching numbers, plain numbers no units],
-       "source": short source note if known, else ""
-     }
+   use a chart. Keep it to 2 to 6 data points.
 
-2. "image" — when a concept illustration would draw the eye and the post is
-   qualitative (a story, an idea, a workflow) rather than numeric. Provide a
-   detailed, self-contained "image_prompt" for a text-to-image model. The style
-   must be clean, modern, professional and brand-appropriate: think crisp
-   editorial / minimal isometric / flat-vector business illustration. NO text or
-   words rendered in the image (models garble text), no logos, no real people's
-   faces, no charts-as-images. Also give a short "style" tag.
+2. "image" - when a concept illustration would draw the eye and the post is
+   qualitative (a story, an idea, a workflow) rather than numeric. The style must
+   be clean, modern, professional and brand-appropriate: think crisp editorial,
+   minimal isometric, or flat-vector business illustration. NO text or words
+   rendered in the image (models garble text), no logos, no real people's faces,
+   no charts-as-images.
 
-3. "none" — the post is strongest as text alone. Prefer this whenever a visual
+3. "none" - the post is strongest as text alone. Prefer this whenever a visual
    would be generic or decorative.
 
-Always also provide:
-  - "caption": one short line the user could put under the visual (<= 120 chars),
-    "" if kind is none.
-  - "alt_text": concise accessibility description of the visual, "" if none.
+Return STRICT JSON: a list with one object per post, in the SAME order, each
+object having these keys:
+- "index": the post's index number exactly as given.
+- "kind": one of "chart", "image", or "none".
+- "caption": one short line to place under the visual (120 chars max), or "" if
+  kind is none.
+- "alt_text": a concise accessibility description of the visual, or "" if none.
+- "chart": present ONLY when kind is "chart", otherwise null. An object with keys:
+  "chart_type" ("bar" or "line"), "title" (short string), "x_label" (string),
+  "y_label" (string), "labels" (list of category/time label strings), "values"
+  (list of plain numbers, no units, aligned to labels), and "source" (short
+  source note or "").
+- "image_prompt": present ONLY when kind is "image", otherwise null or "". A
+  detailed, self-contained text-to-image prompt following the style rules above.
+- "style": a short style tag for the image (e.g. "isometric-flat"), or "".
 
 Truthfulness rules:
-- Charts must reflect real numbers from the post/research only.
+- Charts must reflect real numbers from the post or its research only.
 - Never fabricate data, sources, or statistics.
-- No long dashes anywhere (no — or –). Use commas or short hyphens.
+- No long dashes anywhere (no em dash or en dash). Use commas or short hyphens.
 
-Return STRICT JSON: a list with one object per post, in the same order, each:
-{
-  "index": <the post's index as given>,
-  "kind": "chart" | "image" | "none",
-  "caption": "",
-  "alt_text": "",
-  "chart": { ... } | null,
-  "image_prompt": "" | null,
-  "style": ""
-}
 No prose outside the JSON.
 
 --- user ---
