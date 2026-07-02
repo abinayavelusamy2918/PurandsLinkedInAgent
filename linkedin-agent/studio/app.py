@@ -44,7 +44,7 @@ def _load_dotenv() -> None:
 _load_dotenv()
 
 import requests  # noqa: E402
-from flask import Flask, Response, jsonify, render_template, request  # noqa: E402
+from flask import Flask, Response, jsonify, render_template, request, send_from_directory  # noqa: E402
 
 from core.config import load_settings, require_env  # noqa: E402
 from core.llm import build_llm  # noqa: E402
@@ -187,6 +187,14 @@ def daily():
         )
     latest = max(files, key=lambda p: p.stem)  # filenames are YYYY-MM-DD
     return latest.read_text(encoding="utf-8")
+
+
+@app.route("/assets/<path:subpath>")
+def daily_assets(subpath):
+    """Serve the daily dashboard's generated images (referenced as assets/... in
+    the dashboard HTML), so they render on the hosted /daily page."""
+    assets_root = PKG_ROOT / "output" / "daily" / "assets"
+    return send_from_directory(str(assets_root), subpath)
 
 
 @app.route("/analyze", methods=["POST"])
