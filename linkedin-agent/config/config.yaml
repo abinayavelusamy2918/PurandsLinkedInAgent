@@ -7,6 +7,7 @@ pipeline:
   - trend_hunter
   - research_analyst
   - founder_voice
+  - visual_designer
   - engagement_agent
   - editor_publisher
   # comment_reply runs on a separate input (received comments). It is included
@@ -20,6 +21,18 @@ llm:
   model: gpt-4o                  # e.g. gpt-4o, gpt-4o-mini, gpt-4.1
   max_tokens: 8000              # room for many trends/posts/comments without JSON truncation
   temperature: 0.7
+
+# Visual attachments for posts. The Visual Designer renders charts as inline SVG
+# (always, no key needed). Set enabled: true to ALSO generate real images for
+# concept posts via the images API (needs OPENAI_API_KEY). When disabled or a
+# request fails, concept posts still show a ready-to-use image prompt to run
+# manually. Images are saved to output/daily/assets/<date>/ and are downloadable
+# from the dashboard.
+images:
+  enabled: false                 # true = generate real PNGs (OPENAI_API_KEY required)
+  provider: openai               # openai | mock
+  model: gpt-image-1             # e.g. gpt-image-1, dall-e-3
+  size: 1024x1024
 
 # full  = call the real LLM and live sources
 # dry-run = use the mock provider (no API key/network); great for testing layout

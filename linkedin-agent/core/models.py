@@ -102,6 +102,7 @@ class DraftPost:
     hashtags: list[str] = field(default_factory=list)
     based_on: list[str] = field(default_factory=list)  # trend titles used
     purands_tie: bool = False        # True = post showcases how Purands solves it (high priority)
+    visual: dict[str, Any] = field(default_factory=dict)  # suggested attachment (see Visual Designer)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)

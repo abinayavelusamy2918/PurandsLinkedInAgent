@@ -28,11 +28,13 @@ def _env():
         from jinja2 import Environment, FileSystemLoader, select_autoescape
     except ImportError as exc:  # pragma: no cover
         raise RuntimeError("Jinja2 not installed; `pip install Jinja2`") from exc
+    from .charts import render_chart
     env = Environment(
         loader=FileSystemLoader(str(_TEMPLATE_DIR)),
         autoescape=select_autoescape(["html", "j2"]),
     )
     env.filters["confidence_class"] = _confidence_class
+    env.globals["render_chart"] = render_chart
     return env
 
 

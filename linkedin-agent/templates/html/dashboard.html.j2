@@ -53,6 +53,16 @@
   .pbadge{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;font-size:11px;
     font-weight:700;background:rgba(46,193,107,.15);color:var(--high);vertical-align:middle}
   .rtitle{font-weight:600;margin:10px 0 2px}
+  .visual{margin:12px 0;border:1px solid var(--line);border-radius:8px;padding:12px;background:#0d0f13}
+  .visual .vhead{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .vkind{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;
+    padding:2px 8px;border-radius:999px;background:rgba(79,140,255,.15);color:var(--accent)}
+  .postimg{max-width:100%;border-radius:8px;border:1px solid var(--line);display:block}
+  .vcaption{margin:8px 0 0;font-size:13px}
+  .dlbtn{background:transparent;color:var(--accent);border:1px solid var(--line);border-radius:6px;
+    padding:5px 10px;font-size:12px;cursor:pointer;margin-top:8px;margin-right:6px;text-decoration:none;
+    display:inline-block}
+  .dlbtn:hover{background:var(--card)}
   ul{margin:6px 0 0 18px;padding:0}
   footer{max-width:920px;margin:0 auto;padding:10px 20px 40px;color:var(--muted);font-size:12px}
 </style>
@@ -94,6 +104,35 @@
         </div>
         {% if draft.hashtags %}<div class="tags">{% for h in draft.hashtags %}<span>#{{ h }}</span>{% endfor %}</div>{% endif %}
         {% if draft.cta %}<p class="muted"><strong>CTA:</strong> {{ draft.cta }}</p>{% endif %}
+
+        {% set v = draft.visual %}
+        {% if v and v.kind and v.kind != 'none' %}
+        <div class="visual">
+          <div class="vhead"><span class="vkind">Suggested {{ v.kind }}</span>
+            {% if v.alt_text %}<span class="muted" style="font-size:12px">{{ v.alt_text }}</span>{% endif %}
+          </div>
+          {% if v.kind == 'chart' and v.chart %}
+            <div id="chart{{ pidx }}">{{ render_chart(v.chart)|safe }}</div>
+            <button class="dlbtn" onclick="downloadChart('chart{{ pidx }}','post{{ pidx }}-chart')">⬇ Download PNG</button>
+            <button class="dlbtn" onclick="downloadSvg('chart{{ pidx }}','post{{ pidx }}-chart')">⬇ SVG</button>
+          {% elif v.kind == 'image' %}
+            {% if v.image_path %}
+              <img class="postimg" src="{{ v.image_path }}" alt="{{ v.alt_text }}">
+              <a class="dlbtn" href="{{ v.image_path }}" download="post{{ pidx }}-image.png">⬇ Download image</a>
+            {% else %}
+              <p class="muted">No image generated. Use the prompt below to create one (enable <code>images</code> in config to auto-generate).</p>
+            {% endif %}
+            {% if v.image_prompt %}
+            <details>
+              <summary>Image prompt{% if v.style %} · {{ v.style }}{% endif %}</summary>
+              <div class="copywrap"><div class="post" id="imgp{{ pidx }}">{{ v.image_prompt }}</div>
+                <button class="copybtn" onclick="copyEl('imgp{{ pidx }}',this)">Copy prompt</button></div>
+            </details>
+            {% endif %}
+          {% endif %}
+          {% if v.caption %}<p class="vcaption"><strong>Caption:</strong> {{ v.caption }}</p>{% endif %}
+        </div>
+        {% endif %}
 
         {% if draft.hooks %}
         <details>
@@ -192,6 +231,39 @@ function copyEl(id,btn){
     const old=btn.innerText;btn.innerText='Copied ✓';
     setTimeout(()=>btn.innerText=old,1500);
   });
+}
+function _svgOf(containerId){
+  const svg=document.getElementById(containerId).querySelector('svg');
+  const clone=svg.cloneNode(true);
+  clone.setAttribute('xmlns','http://www.w3.org/2000/svg');
+  return new XMLSerializer().serializeToString(clone);
+}
+function _download(url,name){
+  const a=document.createElement('a');a.href=url;a.download=name;
+  document.body.appendChild(a);a.click();a.remove();
+}
+function downloadSvg(containerId,name){
+  const blob=new Blob([_svgOf(containerId)],{type:'image/svg+xml'});
+  const url=URL.createObjectURL(blob);_download(url,name+'.svg');
+  setTimeout(()=>URL.revokeObjectURL(url),2000);
+}
+// Rasterise the inline SVG to a high-res PNG for attaching to LinkedIn.
+function downloadChart(containerId,name){
+  const svg=document.getElementById(containerId).querySelector('svg');
+  const vb=svg.viewBox.baseVal;const scale=2;
+  const w=(vb&&vb.width)||720, h=(vb&&vb.height)||340;
+  const img=new Image();
+  const blob=new Blob([_svgOf(containerId)],{type:'image/svg+xml;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  img.onload=function(){
+    const c=document.createElement('canvas');c.width=w*scale;c.height=h*scale;
+    const ctx=c.getContext('2d');ctx.scale(scale,scale);ctx.drawImage(img,0,0);
+    URL.revokeObjectURL(url);
+    c.toBlob(function(b){const u=URL.createObjectURL(b);_download(u,name+'.png');
+      setTimeout(()=>URL.revokeObjectURL(u),2000);});
+  };
+  img.onerror=function(){URL.revokeObjectURL(url);downloadSvg(containerId,name);};
+  img.src=url;
 }
 </script>
 </body>

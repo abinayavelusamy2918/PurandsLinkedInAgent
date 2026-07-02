@@ -10,6 +10,7 @@ from . import (  # noqa: F401  (imported for side-effect: registration)
     trend_hunter,
     research_analyst,
     founder_voice,
+    visual_designer,
     engagement_agent,
     editor_publisher,
     comment_reply,
