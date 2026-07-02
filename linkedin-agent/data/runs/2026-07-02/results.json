@@ -1,0 +1,216 @@
+[
+  {
+    "agent": "trend_hunter",
+    "ok": true,
+    "data": [
+      {
+        "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+        "category": "AI startups",
+        "rank": 1,
+        "rationale": "The significant funding and valuation increase for Neocloud Together AI indicates strong investor confidence in AI-driven cloud solutions, which is critical for retention marketing platforms relying on scalable AI infrastructure.",
+        "signals": [
+          "Large funding round",
+          "High valuation increase",
+          "Focus on AI infrastructure"
+        ],
+        "sources": [
+          "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "WhatsApp usernames are already raising impersonation red flags",
+        "category": "WhatsApp commerce",
+        "rank": 2,
+        "rationale": "WhatsApp is crucial for commerce in APAC, and impersonation issues could affect trust and security, impacting how retailers use the platform for customer interactions and retention.",
+        "signals": [
+          "Privacy concerns",
+          "Potential impact on user trust",
+          "Relevance to messaging-first commerce"
+        ],
+        "sources": [
+          "https://techcrunch.com/2026/07/01/whatsapp-usernames-are-already-raising-impersonation-red-flags/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Dick’s adds paid loyalty tier for $99 a year",
+        "category": "Loyalty programs",
+        "rank": 3,
+        "rationale": "The introduction of a paid loyalty program by a major retailer indicates a trend towards monetizing loyalty, which could influence APAC retailers' strategies in designing effective retention and loyalty programs.",
+        "signals": [
+          "Introduction of paid loyalty tier",
+          "Focus on increasing customer engagement"
+        ],
+        "sources": [
+          "https://www.retaildive.com/news/dicks-sporting-goods-adds-paid-loyalty-program-scorecard-plus/824148/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "The Control Gap: Enterprise AI organizations have an ownership problem, not a technology problem",
+        "category": "AI in business",
+        "rank": 4,
+        "rationale": "The discussion highlights governance challenges in AI deployments, which are crucial for retention marketing platforms relying on AI to ensure effective and ethical customer data management.",
+        "signals": [
+          "AI governance issues",
+          "Enterprise focus",
+          "Implications for data management"
+        ],
+        "sources": [
+          "https://venturebeat.com/resources/the-control-gap-enterprise-ai-organizations-have-an-ownership-problem-not-a-technology-problem-and-most-are-governing-it-by-hand"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Warehouse-native, Identity first Customer Data Platform (CDP) in Go and React",
+        "category": "Customer Data Platforms",
+        "rank": 5,
+        "rationale": "Innovations in CDP technology directly impact how businesses manage and leverage customer data for retention and engagement, a core focus area for Purands AI.",
+        "signals": [
+          "CDP innovation",
+          "Focus on identity resolution",
+          "Potential open-source alternative to existing platforms"
+        ],
+        "sources": [
+          "https://github.com/krenalis/krenalis"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "TikTok is Hiring: Software Engineer - LLM & AI Agents",
+        "category": "AI industry",
+        "rank": 6,
+        "rationale": "TikTok's hiring for AI agents signifies growing interest in leveraging AI for user engagement, which aligns with Purands AI's focus on AI-driven retention strategies.",
+        "signals": [
+          "Hiring for AI agent development",
+          "Focus on intelligent systems"
+        ],
+        "sources": [
+          "https://www.linkedin.com/posts/anningwang_ai-hiring-tiktok-activity-7478248955844153344-fDr9"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+        "category": "SaaS",
+        "rank": 7,
+        "rationale": "Bending Spoons' strong market debut amidst a SaaS downturn highlights resilience and potential strategies for SaaS companies, relevant to businesses focusing on retention marketing software.",
+        "signals": [
+          "Strong IPO performance",
+          "Acquisition strategy"
+        ],
+        "sources": [
+          "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Smile.io-style Shopify loyalty app: points, VIP tiers, referrals, and Customer Account Loyalty Hub",
+        "category": "Shopify ecosystem",
+        "rank": 8,
+        "rationale": "Developments in Shopify's loyalty solutions are critical for APAC retailers using the platform to enhance customer retention and loyalty through tailored programs.",
+        "signals": [
+          "Shopify loyalty app features",
+          "Focus on customer engagement"
+        ],
+        "sources": [
+          "https://github.com/Alohamonde/loyalty-pulse"
+        ],
+        "region": "APAC"
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T08:27:54.442570+00:00",
+    "finished_at": "2026-07-02T08:27:54.442586+00:00"
+  },
+  {
+    "agent": "research_analyst",
+    "ok": false,
+    "data": null,
+    "error": "Could not parse JSON from model response: \n[\n  {\n    \"trend\": {\n      \"title\": \"Neocloud Together AI raises $800M, leaps to $8.3B valuation\",\n      \"category\": \"AI startups\",\n      \"rank\": 1,\n      \"rationale\": \"The significant funding and va...",
+    "started_at": "2026-07-02T08:27:54.442701+00:00",
+    "finished_at": "2026-07-02T08:28:15.064194+00:00"
+  },
+  {
+    "agent": "founder_voice",
+    "ok": true,
+    "data": [],
+    "error": "",
+    "started_at": "2026-07-02T08:28:15.064465+00:00",
+    "finished_at": "2026-07-02T08:28:15.064472+00:00"
+  },
+  {
+    "agent": "engagement_agent",
+    "ok": true,
+    "data": [
+      {
+        "target_author": "Female Ventures Rotterdam",
+        "target_post_url": "https://www.linkedin.com/posts/female-ventures-rotterdam_femalefounders-womenintech-ai-activity-7478355201222053890-PTJq",
+        "target_excerpt": "From economics and investment banking to building an AI-powered fashion startup.\n\nIn our latest Insights feature, we spoke with Yiran Wang, founder of ViWear, about how a childhood fascination with on",
+        "comment": "Yiran's journey with ViWear highlights an important point: the power of diverse backgrounds in tech innovation. Often, it's the unique perspectives from non-technical fields that drive meaningful AI applications, especially in areas like fashion where creativity meets data. How do you see non-traditional backgrounds shaping other industries through AI?",
+        "angle": "insight",
+        "why_it_works": "It connects Yiran's story to a broader insight about diversity in innovation, inviting further discussion."
+      },
+      {
+        "target_author": "Doug Nissinoff",
+        "target_post_url": "https://www.linkedin.com/posts/douglasnissinoff_im-thrilled-to-announce-that-weve-launched-activity-7478125430785531904-ELxS",
+        "target_excerpt": "I'm thrilled to announce that we've launched the IV Accelerator, the new accelerator program from Intelligence Ventures. \n\nCapital is nice. But founders need more. The right intros. More investors. Th",
+        "comment": "Doug, the focus on providing more than just capital is crucial. Many founders need that ecosystem of support—networks, data access, and tailored mentorship—to truly scale. Curious, how do you measure the success of such a comprehensive program beyond the initial funding rounds?",
+        "angle": "question",
+        "why_it_works": "It acknowledges the program's holistic approach and invites deeper insight into its success metrics."
+      },
+      {
+        "target_author": "Christian Bugia",
+        "target_post_url": "https://www.linkedin.com/posts/christian-bugia_if-youre-in-investment-banking-and-have-activity-7478087954750418945-m0xz",
+        "target_excerpt": "If you're in investment banking and have ever wondered what it would be like to help build a company instead of evaluating one...\nThis role might be worth a conversation.\nA funded AI startup is hiring",
+        "comment": "Roles like these offer a fascinating pivot for those in investment banking. The skills in strategic analysis and decision-making are highly transferable to a startup environment. What would you say is the biggest adjustment someone from banking should prepare for in a startup setting?",
+        "angle": "question",
+        "why_it_works": "It taps into the transition challenges, likely resonating with professionals considering similar career shifts."
+      },
+      {
+        "target_author": "Pawan Kamble",
+        "target_post_url": "https://www.linkedin.com/posts/pawan-kamble-199913266_aistartups-brandpositioning-categorydesign-activity-7478184850689003520-93dt",
+        "target_excerpt": "Just published a new piece:\nWhy Most AI Startups Sound Identical\n\nThe central argument:\n\nThe biggest positioning problem in AI isn't technology.\n\nIt's language.\n\nEvery company claims to be:\n\n• AI-powe",
+        "comment": "Pawan, your point on language as a positioning problem strikes a chord. In our experience, the words used to describe AI often blur the lines between different solutions. What strategies can startups use to articulate their unique value without falling into buzzword traps?",
+        "angle": "question",
+        "why_it_works": "It builds on the post by inviting practical advice, encouraging a discussion on differentiation strategies."
+      },
+      {
+        "target_author": "ALTERA SERVICES",
+        "target_post_url": "https://www.linkedin.com/posts/altera-services_ai-aistartups-startupfounders-activity-7478091060737564672-07lm",
+        "target_excerpt": "The AI startups that succeed over the next decade won't necessarily be the ones that grow the fastest. They'll be the ones that scale the smartest.\n\nSustainable growth isn't just about cutting-edge te",
+        "comment": "The emphasis on sustainable growth over rapid scaling is refreshing. Often, the allure of quick wins overshadows the importance of resilience and trust-building. Can you share an example of a habit that particularly stood out in your research as a game-changer for long-term success?",
+        "angle": "question",
+        "why_it_works": "It aligns with the article's theme while prompting a deeper dive into specific habits that drive success."
+      }
+    ],
+    "error": "",
+    "started_at": "2026-07-02T08:28:21.277737+00:00",
+    "finished_at": "2026-07-02T08:28:21.277755+00:00"
+  },
+  {
+    "agent": "editor_publisher",
+    "ok": true,
+    "data": {
+      "editorial": {
+        "publishing_recommendation": "hold",
+        "reasoning": "No high-confidence post available.",
+        "risk_assessment": [],
+        "summary": "Automated daily run output for review."
+      },
+      "html": "/home/runner/work/Purands_LinkedIn_Agent/Purands_LinkedIn_Agent/linkedin-agent/output/daily/2026-07-02.html"
+    },
+    "error": "",
+    "started_at": "2026-07-02T08:28:21.316565+00:00",
+    "finished_at": "2026-07-02T08:28:21.316580+00:00"
+  },
+  {
+    "agent": "comment_reply",
+    "ok": true,
+    "data": [],
+    "error": "",
+    "started_at": "2026-07-02T08:28:21.316802+00:00",
+    "finished_at": "2026-07-02T08:28:21.316809+00:00"
+  }
+]
