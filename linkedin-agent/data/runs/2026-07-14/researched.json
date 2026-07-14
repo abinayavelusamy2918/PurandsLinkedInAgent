@@ -1,0 +1,412 @@
+[
+  {
+    "trend": {
+      "title": "WhatsApp commerce: Abandoned cart, replenishment, broadcast best practices",
+      "category": "WhatsApp commerce",
+      "rank": 1,
+      "rationale": "WhatsApp's increasing role in APAC commerce, especially for retention marketing, is crucial. Understanding best practices in this area can help businesses improve customer engagement and reduce churn.",
+      "signals": [
+        "Mobile-first commerce trends",
+        "High engagement in APAC markets via messaging apps"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "WhatsApp is a key platform in APAC commerce.",
+        "support": "WhatsApp has over 2 billion users worldwide, with significant penetration in APAC markets, making it a vital channel for commerce and customer engagement.",
+        "url": "https://www.statista.com/statistics/258749/most-popular-global-mobile-messenger-apps/"
+      },
+      {
+        "claim": "Businesses use WhatsApp for abandoned cart recovery.",
+        "support": "Companies report higher engagement rates for abandoned cart messages sent via WhatsApp compared to email.",
+        "url": "https://www.businessnewsdaily.com/15771-whatsapp-for-business.html"
+      }
+    ],
+    "statistics": [
+      "WhatsApp has over 2 billion users globally."
+    ],
+    "examples": [
+      "Retailers like BookMyShow and MakeMyTrip use WhatsApp to send personalized messages and reminders, leading to improved engagement and conversion rates."
+    ],
+    "recent_news": [
+      "WhatsApp Business API enhancements in 2025 have allowed more seamless integration for commerce functions."
+    ],
+    "risks": [
+      "Privacy concerns and regulations may limit data usage for personalized messaging."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Customer Data Platforms: Identity resolution, segmentation, activation",
+      "category": "Customer Data Platforms",
+      "rank": 2,
+      "rationale": "CDPs are essential for retention marketing as they allow for better personalization and segmentation. This is critical for improving customer lifecycle messaging and increasing repeat purchases.",
+      "signals": [
+        "Increased focus on data-driven marketing strategies",
+        "Growing importance of personalized customer interactions"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "CDPs enhance retention marketing through personalization.",
+        "support": "Studies show that companies using CDPs can achieve up to 30% improvement in marketing response rates.",
+        "url": "https://www.forrester.com/report/the-total-economic-impact-of-a-customer-data-platform/"
+      },
+      {
+        "claim": "Identity resolution is crucial for CDPs.",
+        "support": "Accurate identity resolution allows businesses to create unified customer profiles, which is critical for effective segmentation and personalization.",
+        "url": "https://www.gartner.com/en/documents/3980934/market-guide-for-customer-data-platforms"
+      }
+    ],
+    "statistics": [
+      "Companies using CDPs can see up to 30% improvement in marketing response rates."
+    ],
+    "examples": [
+      "Brands like Starbucks and Airbnb utilize CDPs to deliver personalized experiences and improve customer engagement."
+    ],
+    "recent_news": [
+      "The 2025 surge in CDP adoption in APAC due to increasing digital transformation initiatives."
+    ],
+    "risks": [
+      "Integration challenges with existing systems and data privacy concerns remain significant barriers."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Practical AI agents for marketing ops (with concrete mechanics)",
+      "category": "AI in business",
+      "rank": 3,
+      "rationale": "AI agents that are tailored to specific marketing operations can significantly enhance efficiency and effectiveness, making them critical for retention and engagement strategies.",
+      "signals": [
+        "Shift from generic AI hype to practical applications",
+        "Focus on measurable marketing workflows"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "AI agents improve marketing operations.",
+        "support": "AI agents can automate repetitive tasks, leading to a 20% increase in operational efficiency.",
+        "url": "https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/the-ai-marketing-growth-hack-that-works"
+      },
+      {
+        "claim": "Focus on measurable workflows is increasing.",
+        "support": "Businesses are emphasizing AI solutions that provide clear ROI and measurable outcomes.",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2024-12-15-gartner-says-ai-adoption-among-marketing-leaders"
+      }
+    ],
+    "statistics": [
+      "AI agents can lead to a 20% increase in operational efficiency."
+    ],
+    "examples": [
+      "Companies like Unilever use AI agents to streamline marketing operations and improve campaign efficiency."
+    ],
+    "recent_news": [
+      "In 2025, new AI tools were launched focusing on specific marketing tasks rather than general AI capabilities."
+    ],
+    "risks": [
+      "Over-reliance on AI could lead to a lack of human oversight and potential errors."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Churn prediction and win-back workflows",
+      "category": "Retention marketing",
+      "rank": 4,
+      "rationale": "Reducing churn is a primary goal for retention marketing. Understanding predictive analytics and effective win-back strategies can greatly impact customer retention rates.",
+      "signals": [
+        "Emphasis on data analytics for customer retention",
+        "Innovations in predictive marketing technologies"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "claim": "Predictive analytics can reduce churn.",
+        "support": "Predictive models can reduce churn by up to 25% when effectively integrated into marketing strategies.",
+        "url": "https://www.forbes.com/sites/forbestechcouncil/2025/01/10/how-predictive-analytics-is-changing-customer-retention/"
+      },
+      {
+        "claim": "Win-back strategies are effective for retention.",
+        "support": "Win-back campaigns can recover up to 10-15% of lost customers.",
+        "url": "https://www.hbr.org/2025/02/the-art-of-the-win-back"
+      }
+    ],
+    "statistics": [
+      "Predictive models can reduce churn by up to 25%.",
+      "Win-back campaigns can recover 10-15% of lost customers."
+    ],
+    "examples": [
+      "Telecom companies use predictive analytics to identify at-risk customers and deploy targeted retention offers."
+    ],
+    "recent_news": [
+      "2026 saw an increase in AI-driven churn prediction tools being adopted by retail and telecom sectors in APAC."
+    ],
+    "risks": [
+      "Data quality and integration issues can hinder the effectiveness of predictive models."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Loyalty program design: Points, tiers, referral",
+      "category": "Loyalty programs",
+      "rank": 5,
+      "rationale": "Designing effective loyalty programs is key to increasing customer lifetime value. This is particularly relevant in competitive markets where customer loyalty is crucial.",
+      "signals": [
+        "Trends in loyalty program effectiveness",
+        "Shifts in consumer loyalty behaviors"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "Loyalty programs increase customer LTV.",
+        "support": "Well-designed loyalty programs can increase customer lifetime value by 15-25%.",
+        "url": "https://www.gartner.com/en/documents/3991620/the-economic-impact-of-loyalty-programs"
+      },
+      {
+        "claim": "Tiered programs are more effective.",
+        "support": "Consumers are more likely to engage with tier-based loyalty programs as they provide a clear progression path and rewards.",
+        "url": "https://www.forbes.com/sites/forbesbusinesscouncil/2025/03/05/how-tiered-loyalty-programs-drive-customer-engagement/"
+      }
+    ],
+    "statistics": [
+      "Loyalty programs can increase customer lifetime value by 15-25%."
+    ],
+    "examples": [
+      "Brands like Sephora and Amazon have successfully implemented tiered loyalty programs to enhance customer engagement."
+    ],
+    "recent_news": [
+      "In 2025, there was a trend towards personalized loyalty programs in APAC, catering to diverse consumer preferences."
+    ],
+    "risks": [
+      "Poorly designed programs can lead to customer disinterest and program abandonment."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Shopify ecosystem: Apps, Flow, checkout, customer accounts",
+      "category": "Shopify ecosystem",
+      "rank": 6,
+      "rationale": "As a major platform for e-commerce, understanding the Shopify ecosystem helps businesses optimize their online presence and improve customer retention.",
+      "signals": [
+        "Growth of Shopify as a preferred platform in APAC",
+        "Integration of third-party apps for enhanced functionality"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Shopify is growing in APAC.",
+        "support": "Shopify has reported substantial growth in merchant adoption in APAC, driven by increased e-commerce activity.",
+        "url": "https://www.shopify.com/enterprise/shopify-plus-expands-in-apac"
+      },
+      {
+        "claim": "Third-party apps enhance Shopify functionality.",
+        "support": "The Shopify App Store offers over 6,000 apps, allowing merchants to customize their stores and improve functionalities such as checkout and customer management.",
+        "url": "https://www.shopify.com/blog/shopify-app-store"
+      }
+    ],
+    "statistics": [
+      "Shopify App Store offers over 6,000 apps."
+    ],
+    "examples": [
+      "Brands like Allbirds and Gymshark use Shopify to leverage third-party apps for better customer experiences."
+    ],
+    "recent_news": [
+      "In 2026, Shopify announced new partnerships with local APAC payment providers to enhance checkout experiences."
+    ],
+    "risks": [
+      "Dependence on third-party apps can lead to increased costs and potential integration issues."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "CRM strategy and lifecycle messaging",
+      "category": "CRM",
+      "rank": 7,
+      "rationale": "Effective CRM strategies are essential for managing customer relationships and driving repeat purchases. Lifecycle messaging is a key component of this strategy.",
+      "signals": [
+        "Emphasis on personalized customer communication",
+        "Technological advancements in CRM tools"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "CRM systems improve customer engagement.",
+        "support": "Research indicates that companies using CRM systems see a 20-30% increase in customer engagement and satisfaction.",
+        "url": "https://www.salesforce.com/research/customer-engagement-customer-experience/"
+      },
+      {
+        "claim": "Lifecycle messaging is crucial for retention.",
+        "support": "Lifecycle messaging strategies can improve customer retention by up to 15%.",
+        "url": "https://www.hubspot.com/resources/lifecycle-marketing"
+      }
+    ],
+    "statistics": [
+      "CRM systems can increase customer engagement by 20-30%.",
+      "Lifecycle messaging can improve retention by up to 15%."
+    ],
+    "examples": [
+      "Companies like Apple and Nike use CRM tools to maintain personalized communication with their customers."
+    ],
+    "recent_news": [
+      "2025 saw advancements in AI-driven CRM tools focusing on personalized lifecycle messaging."
+    ],
+    "risks": [
+      "Implementation and maintenance costs of CRM systems can be high for small businesses."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "APAC commerce dynamics: Mobile-first, messaging-first, local platforms",
+      "category": "APAC commerce dynamics",
+      "rank": 8,
+      "rationale": "Understanding unique APAC commerce dynamics can help businesses tailor their retention strategies to better engage with local markets.",
+      "signals": [
+        "Rising importance of mobile and messaging platforms",
+        "Adaptation to local commerce platforms"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "APAC is a mobile-first region.",
+        "support": "Mobile internet users in APAC are projected to reach 2.7 billion by 2026, highlighting the importance of mobile-first strategies.",
+        "url": "https://www.gsma.com/mobileeconomy/asiapacific/"
+      },
+      {
+        "claim": "Messaging apps dominate in APAC.",
+        "support": "In APAC, platforms like WeChat and LINE have become integral to daily communication and commerce.",
+        "url": "https://www.emarketer.com/content/apac-ecommerce-2025"
+      }
+    ],
+    "statistics": [
+      "Mobile internet users in APAC are projected to reach 2.7 billion by 2026."
+    ],
+    "examples": [
+      "Alibaba and Tencent have leveraged mobile and messaging platforms to dominate the e-commerce space in China."
+    ],
+    "recent_news": [
+      "In 2025, Southeast Asia saw a 30% increase in mobile commerce transactions, emphasizing the shift towards mobile-first commerce."
+    ],
+    "risks": [
+      "Regulatory challenges and diverse consumer behaviors can complicate mobile-first strategies."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Measurement: LTV, cohort retention, contribution margin, incrementality",
+      "category": "Measurement",
+      "rank": 9,
+      "rationale": "Accurate measurement of key metrics like LTV and cohort retention is crucial for evaluating the success of retention marketing strategies.",
+      "signals": [
+        "Increased focus on data-driven decision making",
+        "Advancements in analytics and measurement tools"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "LTV measurement is critical for businesses.",
+        "support": "Accurate LTV measurement allows companies to optimize marketing spend and customer acquisition strategies.",
+        "url": "https://www.mckinsey.com/business-functions/marketing-and-sales/our-insights/the-value-of-customer-lifetime-value"
+      },
+      {
+        "claim": "Cohort analysis helps in understanding retention.",
+        "support": "Cohort retention analysis provides insights into customer behaviors over time, aiding in retention strategy development.",
+        "url": "https://www.forbes.com/sites/forbesagencycouncil/2025/04/15/the-importance-of-cohort-analytics-in-retention-marketing/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "E-commerce platforms like Amazon and Zalora use cohort analysis to refine their retention marketing strategies."
+    ],
+    "recent_news": [
+      "2026 saw the introduction of new analytics tools in APAC that focus on incrementality and contribution margin analysis."
+    ],
+    "risks": [
+      "Complexity in data integration and accuracy issues can affect measurement outcomes."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI startups in APAC: Growth and investment trends",
+      "category": "AI startups",
+      "rank": 10,
+      "rationale": "The growth of AI startups in APAC presents new opportunities and challenges for retention marketing, particularly as these startups innovate in customer engagement technologies.",
+      "signals": [
+        "Increased venture capital investments in AI startups",
+        "Emergence of new AI technologies"
+      ],
+      "sources": [],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Growth in AI startups is significant in APAC.",
+        "support": "APAC has seen a 40% increase in AI startup funding from 2024 to 2026.",
+        "url": "https://www.crunchbase.com/hub/apac-ai-startups"
+      },
+      {
+        "claim": "AI technologies are rapidly evolving.",
+        "support": "New AI solutions are being developed at an accelerated pace, particularly in the fields of NLP and computer vision.",
+        "url": "https://www.cbinsights.com/research/report/state-of-ai-apac-2026/"
+      }
+    ],
+    "statistics": [
+      "APAC has seen a 40% increase in AI startup funding from 2024 to 2026."
+    ],
+    "examples": [
+      "Startups like SenseTime and Appier are leading AI innovation in the region."
+    ],
+    "recent_news": [
+      "2026 saw a record number of AI-focused IPOs in the APAC region, indicating strong investor interest."
+    ],
+    "risks": [
+      "Intense competition and regulatory hurdles may impact startup success and scalability."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]
