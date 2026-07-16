@@ -1,0 +1,215 @@
+[
+  {
+    "title": "Thinking Machines open sources first multimodal language model, Inkling",
+    "category": "AI industry",
+    "rank": 1,
+    "rationale": "The release of Inkling represents a significant shift in AI model accessibility, allowing enterprises to utilize open weights models for agentic AI workloads. This can lead to more customizable and private AI solutions, crucial for retention marketing where data privacy is paramount.",
+    "signals": [
+      "Open weights model",
+      "Customizable AI solutions",
+      "Privacy and control in AI workloads"
+    ],
+    "sources": [
+      "https://venturebeat.com/technology/thinking-machines-open-sources-first-multimodal-language-model-inkling-focused-on-low-cost-and-resistance-to-censorship",
+      "https://thinkingmachines.ai/news/introducing-inkling/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent",
+    "category": "Practical AI agents for marketing ops",
+    "rank": 2,
+    "rationale": "Salesforce's new Slackbot AI agent can streamline communication and task management within teams, enhancing the efficiency of marketing operations. This is particularly relevant for retention marketing teams that rely on rapid and coordinated responses.",
+    "signals": [
+      "AI integration in workplace communication",
+      "Enhanced marketing operations",
+      "Streamlined team communication"
+    ],
+    "sources": [
+      "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "WhatsApp commerce with customer data platforms (CDP)",
+    "category": "WhatsApp commerce",
+    "rank": 3,
+    "rationale": "WhatsApp commerce continues to be a critical channel in APAC for businesses to engage with customers. Integrating CDPs for personalized and data-driven interactions can significantly enhance customer retention and lifecycle value.",
+    "signals": [
+      "WhatsApp as a primary commerce channel",
+      "Integration with CDPs",
+      "Personalized customer engagement"
+    ],
+    "sources": [
+      "https://github.com/munisp/whatsappCommerce",
+      "https://github.com/styven2022/whatsapp-chatbot"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Stripe and Advent offer to acquire PayPal",
+    "category": "AI startups",
+    "rank": 4,
+    "rationale": "The potential acquisition of PayPal by Stripe and Advent could reshape the fintech landscape, affecting how digital payments are integrated into retention marketing strategies, especially with AI-driven personalization.",
+    "signals": [
+      "Potential major acquisition in fintech",
+      "Impacts on digital payment integration",
+      "AI-driven personalization in payments"
+    ],
+    "sources": [
+      "https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "category": "AI startups",
+    "rank": 5,
+    "rationale": "Railway's funding to build AI-native cloud infrastructure highlights the growing trend of specialized cloud services that cater specifically to AI applications, which are critical for the scalability and efficiency of retention marketing technologies.",
+    "signals": [
+      "AI-native cloud infrastructure",
+      "Scalability of AI applications",
+      "Specialized cloud services for AI"
+    ],
+    "sources": [
+      "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Agentic orchestration in enterprise AI",
+    "category": "AI industry",
+    "rank": 6,
+    "rationale": "The discussion on agentic orchestration in enterprise AI highlights the challenges of deploying AI agents in business, focusing on operational deployment rather than just platform capabilities. This is crucial for effectively leveraging AI in retention marketing.",
+    "signals": [
+      "Deployment challenges in AI",
+      "Focus on operational effectiveness",
+      "Importance for retention marketing"
+    ],
+    "sources": [
+      "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AWS and Bluesight build AI for hospital 340B compliance",
+    "category": "AI in business",
+    "rank": 7,
+    "rationale": "This development showcases the application of AI in compliance, which is vital for industries with stringent regulatory requirements. It demonstrates AI's potential in optimizing operational processes, a concept that can be extended to retention marketing compliance.",
+    "signals": [
+      "AI in compliance optimization",
+      "Regulatory requirements",
+      "Operational efficiency"
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "L’Oreal, Mondelez, and Nestle use AI to speed product development",
+    "category": "AI industry",
+    "rank": 8,
+    "rationale": "The use of AI by major brands to accelerate product development illustrates the technology's role in enhancing speed to market. This can be pivotal for retention marketing by allowing quicker adaptation to consumer trends and demands.",
+    "signals": [
+      "AI in product development",
+      "Acceleration of speed to market",
+      "Adaptation to consumer trends"
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/ai-product-development-loreal-mondelez-nestle/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Loyalty program design and Shopify ecosystem",
+    "category": "Loyalty programs",
+    "rank": 9,
+    "rationale": "New developments in Shopify loyalty apps highlight ongoing innovations in loyalty program design, which are crucial for improving customer retention and increasing repeat purchases in the competitive e-commerce landscape.",
+    "signals": [
+      "Shopify loyalty apps",
+      "Innovations in loyalty programs",
+      "Impact on customer retention"
+    ],
+    "sources": [
+      "https://github.com/Alohamonde/loyalty-pulse",
+      "https://github.com/gregularjoe/loyalty-and-rewards"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "1Password moves into AI cost management",
+    "category": "AI in business",
+    "rank": 10,
+    "rationale": "1Password’s entry into AI cost management addresses the growing concern of managing AI-related expenses, which is increasingly relevant for businesses leveraging AI for retention marketing.",
+    "signals": [
+      "AI cost management",
+      "Concerns over AI-related expenses",
+      "Relevance for businesses using AI"
+    ],
+    "sources": [
+      "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Cadence unveils AuraStack AI Super Agent",
+    "category": "AI industry",
+    "rank": 11,
+    "rationale": "The introduction of Cadence’s AI Super Agent for PCB and advanced chip packaging design demonstrates the expanding role of AI in specialized industrial applications, indicating potential cross-industry applications including marketing tech.",
+    "signals": [
+      "AI in specialized industrial applications",
+      "Cross-industry potential",
+      "Advanced technology integration"
+    ],
+    "sources": [
+      "https://www.techmeme.com/260715/p51#a260715p51"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Apple bans home services from its upcoming Maps ads",
+    "category": "CRM strategy",
+    "rank": 12,
+    "rationale": "Apple’s decision to ban certain ads from its Maps platform impacts how businesses can target and engage customers through CRM strategies, affecting local and service-based businesses significantly.",
+    "signals": [
+      "Ad policy changes",
+      "Impact on CRM strategies",
+      "Targeting and engagement challenges"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/07/15/apple-quietly-reveals-how-its-maps-ads-will-differ-from-googles/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Amazon announces 2026 holiday fulfillment fees",
+    "category": "Shopify ecosystem",
+    "rank": 13,
+    "rationale": "Amazon's new holiday fulfillment fees will likely influence e-commerce strategies during peak seasons, affecting how Shopify merchants plan their logistics and pricing strategies to maintain customer satisfaction and retention.",
+    "signals": [
+      "E-commerce logistics",
+      "Pricing strategies",
+      "Customer satisfaction and retention"
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/amazon-announces-2026-holiday-fulfillment-fees-advises-early-shipping/825149/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Dollar Shave Club uses generative AI to unlock advertising creativity",
+    "category": "AI in business",
+    "rank": 14,
+    "rationale": "The use of generative AI by Dollar Shave Club for advertising creativity highlights the potential of AI to transform marketing content creation, providing new opportunities for engagement and retention.",
+    "signals": [
+      "Generative AI in advertising",
+      "Transforming content creation",
+      "Opportunities for engagement and retention"
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/how-dollar-shave-club-uses-generative-ai-to-unlock-advertising-creativity/825181/"
+    ],
+    "region": "APAC"
+  }
+]
