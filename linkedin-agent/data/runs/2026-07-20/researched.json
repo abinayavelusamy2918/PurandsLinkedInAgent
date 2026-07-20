@@ -1,0 +1,490 @@
+[
+  {
+    "trend": {
+      "title": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+      "category": "AI industry",
+      "rank": 1,
+      "rationale": "The rapid acceleration of AI infrastructure spending highlights a critical issue for enterprises as they struggle to understand and manage their AI-related costs. This discussion is especially relevant for retention marketing, where efficient AI infrastructure can directly impact customer engagement and lifetime value.",
+      "signals": [
+        "Enterprises are heavily investing in AI infrastructure.",
+        "Challenges in measuring and controlling AI costs.",
+        "Potential impact on retention marketing strategies."
+      ],
+      "sources": [
+        "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+        "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Enterprises are heavily investing in AI infrastructure.",
+        "support": "Reports indicate increased spending on AI infrastructure by large enterprises, driven by the need to support complex AI workloads.",
+        "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs"
+      },
+      {
+        "claim": "Challenges in measuring and controlling AI costs.",
+        "support": "Enterprises face difficulties in tracking and managing AI-related expenses due to the rapid pace of adoption and lack of standardized cost metrics.",
+        "url": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Overspending on AI infrastructure without clear ROI can strain budgets.",
+      "Lack of cost control mechanisms may lead to inefficient resource allocation."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "The agent security gap: 54% of enterprises have already had an AI agent incident",
+      "category": "AI startups",
+      "rank": 2,
+      "rationale": "Security incidents involving AI agents pose significant risks to businesses, especially in retention marketing where sensitive customer data is involved. Understanding these risks is crucial for companies deploying AI in customer engagement workflows.",
+      "signals": [
+        "High incidence of security breaches involving AI agents.",
+        "Enterprises still allowing agents to share credentials.",
+        "Implications for handling sensitive customer data."
+      ],
+      "sources": [
+        "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "High incidence of security breaches involving AI agents.",
+        "support": "A survey cited reports that 54% of enterprises experienced AI agent security incidents.",
+        "url": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials"
+      }
+    ],
+    "statistics": [
+      "54% of enterprises have experienced security incidents involving AI agents."
+    ],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Security breaches can lead to loss of sensitive customer data.",
+      "Failure to address security gaps may result in regulatory penalties."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Moonshot AI pauses new subscriptions due to overwhelming demand for Kimi K3",
+      "category": "AI startups",
+      "rank": 3,
+      "rationale": "The surge in demand for Moonshot AI's Kimi K3 underscores the growing interest and reliance on AI technologies. For retention marketers, understanding these emerging AI capabilities can offer competitive advantages in customer engagement strategies.",
+      "signals": [
+        "High demand for new AI models.",
+        "Potential for AI-driven innovations in retention marketing.",
+        "Need for scalable AI solutions."
+      ],
+      "sources": [
+        "https://www.techmeme.com/260719/p11#a260719p11"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "High demand for new AI models.",
+        "support": "Reports indicate that Moonshot AI has paused new subscriptions due to overwhelming demand.",
+        "url": "https://www.techmeme.com/260719/p11#a260719p11"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Scalability issues may limit the ability to meet customer demand.",
+      "Potential delays in adoption of AI solutions due to subscription pauses."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "As companies cut AI costs, Shopify goes all-in on frontier models",
+      "category": "Shopify ecosystem",
+      "rank": 4,
+      "rationale": "Shopify's commitment to advanced AI models reflects a strategic move to enhance its platform's capabilities. This approach highlights the importance of leveraging cutting-edge AI in improving customer retention and engagement for e-commerce platforms.",
+      "signals": [
+        "Shopify's strategic investment in AI.",
+        "Potential impact on e-commerce customer retention.",
+        "Differentiation through advanced AI capabilities."
+      ],
+      "sources": [
+        "https://www.techmeme.com/260719/p10#a260719p10"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Shopify's strategic investment in AI.",
+        "support": "Shopify is investing in advanced AI models to enhance its platform capabilities.",
+        "url": "https://www.techmeme.com/260719/p10#a260719p10"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "High investment in AI may not yield immediate returns.",
+      "Risk of over-reliance on AI models without adequate human oversight."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Current AI aims to build the World Wide Web of AI, free for all",
+      "category": "AI industry",
+      "rank": 5,
+      "rationale": "The initiative to create a global AI infrastructure could democratize access to AI technologies, impacting how businesses, including those in retention marketing, leverage AI for customer engagement and operational efficiency.",
+      "signals": [
+        "Nonprofit initiative for open AI infrastructure.",
+        "Potential for widespread AI adoption.",
+        "Implications for customer engagement strategies."
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "claim": "Nonprofit initiative for open AI infrastructure.",
+        "support": "Current AI is working to build an open, global AI infrastructure.",
+        "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Achieving global AI infrastructure may face significant technical and political hurdles.",
+      "Free access to AI technologies could lead to misuse without proper regulations."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Agentic orchestration: Enterprise AI organizations have a deployment problem",
+      "category": "AI industry",
+      "rank": 6,
+      "rationale": "The discussion around agent orchestration highlights the deployment challenges that enterprises face with AI. For retention marketers, ensuring seamless AI integration is crucial for effective customer data management and engagement.",
+      "signals": [
+        "Challenges in deploying AI agents effectively.",
+        "Impact on customer data platforms and CRM systems.",
+        "Need for robust AI deployment strategies."
+      ],
+      "sources": [
+        "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Challenges in deploying AI agents effectively.",
+        "support": "Enterprises face significant challenges in effectively deploying AI agents, impacting overall AI strategy.",
+        "url": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Improper deployment can lead to inefficiencies and reduced effectiveness of AI solutions.",
+      "Failure to integrate AI seamlessly can disrupt existing workflows and systems."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI agent crawlers now need permission",
+      "category": "AI industry",
+      "rank": 7,
+      "rationale": "The requirement for AI agent crawlers to obtain permissions before accessing web data underscores the growing emphasis on data privacy and security. This is particularly relevant for retention marketing, where data integrity is paramount.",
+      "signals": [
+        "New regulations for AI agent crawlers.",
+        "Increased focus on data privacy and security.",
+        "Implications for customer data management."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/ai-agent-crawlers-cloudflare-rules/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "New regulations for AI agent crawlers.",
+        "support": "Cloudflare and other companies are implementing new rules requiring permissions for AI agent crawlers.",
+        "url": "https://www.artificialintelligence-news.com/news/ai-agent-crawlers-cloudflare-rules/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Increased regulatory compliance burden for companies using AI crawlers.",
+      "Potential limitations on data access could impact AI training and operations."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AWS and Bluesight build AI for hospital 340B compliance",
+      "category": "AI in business",
+      "rank": 8,
+      "rationale": "The integration of AI in compliance workflows demonstrates AI's potential to streamline complex processes. Retention marketers can draw parallels in automating compliance and regulatory aspects of customer engagement.",
+      "signals": [
+        "AI's role in compliance and regulatory processes.",
+        "Potential for automating complex business workflows.",
+        "Case study of AI in healthcare compliance."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "AI's role in compliance and regulatory processes.",
+        "support": "AWS and Bluesight are using AI to assist with 340B compliance in hospitals, highlighting AI's role in regulatory processes.",
+        "url": "https://www.artificialintelligence-news.com/news/aws-and-bluesight-build-ai-for-hospital-340b-compliance/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Reliance on AI for compliance may lead to oversight if not properly managed.",
+      "Errors in AI systems could result in non-compliance and legal issues."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Neko Health raises $700 million to expand AI body scans in the US",
+      "category": "AI startups",
+      "rank": 9,
+      "rationale": "Significant funding for AI-driven health innovations indicates a robust market interest in AI applications. This trend can inspire retention marketers to explore AI's potential in personalized healthcare and customer engagement solutions.",
+      "signals": [
+        "Large investment in AI health technology.",
+        "Interest in AI-driven personalized healthcare solutions.",
+        "Implications for personalized customer engagement."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Large investment in AI health technology.",
+        "support": "Neko Health has raised $700 million to expand its AI-driven body scan technology in the US.",
+        "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/"
+      }
+    ],
+    "statistics": [
+      "$700 million raised by Neko Health for AI body scan expansion."
+    ],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Regulatory challenges in deploying AI health technologies.",
+      "Potential privacy concerns with the use of AI in personal health data."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Moonshot AI releases Kimi K3, rivaling top U.S. systems",
+      "category": "AI startups",
+      "rank": 10,
+      "rationale": "The release of Kimi K3 by Moonshot AI, competing with leading U.S. AI systems, highlights the competitive landscape in AI development. Retention marketers can leverage such advancements to enhance customer interaction capabilities.",
+      "signals": [
+        "Competition between global AI models.",
+        "Potential for enhanced customer interaction capabilities.",
+        "Significance of advanced AI systems in retention marketing."
+      ],
+      "sources": [
+        "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Competition between global AI models.",
+        "support": "Moonshot AI's release of Kimi K3 shows competition with top U.S. AI systems.",
+        "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Competitive pressures may drive rapid but unsustainable development cycles.",
+      "Potential for increased geopolitical tensions in AI development."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Jensen Huang’s Japan visit and its implications",
+      "category": "AI industry",
+      "rank": 11,
+      "rationale": "Jensen Huang's visit to Japan, resulting in deals across the tech ecosystem, underscores the strategic importance of APAC in AI advancements. This could influence retention marketing strategies targeting APAC consumers.",
+      "signals": [
+        "Strategic deals in Japan's tech ecosystem.",
+        "APAC's significance in AI advancements.",
+        "Implications for regional retention marketing strategies."
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Strategic deals in Japan's tech ecosystem.",
+        "support": "Jensen Huang's visit to Japan resulted in strategic deals that highlight the region's role in AI advancements.",
+        "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Dependence on regional partnerships may limit flexibility in global operations.",
+      "Cultural and regulatory differences can pose challenges in executing international strategies."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Anthropic's strategic AI development",
+      "category": "AI industry",
+      "rank": 12,
+      "rationale": "Anthropic's latest AI developments provide insights into the company's strategic direction. For retention marketers, understanding these developments can help anticipate future AI capabilities that impact customer engagement.",
+      "signals": [
+        "Anthropic's AI strategic direction.",
+        "Impact on future AI capabilities for customer engagement.",
+        "Significance for retention marketing strategies."
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "claim": "Anthropic's AI strategic direction.",
+        "support": "Reports outline Anthropic's strategic AI developments and their implications.",
+        "url": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Strategic shifts may lead to uncertainty in product development timelines.",
+      "Potential misalignment with market demand if strategic directions are not well-targeted."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AWS GraphRAG deployment significantly reduces drug research cycles",
+      "category": "AI in business",
+      "rank": 13,
+      "rationale": "AWS's deployment of GraphRAG, which drastically cuts research cycles, exemplifies AI's potential to accelerate complex processes. Retention marketers can draw parallels to streamline customer data analysis and engagement strategies.",
+      "signals": [
+        "AI's role in accelerating research and development.",
+        "Potential for efficiency gains in customer data analysis.",
+        "Relevance to retention marketing strategies."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "AI's role in accelerating research and development.",
+        "support": "AWS's GraphRAG has reportedly reduced drug research cycles by 87%, showcasing AI's impact on process acceleration.",
+        "url": "https://www.artificialintelligence-news.com/news/aws-graphrag-deployment-cuts-drug-research-cycles-by-87/"
+      }
+    ],
+    "statistics": [
+      "AWS GraphRAG reduces drug research cycles by 87%."
+    ],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Over-reliance on AI for critical processes without human oversight could lead to errors.",
+      "Significant upfront investment required to integrate AI solutions into existing workflows."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Nokia's AI-RAN platform runs on NVIDIA",
+      "category": "AI in business",
+      "rank": 14,
+      "rationale": "Nokia's AI-RAN platform, leveraging NVIDIA's technology, illustrates AI's integration into telecommunications. Retention marketers can explore similar integrations to enhance customer communication and engagement.",
+      "signals": [
+        "AI integration in telecommunications.",
+        "Potential for improving customer communication.",
+        "Relevance to enhancing customer engagement strategies."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "AI integration in telecommunications.",
+        "support": "Nokia's use of NVIDIA technology in its AI-RAN platform demonstrates AI's role in enhancing telecommunications.",
+        "url": "https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Technical challenges in integrating AI with existing telecom infrastructure.",
+      "Potential security vulnerabilities if AI systems are not properly secured."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]
