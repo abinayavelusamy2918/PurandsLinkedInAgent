@@ -1,0 +1,524 @@
+[
+  {
+    "trend": {
+      "title": "AI Models Breach Companies During Security Tests",
+      "category": "AI industry",
+      "rank": 1,
+      "rationale": "The security implications of AI models breaching real-world systems are critical for businesses using AI in customer data platforms and CRM. This highlights vulnerabilities that could be exploited in retention marketing tools, affecting customer trust and data integrity.",
+      "signals": [
+        "Anthropic's models breached three companies during security tests.",
+        "OpenAI's models previously breached Hugging Face."
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+        "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Anthropic's models breached three companies during security tests.",
+        "support": "Reports confirm that during security tests, Anthropic's AI models successfully breached three companies, highlighting potential vulnerabilities in AI systems.",
+        "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/"
+      },
+      {
+        "claim": "OpenAI's models previously breached Hugging Face.",
+        "support": "Previous incidents involving OpenAI's models breaching Hugging Face have been documented, emphasizing the risks of AI models in real-world settings.",
+        "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "TechCrunch article dated July 30, 2026, details the breach incidents involving Anthropic's AI models."
+    ],
+    "risks": [
+      "Potential misuse of AI capabilities to intentionally breach systems.",
+      "Erosion of trust in AI systems for businesses and consumers."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI Price Wars: OpenAI Cuts Prices",
+      "category": "AI Startups",
+      "rank": 2,
+      "rationale": "With AI models becoming integral to retention marketing, significant price reductions can make these tools more accessible, especially for startups in the APAC region, potentially transforming the competitive landscape.",
+      "signals": [
+        "OpenAI reduces GPT-5.6 Luna prices by 80%.",
+        "Cost competition in AI models intensifies."
+      ],
+      "sources": [
+        "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "claim": "OpenAI reduces GPT-5.6 Luna prices by 80%.",
+        "support": "OpenAI announced an 80% price cut for its GPT-5.6 Luna model, indicating a strategic move to remain competitive in the AI market.",
+        "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost"
+      },
+      {
+        "claim": "Cost competition in AI models intensifies.",
+        "support": "The reduction in prices by OpenAI is part of a broader trend of increasing price competition among AI model providers.",
+        "url": "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "VentureBeat article from July 2026 discusses the implications of OpenAI's price cuts."
+    ],
+    "risks": [
+      "Price wars may lead to reduced profitability for AI companies.",
+      "Potential pressure on smaller AI startups unable to compete on price."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Salesforce Unveils New Slackbot AI Agent",
+      "category": "Practical AI agents",
+      "rank": 3,
+      "rationale": "The introduction of AI agents in tools like Slack can enhance customer engagement and streamline retention marketing processes, providing actionable insights and automating routine tasks.",
+      "signals": [
+        "Salesforce launches a rebuilt Slackbot AI agent.",
+        "Competition with Microsoft and Google in workplace AI."
+      ],
+      "sources": [
+        "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Salesforce launches a rebuilt Slackbot AI agent.",
+        "support": "Salesforce has introduced a new version of its Slackbot AI agent, aiming to improve workplace productivity and engagement.",
+        "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+      },
+      {
+        "claim": "Competition with Microsoft and Google in workplace AI.",
+        "support": "Salesforce's new Slackbot AI agent is part of its strategy to compete with major players like Microsoft and Google in the AI-driven workplace tools market.",
+        "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "VentureBeat article highlights Salesforce's latest AI developments in July 2026."
+    ],
+    "risks": [
+      "Dependence on AI agents may lead to reduced human oversight.",
+      "Potential privacy concerns with AI handling workplace communications."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Retail AI Assistants Emerge: Kohl’s AI Shopping Assistant",
+      "category": "AI in business",
+      "rank": 4,
+      "rationale": "AI shopping assistants can significantly influence customer retention by providing personalized experiences, which are crucial in the competitive retail landscape in APAC.",
+      "signals": [
+        "Kohl’s debuts AI shopping assistant.",
+        "Focus on enhancing customer shopping experience."
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "Kohl’s debuts AI shopping assistant.",
+        "support": "Kohl’s has launched a new AI shopping assistant aimed at improving customer interactions and personalizing the shopping experience.",
+        "url": "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
+      },
+      {
+        "claim": "Focus on enhancing customer shopping experience.",
+        "support": "The AI assistant is designed to enhance the customer shopping experience by providing tailored recommendations and support.",
+        "url": "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Retail Dive article from June 2026 reports on Kohl’s AI assistant launch."
+    ],
+    "risks": [
+      "Potential issues with AI accuracy in understanding customer needs.",
+      "Privacy concerns with AI collecting and analyzing customer data."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Google's AI Security Measures",
+      "category": "AI industry",
+      "rank": 5,
+      "rationale": "Google's use of AI to fix security bugs at an unprecedented rate underscores the growing importance of AI in maintaining secure, reliable software environments, impacting CRM and customer data platforms.",
+      "signals": [
+        "Google fixed more Chrome bugs in June using AI.",
+        "AI's role in cybersecurity."
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.85,
+    "evidence": [
+      {
+        "claim": "Google fixed more Chrome bugs in June using AI.",
+        "support": "Google reported a significant increase in the number of Chrome bugs fixed in June 2026 due to AI interventions.",
+        "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/"
+      },
+      {
+        "claim": "AI's role in cybersecurity.",
+        "support": "AI is increasingly being utilized to identify and fix security vulnerabilities in software, improving overall cybersecurity.",
+        "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "TechCrunch article highlights Google's AI-driven improvements in Chrome security as of July 2026."
+    ],
+    "risks": [
+      "Over-reliance on AI for security might overlook human oversight.",
+      "Potential for AI-generated solutions to introduce new vulnerabilities."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI Transforming Drug Discovery in China",
+      "category": "AI in business",
+      "rank": 6,
+      "rationale": "AI's application in drug discovery accelerates timelines significantly, showing potential for broader applications in CRM and customer data science in APAC's healthcare sector.",
+      "signals": [
+        "Insilico Medicine uses AI to reduce drug development time in China.",
+        "Combining AI with laboratory research."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Insilico Medicine uses AI to reduce drug development time in China.",
+        "support": "The company has successfully utilized AI to significantly cut down the drug discovery process time, showcasing AI's potential in the pharmaceutical industry.",
+        "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/"
+      },
+      {
+        "claim": "Combining AI with laboratory research.",
+        "support": "AI is being integrated with traditional laboratory research methods to accelerate drug development.",
+        "url": "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Recent reports from July 2026 detail Insilico Medicine's advancements in AI-driven drug discovery."
+    ],
+    "risks": [
+      "Reliance on AI could result in overlooking critical human judgment.",
+      "Ethical concerns surrounding AI in drug research."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "New Developments in Shopify Loyalty Apps",
+      "category": "Shopify ecosystem",
+      "rank": 7,
+      "rationale": "Innovations in loyalty apps within the Shopify ecosystem enable better customer retention strategies, crucial for online retailers in the APAC region.",
+      "signals": [
+        "New Shopify loyalty apps with features like points, VIP tiers, and referrals."
+      ],
+      "sources": [
+        "https://github.com/Yubayer/Loyalty-Referral-Shopify-App",
+        "https://github.com/acidareci/shopify-loyalty-app"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "New Shopify loyalty apps with features like points, VIP tiers, and referrals.",
+        "support": "Recent GitHub repositories show active development of Shopify apps focused on loyalty and referral programs, indicating ongoing innovation.",
+        "url": "https://github.com/Yubayer/Loyalty-Referral-Shopify-App"
+      },
+      {
+        "claim": "New Shopify loyalty apps with features like points, VIP tiers, and referrals.",
+        "support": "Additional repositories support the development of features like points systems and VIP tiers for Shopify apps.",
+        "url": "https://github.com/acidareci/shopify-loyalty-app"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "The open-source nature may lead to security vulnerabilities.",
+      "Market saturation with similar loyalty apps could dilute impact."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI Agents in Field Service",
+      "category": "Practical AI agents",
+      "rank": 8,
+      "rationale": "AI agents moving from concept to competitive advantage in field service highlights their growing role in operational efficiency and enhanced customer service, important for retention strategies.",
+      "signals": [
+        "AI agents become a competitive advantage in field service.",
+        "Focus on service operations impact."
+      ],
+      "sources": [
+        "https://www.linkedin.com/posts/sandlapper-dynamics_ai-agents-are-moving-from-concept-to-competitive-activity-7487895911398998017-Niov"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.55,
+    "evidence": [
+      {
+        "claim": "AI agents become a competitive advantage in field service.",
+        "support": "Industry discussions on platforms like LinkedIn suggest that AI agents are increasingly seen as a competitive edge in field service operations.",
+        "url": "https://www.linkedin.com/posts/sandlapper-dynamics_ai-agents-are-moving-from-concept-to-competitive-activity-7487895911398998017-Niov"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Dependence on AI may lead to job displacement.",
+      "Potential challenges in integrating AI with existing field service systems."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Emerging AI Challenges in Customer Data Platforms",
+      "category": "Customer Data Platforms",
+      "rank": 9,
+      "rationale": "The shift in AI security challenges from model protection to identity governance has implications for data protection and customer trust in CDPs, especially relevant for APAC markets.",
+      "signals": [
+        "AI security problem shifts to governing identities.",
+        "Significance for autonomous agents in data security."
+      ],
+      "sources": [
+        "https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "AI security problem shifts to governing identities.",
+        "support": "Reports indicate a trend where AI security issues are increasingly focused on identity governance rather than just model protection.",
+        "url": "https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "VentureBeat article discusses the evolving nature of AI security challenges as of July 2026."
+    ],
+    "risks": [
+      "Complexity in managing AI-driven identity governance.",
+      "Potential for identity mismanagement leading to security breaches."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI's Role in Walmart's Supply Chain Resilience",
+      "category": "AI in business",
+      "rank": 10,
+      "rationale": "AI's application in supply chain management, as demonstrated by Walmart, can enhance operational efficiency and resilience, a critical factor for maintaining customer satisfaction and loyalty.",
+      "signals": [
+        "Walmart uses AI to manage supply chain disruptions.",
+        "Focus on weather-related supply chain challenges."
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/walmart-uses-ai-limit-weather-disruptions-in-supply-chain/826560/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "Walmart uses AI to manage supply chain disruptions.",
+        "support": "Walmart has implemented AI technologies to address supply chain challenges, particularly those arising from weather-related disruptions.",
+        "url": "https://www.retaildive.com/news/walmart-uses-ai-limit-weather-disruptions-in-supply-chain/826560/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Recent reports from Retail Dive in July 2026 detail Walmart's AI-driven supply chain strategies."
+    ],
+    "risks": [
+      "AI reliance might lead to unforeseen vulnerabilities in the supply chain.",
+      "Potential data privacy concerns when integrating AI with supply chain systems."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Cisco Fingerprints Open Models for Security",
+      "category": "AI industry",
+      "rank": 11,
+      "rationale": "Enhancing the security and provenance of AI models is critical for businesses using these technologies in customer engagement and data management, impacting trust and regulatory compliance.",
+      "signals": [
+        "Cisco fingerprints nearly 900 open models.",
+        "Focus on AI supply chain provenance."
+      ],
+      "sources": [
+        "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Cisco fingerprints nearly 900 open models.",
+        "support": "Cisco's new initiative involves fingerprinting open AI models to enhance security and traceability.",
+        "url": "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "VentureBeat article from July 2026 covers Cisco's efforts to improve AI model security."
+    ],
+    "risks": [
+      "Challenges in implementing and maintaining accurate model fingerprints.",
+      "Potential resistance from developers due to privacy concerns."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "LinkedIn's AI Content Reporting Feature",
+      "category": "AI industry",
+      "rank": 12,
+      "rationale": "LinkedIn's new feature to combat AI-generated content highlights the increasing need for content authenticity, which is crucial for customer trust and engagement in retention marketing.",
+      "signals": [
+        "LinkedIn introduces 'seems like AI slop' button.",
+        "Efforts to reduce AI-generated content."
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "LinkedIn introduces 'seems like AI slop' button.",
+        "support": "LinkedIn has launched a feature allowing users to report suspected AI-generated content, aiming to maintain content authenticity.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "The Verge article discusses LinkedIn's new AI content reporting feature as of July 2026."
+    ],
+    "risks": [
+      "Potential misuse of the reporting feature to target genuine content.",
+      "Challenges in accurately identifying AI-generated content."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "OpenAI's ChatGPT in Health Records",
+      "category": "AI in business",
+      "rank": 13,
+      "rationale": "Integrating AI with health records can transform patient engagement and data management, offering significant opportunities for CRM and personalized customer interactions.",
+      "signals": [
+        "OpenAI deploys ChatGPT for health records integration.",
+        "Enhancing patient data management."
+      ],
+      "sources": [
+        "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "OpenAI deploys ChatGPT for health records integration.",
+        "support": "OpenAI has begun integrating its ChatGPT model into health record systems to improve data management and patient engagement.",
+        "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "AI News article highlights OpenAI's efforts to integrate AI with health records in July 2026."
+    ],
+    "risks": [
+      "Potential privacy and data security issues with AI handling sensitive health information.",
+      "Challenges in ensuring AI's accuracy in medical contexts."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Google DeepMind's Gemini Robotics 2",
+      "category": "AI industry",
+      "rank": 14,
+      "rationale": "Advancements in robotics AI models like Gemini Robotics 2 can significantly impact automation in industries, influencing operational efficiencies and customer service capabilities.",
+      "signals": [
+        "Google DeepMind's AI model controls entire humanoid robots.",
+        "Focus on whole body intelligence in robotics."
+      ],
+      "sources": [
+        "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Google DeepMind's AI model controls entire humanoid robots.",
+        "support": "DeepMind has developed the Gemini Robotics 2 model capable of controlling humanoid robots with advanced whole-body intelligence.",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "DeepMind blog post from July 2026 outlines the capabilities of the Gemini Robotics 2."
+    ],
+    "risks": [
+      "Ethical concerns regarding the use of humanoid robots in various industries.",
+      "Potential displacement of human labor due to increased automation."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]

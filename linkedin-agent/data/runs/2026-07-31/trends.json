@@ -1,0 +1,199 @@
+[
+  {
+    "title": "AI Models Breach Companies During Security Tests",
+    "category": "AI industry",
+    "rank": 1,
+    "rationale": "The security implications of AI models breaching real-world systems are critical for businesses using AI in customer data platforms and CRM. This highlights vulnerabilities that could be exploited in retention marketing tools, affecting customer trust and data integrity.",
+    "signals": [
+      "Anthropic's models breached three companies during security tests.",
+      "OpenAI's models previously breached Hugging Face."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI Price Wars: OpenAI Cuts Prices",
+    "category": "AI Startups",
+    "rank": 2,
+    "rationale": "With AI models becoming integral to retention marketing, significant price reductions can make these tools more accessible, especially for startups in the APAC region, potentially transforming the competitive landscape.",
+    "signals": [
+      "OpenAI reduces GPT-5.6 Luna prices by 80%.",
+      "Cost competition in AI models intensifies."
+    ],
+    "sources": [
+      "https://venturebeat.com/technology/ai-price-wars-openai-cuts-gpt-5-6-luna-prices-by-80-as-model-competition-shifts-toward-cost"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Salesforce Unveils New Slackbot AI Agent",
+    "category": "Practical AI agents",
+    "rank": 3,
+    "rationale": "The introduction of AI agents in tools like Slack can enhance customer engagement and streamline retention marketing processes, providing actionable insights and automating routine tasks.",
+    "signals": [
+      "Salesforce launches a rebuilt Slackbot AI agent.",
+      "Competition with Microsoft and Google in workplace AI."
+    ],
+    "sources": [
+      "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Retail AI Assistants Emerge: Kohl’s AI Shopping Assistant",
+    "category": "AI in business",
+    "rank": 4,
+    "rationale": "AI shopping assistants can significantly influence customer retention by providing personalized experiences, which are crucial in the competitive retail landscape in APAC.",
+    "signals": [
+      "Kohl’s debuts AI shopping assistant.",
+      "Focus on enhancing customer shopping experience."
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/kohls-ai-shopping-assistant/826585/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Google's AI Security Measures",
+    "category": "AI industry",
+    "rank": 5,
+    "rationale": "Google's use of AI to fix security bugs at an unprecedented rate underscores the growing importance of AI in maintaining secure, reliable software environments, impacting CRM and customer data platforms.",
+    "signals": [
+      "Google fixed more Chrome bugs in June using AI.",
+      "AI's role in cybersecurity."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI Transforming Drug Discovery in China",
+    "category": "AI in business",
+    "rank": 6,
+    "rationale": "AI's application in drug discovery accelerates timelines significantly, showing potential for broader applications in CRM and customer data science in APAC's healthcare sector.",
+    "signals": [
+      "Insilico Medicine uses AI to reduce drug development time in China.",
+      "Combining AI with laboratory research."
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/ai-drug-discovery-china/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "New Developments in Shopify Loyalty Apps",
+    "category": "Shopify ecosystem",
+    "rank": 7,
+    "rationale": "Innovations in loyalty apps within the Shopify ecosystem enable better customer retention strategies, crucial for online retailers in the APAC region.",
+    "signals": [
+      "New Shopify loyalty apps with features like points, VIP tiers, and referrals."
+    ],
+    "sources": [
+      "https://github.com/Yubayer/Loyalty-Referral-Shopify-App",
+      "https://github.com/acidareci/shopify-loyalty-app"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI Agents in Field Service",
+    "category": "Practical AI agents",
+    "rank": 8,
+    "rationale": "AI agents moving from concept to competitive advantage in field service highlights their growing role in operational efficiency and enhanced customer service, important for retention strategies.",
+    "signals": [
+      "AI agents become a competitive advantage in field service.",
+      "Focus on service operations impact."
+    ],
+    "sources": [
+      "https://www.linkedin.com/posts/sandlapper-dynamics_ai-agents-are-moving-from-concept-to-competitive-activity-7487895911398998017-Niov"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Emerging AI Challenges in Customer Data Platforms",
+    "category": "Customer Data Platforms",
+    "rank": 9,
+    "rationale": "The shift in AI security challenges from model protection to identity governance has implications for data protection and customer trust in CDPs, especially relevant for APAC markets.",
+    "signals": [
+      "AI security problem shifts to governing identities.",
+      "Significance for autonomous agents in data security."
+    ],
+    "sources": [
+      "https://venturebeat.com/security/hush-security-says-the-ai-security-problem-has-shifted-from-protecting-models-to-governing-identities-as-autonomous-agents-spread"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI's Role in Walmart's Supply Chain Resilience",
+    "category": "AI in business",
+    "rank": 10,
+    "rationale": "AI's application in supply chain management, as demonstrated by Walmart, can enhance operational efficiency and resilience, a critical factor for maintaining customer satisfaction and loyalty.",
+    "signals": [
+      "Walmart uses AI to manage supply chain disruptions.",
+      "Focus on weather-related supply chain challenges."
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/walmart-uses-ai-limit-weather-disruptions-in-supply-chain/826560/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Cisco Fingerprints Open Models for Security",
+    "category": "AI industry",
+    "rank": 11,
+    "rationale": "Enhancing the security and provenance of AI models is critical for businesses using these technologies in customer engagement and data management, impacting trust and regulatory compliance.",
+    "signals": [
+      "Cisco fingerprints nearly 900 open models.",
+      "Focus on AI supply chain provenance."
+    ],
+    "sources": [
+      "https://venturebeat.com/security/cisco-ai-supply-chain-provenance-explorer-fingerprints-900-open-models-replaces-self-reported-tags"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "LinkedIn's AI Content Reporting Feature",
+    "category": "AI industry",
+    "rank": 12,
+    "rationale": "LinkedIn's new feature to combat AI-generated content highlights the increasing need for content authenticity, which is crucial for customer trust and engagement in retention marketing.",
+    "signals": [
+      "LinkedIn introduces 'seems like AI slop' button.",
+      "Efforts to reduce AI-generated content."
+    ],
+    "sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "OpenAI's ChatGPT in Health Records",
+    "category": "AI in business",
+    "rank": 13,
+    "rationale": "Integrating AI with health records can transform patient engagement and data management, offering significant opportunities for CRM and personalized customer interactions.",
+    "signals": [
+      "OpenAI deploys ChatGPT for health records integration.",
+      "Enhancing patient data management."
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Google DeepMind's Gemini Robotics 2",
+    "category": "AI industry",
+    "rank": 14,
+    "rationale": "Advancements in robotics AI models like Gemini Robotics 2 can significantly impact automation in industries, influencing operational efficiencies and customer service capabilities.",
+    "signals": [
+      "Google DeepMind's AI model controls entire humanoid robots.",
+      "Focus on whole body intelligence in robotics."
+    ],
+    "sources": [
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots"
+    ],
+    "region": "APAC"
+  }
+]
