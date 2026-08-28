@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Salesforce integrates entire CRM within Claude AI",
+    "category": "CRM",
+    "rank": 1,
+    "rationale": "This integration represents a significant leap in CRM management, potentially redefining how enterprises interact with CRM systems by leveraging AI. It could drastically alter customer engagement strategies and lifecycle messaging, which are crucial for retention marketing.",
+    "signals": [
+      "Salesforce's strategic move to integrate its entire CRM into Claude AI.",
+      "Potential shift in CRM management and engagement strategies."
+    ],
+    "sources": [
+      "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Visa's AI security harness patches production code autonomously",
+    "category": "AI in Business",
+    "rank": 2,
+    "rationale": "Visa's deployment of AI for autonomous code patching showcases a practical application of AI in business operations. This can inspire similar innovations in marketing systems, enhancing reliability and efficiency, which is vital for customer trust and retention.",
+    "signals": [
+      "Visa's open-source AI security harness for autonomous code patching.",
+      "Potential improvements in system reliability and customer trust."
+    ],
+    "sources": [
+      "https://venturebeat.com/security/visa-agentic-security-harness-autonomous-fix"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Anthropic and OpenAI call for defense against rogue AI",
+    "category": "AI Industry",
+    "rank": 3,
+    "rationale": "The collaboration of major AI players to address cybersecurity threats highlights the increasing awareness and necessity of robust AI governance. This is crucial for retention marketing platforms relying on AI-driven insights and operations.",
+    "signals": [
+      "Collaboration among AI giants to tackle rogue AI threats.",
+      "Emphasis on AI governance and security."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Orchestration challenges in CX with AI agents",
+    "category": "AI in Business",
+    "rank": 4,
+    "rationale": "As businesses deploy AI agents for customer experience, orchestrating these systems effectively is essential to maintain seamless customer interactions. This is highly relevant for retention marketing, where customer experience directly impacts loyalty and repeat purchases.",
+    "signals": [
+      "Enterprises deploying AI agents across various customer engagement channels.",
+      "Challenges in orchestrating AI-driven customer experiences."
+    ],
+    "sources": [
+      "https://venturebeat.com/orchestration/orchestration-is-the-new-challenge-for-cx-in-the-age-of-ai-agents"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Enterprise AI's risk in agent complexity",
+    "category": "AI in Business",
+    "rank": 5,
+    "rationale": "Complexity in AI systems can undermine the effectiveness of enterprise solutions, including retention marketing platforms. Understanding and managing this complexity is crucial for maintaining system performance and delivering reliable customer insights.",
+    "signals": [
+      "Discussion on the complexity of AI systems in enterprises.",
+      "Impact on the effectiveness of AI-driven solutions."
+    ],
+    "sources": [
+      "https://venturebeat.com/ai/enterprise-ais-real-risk-isnt-autonomous-agents-its-the-complexity-between-them"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Stripe abandons pursuit of PayPal",
+    "category": "Fintech",
+    "rank": 6,
+    "rationale": "Stripe's decision to halt its acquisition of PayPal could shift competitive dynamics in the payment processing space, impacting e-commerce and consequently, retention marketing strategies for businesses relying on these platforms.",
+    "signals": [
+      "Stripe's strategic decision to abandon PayPal acquisition.",
+      "Potential impact on the competitive landscape of payment processing."
+    ],
+    "sources": [
+      "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Meta settles $18B lawsuit over children's data use",
+    "category": "AI in Business",
+    "rank": 7,
+    "rationale": "The settlement highlights ongoing privacy concerns in AI and data usage. For retention marketing platforms, ensuring data privacy and compliance is critical for maintaining customer trust and regulatory adherence.",
+    "signals": [
+      "Meta's legal settlement regarding children's data use.",
+      "Implications for data privacy and AI model training."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/08/27/buried-in-metas-18b-settlement-is-a-legal-pass-on-kids-data"
+    ],
+    "region": "APAC"
+  }
+]
