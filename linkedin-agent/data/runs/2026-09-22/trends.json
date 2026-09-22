@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Meta's Muse Blocks Amazon Access, Shopify Integration Planned",
+    "category": "Shopify ecosystem",
+    "rank": 1,
+    "rationale": "Meta's Muse is a rapidly growing AI agent that has been blocked from accessing Amazon. However, Shopify plans to integrate Muse for one-tap purchases, highlighting a significant shift in e-commerce dynamics, especially in APAC where mobile and messaging-first commerce is prevalent. This could impact retention strategies as platforms leverage AI for seamless shopping experiences.",
+    "signals": [
+      "Meta Muse is outpacing ChatGPT's early mobile launch.",
+      "Meta's AI agent has been blocked from using Amazon.com.",
+      "Shopify plans to allow Meta's Muse to complete purchases on behalf of users."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "https://www.techmeme.com/260921/p55#a260921p55"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "WhatsApp Commerce: New Tools for Small Merchants",
+    "category": "WhatsApp commerce",
+    "rank": 2,
+    "rationale": "With the rise of mobile-first commerce in APAC, WhatsApp continues to be a vital channel. New open-source projects and tools for WhatsApp-based commerce platforms are emerging, offering small merchants enhanced capabilities to engage customers and drive retention.",
+    "signals": [
+      "WhatsApp-based commerce platform for small supermarkets.",
+      "Asistente inteligente por WhatsApp for e-commerce."
+    ],
+    "sources": [
+      "https://github.com/joepaulpaulson/Shelver",
+      "https://github.com/zapataisra/ClarificadorCompras"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Customer Data Platforms: Real-Time Engagement Platforms Emerge",
+    "category": "Customer Data Platforms",
+    "rank": 3,
+    "rationale": "The development of open-source, real-time customer engagement platforms is significant for retention marketing. These platforms enable better identity resolution and audience segmentation, key for personalized marketing efforts in APAC's diverse markets.",
+    "signals": [
+      "Open-source, event-driven Customer Data & Engagement Platform."
+    ],
+    "sources": [
+      "https://github.com/Mullassery/MessageBirds"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "OpenAI's Math Advisory Group and AI Advancements",
+    "category": "AI industry",
+    "rank": 4,
+    "rationale": "OpenAI's formation of a math advisory group underscores the importance of responsible AI advancements. This is relevant for retention marketing as AI's role in predictive analytics and customer behavior modeling grows.",
+    "signals": [
+      "OpenAI forms math advisory group as its AI resolves more than 100 open problems."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Loyalty Program Innovations in the Shopify Ecosystem",
+    "category": "Shopify ecosystem",
+    "rank": 5,
+    "rationale": "Loyalty programs remain a cornerstone of customer retention strategies. New Shopify apps focusing on loyalty and rewards signal ongoing innovation and competition in this space, particularly relevant for APAC merchants seeking to enhance customer loyalty.",
+    "signals": [
+      "Shopify loyalty app: points, VIP tiers, referrals.",
+      "Loyalty and rewards app for Shopify."
+    ],
+    "sources": [
+      "https://github.com/Alohamonde/loyalty-pulse",
+      "https://github.com/gregularjoe/loyalty-and-rewards"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Alibaba's Advances in AI for Image Generation",
+    "category": "AI startups",
+    "rank": 6,
+    "rationale": "Alibaba's release of an advanced AI model for image generation reflects the growing sophistication of AI tools being developed in APAC. These tools can be leveraged for personalized marketing and enhanced customer engagement.",
+    "signals": [
+      "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing."
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/09/21/alibaba-qwen-releases-qwen-image-2-1/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Multi-Agent AI Systems in Supply Chain Execution",
+    "category": "AI startups",
+    "rank": 7,
+    "rationale": "The shift towards multi-agent AI systems for supply chain execution can significantly impact logistics and customer fulfillment, key components of retention strategies in APAC's fast-paced markets.",
+    "signals": [
+      "Multi-agent AI systems are taking over supply chain execution."
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/multi-agent-ai-systems-supply-chain-execution/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "California's Regulation of AI Data Centers",
+    "category": "AI industry",
+    "rank": 8,
+    "rationale": "New regulations on AI data centers in California may influence global tech policies, impacting APAC's tech ecosystem, especially for companies reliant on cloud-based AI services.",
+    "signals": [
+      "California tightens rules on AI data center energy and water use."
+    ],
+    "sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+    ],
+    "region": "Global"
+  }
+]
