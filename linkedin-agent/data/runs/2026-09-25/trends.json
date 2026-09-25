@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Retailers Struggle with AI Agents and Data Breaches",
+    "category": "AI industry",
+    "rank": 1,
+    "rationale": "AI agents' visibility and data security are critical for retention marketing, affecting trust and compliance. This is especially important for APAC markets where data privacy is a growing concern.",
+    "signals": [
+      "Retailers are tamping down on shadow AI but struggling with agentic sprawl.",
+      "Data breaches involving AI agents pose significant risks."
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/retail-ai-agents-visibility-data-breaches-netskope/831035/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Multi-agent AI Systems in Supply Chains",
+    "category": "AI industry",
+    "rank": 2,
+    "rationale": "Multi-agent AI systems are transforming supply chain execution, a key area for improving customer engagement and retention through timely delivery and inventory management.",
+    "signals": [
+      "Enterprise networks are shifting from static dashboards to autonomous execution.",
+      "Predictive AI is taking over logistics and supply chain management."
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/multi-agent-ai-systems-supply-chain-execution/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "WhatsApp as a Commerce Channel",
+    "category": "WhatsApp commerce",
+    "rank": 3,
+    "rationale": "The integration of AI with WhatsApp for e-commerce is crucial in APAC, where WhatsApp is a primary communication channel. This trend supports the growing demand for mobile-first shopping experiences.",
+    "signals": [
+      "WhatsApp is being transformed into a sales machine with AI.",
+      "Multiple projects focus on WhatsApp commerce solutions."
+    ],
+    "sources": [
+      "https://github.com/kyfran225/vendeur-ia",
+      "https://github.com/MR8700/GotoShop"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Shopify Loyalty and Reward Apps",
+    "category": "Shopify ecosystem",
+    "rank": 4,
+    "rationale": "Loyalty programs are pivotal for retention strategies. As Shopify expands in APAC, apps that enhance customer loyalty and engagement are becoming increasingly important.",
+    "signals": [
+      "Development of loyalty and rewards apps for Shopify merchants.",
+      "Focus on integrating loyalty programs into the Shopify ecosystem."
+    ],
+    "sources": [
+      "https://github.com/thededecaptain/habit",
+      "https://github.com/epixeltechnologies/shopify_loyalty_app_backend"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI-Powered Retail Analytics and Insights",
+    "category": "Customer Data Platforms",
+    "rank": 5,
+    "rationale": "The ability to leverage AI for deep retail analytics can drive better customer insights and personalized marketing strategies, crucial for retention in competitive markets.",
+    "signals": [
+      "Retail platforms are focusing on AI-driven customer intelligence.",
+      "Data engineering and analytics are core to modern retail strategies."
+    ],
+    "sources": [
+      "https://github.com/PavithraJayarathna/retailpulse"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Databricks Expands AI Capabilities",
+    "category": "AI startups",
+    "rank": 6,
+    "rationale": "Databricks' acquisition spree highlights the increasing importance of AI in data management and analytics, which are critical for effective retention marketing strategies.",
+    "signals": [
+      "Databricks acquires Row Zero to boost its AI offerings.",
+      "Continuous expansion into AI-driven data analytics."
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI Agents Becoming Malware Channels",
+    "category": "AI industry",
+    "rank": 7,
+    "rationale": "As AI agents become integral to business processes, their misuse for distributing malware poses a significant risk to data security, impacting customer trust and retention.",
+    "signals": [
+      "AI agents are being used as channels for malware distribution.",
+      "Security concerns are rising with the proliferation of AI agents."
+    ],
+    "sources": [
+      "https://www.artificialintelligence-news.com/news/ai-agents-are-becoming-a-new-malware-distribution-channel/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Google's Gemini 3.8 Live Avatar Update",
+    "category": "AI industry",
+    "rank": 8,
+    "rationale": "Google's advancements in AI avatars can enhance customer engagement and personalization in marketing, offering new ways to interact with customers in the digital space.",
+    "signals": [
+      "Introduction of animated AI personas for interactive customer engagement.",
+      "Advancements in AI-driven customer interaction platforms."
+    ],
+    "sources": [
+      "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Consumers Trust AI for Advice, Not Purchases",
+    "category": "AI industry",
+    "rank": 9,
+    "rationale": "Understanding consumer trust in AI is crucial for tailoring marketing strategies. This trend highlights the need for transparency and control in AI-driven customer interactions.",
+    "signals": [
+      "Consumers are willing to trust AI for advice but not for purchasing decisions.",
+      "Balancing AI influence and consumer autonomy is key."
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/consumers-trust-ai-advise-do-not-consent-purchasing-them/830990/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Lowe’s Drone Delivery Pilot",
+    "category": "Product management",
+    "rank": 10,
+    "rationale": "Innovations in delivery mechanisms like drone delivery can significantly enhance customer satisfaction and retention by improving service efficiency and reach.",
+    "signals": [
+      "Lowe's launches a drone delivery pilot in collaboration with Wing and DoorDash.",
+      "Emerging trends in logistics and delivery technology."
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/lowes-drone-delivery-pilot-wing-doordash/831233/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "F-Droid's Major Update",
+    "category": "SaaS",
+    "rank": 11,
+    "rationale": "The revamp of F-Droid could impact mobile app distribution and security, an important consideration for mobile-first strategies in APAC markets.",
+    "signals": [
+      "F-Droid receives its biggest update in a decade.",
+      "Improved UI and smoother app installations could influence app adoption."
+    ],
+    "sources": [
+      "https://arstechnica.com/gadgets/2026/09/f-droid-gets-its-biggest-update-in-a-decade-with-new-ui-and-smoother-app-installs/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Nokia's AnyJev Model for Decision Making",
+    "category": "AI industry",
+    "rank": 12,
+    "rationale": "Nokia's AnyJev model represents a shift towards more autonomous decision-making processes, offering potential improvements in operational efficiency and customer service.",
+    "signals": [
+      "Nokia open-sources a decision-making layer for LLMs.",
+      "Focus on enhancing AI-driven decision models."
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/09/23/nokia-open-sources-anyjev-a-training-free-layer-that-turns-any-open-llm-into-a-calibrated-decision-model/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Meta’s AI Game Development Tools",
+    "category": "AI startups",
+    "rank": 13,
+    "rationale": "Meta's new tools for AI game development on mobile could influence mobile gaming, a significant market in APAC, and offer new engagement channels for brands.",
+    "signals": [
+      "Meta enables AI-driven game development directly from mobile devices.",
+      "Potential shift in how mobile games are created and interacted with."
+    ],
+    "sources": [
+      "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Google's Orbital Data Center Test",
+    "category": "AI industry",
+    "rank": 14,
+    "rationale": "Google's exploration of orbital data centers could revolutionize data storage and processing capabilities, impacting how data-driven marketing strategies are executed.",
+    "signals": [
+      "Google to launch an experimental orbital data center.",
+      "New approaches to data management and processing."
+    ],
+    "sources": [
+      "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/"
+    ],
+    "region": "APAC"
+  }
+]
