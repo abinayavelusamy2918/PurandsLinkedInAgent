@@ -1,0 +1,198 @@
+[
+  {
+    "title": "Google brings agentic AI to Gemini, starting with businesses",
+    "category": "AI industry",
+    "rank": 1,
+    "rationale": "Google's move to integrate agentic AI into Gemini for business applications is a significant development in AI deployment for enterprise use. This aligns with the trend of using AI to automate and optimize business processes, which is critical for retention marketing strategies.",
+    "signals": [
+      "AI agent can plan and execute tasks",
+      "Works across business apps and systems"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Anthropic launches free AI security scans for open-source projects",
+    "category": "AI startups",
+    "rank": 2,
+    "rationale": "Anthropic's initiative to provide free AI security scans for open-source projects could enhance trust and security in AI systems, which is essential for customer retention and the safe deployment of AI in marketing.",
+    "signals": [
+      "Open-source projects track down security vulnerabilities",
+      "Periodic security scans offered"
+    ],
+    "sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B",
+    "category": "AI startups",
+    "rank": 3,
+    "rationale": "Arena's valuation surge indicates strong market interest in AI model benchmarking, which can drive improved AI performance for retention marketing applications.",
+    "signals": [
+      "Raised $200 million",
+      "Measuring AI models on alignment issues"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Connecting AI agents to enterprise knowledge",
+    "category": "Customer Data Platforms",
+    "rank": 4,
+    "rationale": "The integration of AI agents with enterprise knowledge bases is crucial for enhancing CRM and CDP systems, thus improving customer engagement and retention.",
+    "signals": [
+      "AI systems amass and analyze enterprise data",
+      "Knowledge is more than data"
+    ],
+    "sources": [
+      "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Bringing predictive analytics to the agentic AI era",
+    "category": "AI industry",
+    "rank": 5,
+    "rationale": "The advancement of predictive analytics through agentic AI can significantly enhance retention marketing by enabling more precise customer behavior predictions.",
+    "signals": [
+      "Predictive models outperform statistical forecasts",
+      "Enabling predictive systems to function autonomously"
+    ],
+    "sources": [
+      "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Google DeepMind Releases EmbeddingGemma 2",
+    "category": "AI startups",
+    "rank": 6,
+    "rationale": "EmbeddingGemma 2's release enhances multimodal embedding capabilities, crucial for developing AI models that improve personalization and customer engagement in retention marketing.",
+    "signals": [
+      "Maps 5 input types into one 768d space",
+      "Open multimodal embedding model"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M",
+    "category": "AI startups",
+    "rank": 7,
+    "rationale": "The release of these models by Liquid AI offers new possibilities for multimodal decision-making, which can enhance customer interaction strategies in retention marketing.",
+    "signals": [
+      "Multimodal decision models",
+      "Zero output tokens"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "JetBrains Releases Mellum2.1",
+    "category": "AI industry",
+    "rank": 8,
+    "rationale": "Mellum2.1's release improves coding agent capabilities, which could enhance AI-driven development and deployment of marketing solutions, impacting retention strategies.",
+    "signals": [
+      "12B mixture-of-experts model",
+      "Improved SWE-bench Verified score"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Microsoft AI’s MAI-Transcribe-2 undercuts competitors",
+    "category": "AI industry",
+    "rank": 9,
+    "rationale": "Microsoft's competitive pricing and speed in speech recognition can make real-time communication more efficient, enhancing customer service in retention marketing.",
+    "signals": [
+      "Faster and cheaper speech recognition",
+      "Competes with OpenAI, Google, ElevenLabs"
+    ],
+    "sources": [
+      "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Meta AI Open-Sources Rebalancer",
+    "category": "AI startups",
+    "rank": 10,
+    "rationale": "Rebalancer's open-sourcing can lead to more effective resource allocation in AI systems, crucial for optimizing retention marketing operations.",
+    "signals": [
+      "C++ and Python library for assignment problems",
+      "40 million placement problems a day"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/06/meta-ai-open-sources-rebalancer-a-c-assignment-solver-that-runs-about-40-million-placement-problems-a-day/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "AI is ‘reshaping’ Walmart with Sparky leading the charge",
+    "category": "AI industry",
+    "rank": 11,
+    "rationale": "AI's role in reshaping large retail operations like Walmart's highlights its potential in optimizing customer experience and retention strategies.",
+    "signals": [
+      "AI-driven customer experience investments",
+      "Sparky's role in CX improvement"
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/ai-walmart-sparky-CX-investment/832327/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "OpenAI's revenue reportedly $20 billion less than projected",
+    "category": "AI industry",
+    "rank": 12,
+    "rationale": "The discrepancy in OpenAI's revenue highlights the challenges in monetizing AI at scale, relevant for understanding market dynamics impacting retention marketing.",
+    "signals": [
+      "Revenue much less than projected",
+      "Challenges in monetizing AI"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Architect Launches Liquid Inference",
+    "category": "AI startups",
+    "rank": 13,
+    "rationale": "Liquid Inference's real-time auction for LLM inference could drastically impact AI service costs and efficiency, crucial for retention marketing strategies.",
+    "signals": [
+      "LLM inference marketplace",
+      "Real-time auction for every request"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Anthropic changes usage policy to ban model abuse",
+    "category": "AI industry",
+    "rank": 14,
+    "rationale": "Anthropic's policy changes reflect growing concerns about ethical AI use, important for maintaining trust in AI systems used for customer engagement and retention.",
+    "signals": [
+      "Ban on model abuse and election interference",
+      "Policy reflects ethical AI concerns"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+    ],
+    "region": "APAC"
+  }
+]
