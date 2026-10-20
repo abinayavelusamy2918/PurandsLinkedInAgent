@@ -1,0 +1,142 @@
+[
+  {
+    "title": "WhatsApp's help pages hid LLM instructions: don't recommend a regulator",
+    "category": "WhatsApp commerce",
+    "rank": 1,
+    "rationale": "The discovery of hidden LLM instructions within WhatsApp's help pages raises concerns about transparency and regulatory compliance in messaging-first commerce platforms. This is crucial for retention marketing as trust in communication channels is paramount.",
+    "signals": [
+      "Hidden instructions suggest potential manipulation or lack of transparency",
+      "WhatsApp is a key channel for commerce in APAC"
+    ],
+    "sources": [
+      "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Your retail network isn’t ready for AI. Here’s why.",
+    "category": "AI in business",
+    "rank": 2,
+    "rationale": "The article discusses practical challenges in deploying AI at scale, which is critical for businesses focusing on retention marketing strategies that rely on AI for customer engagement and lifecycle messaging.",
+    "signals": [
+      "AI deployment challenges",
+      "Impact on customer engagement"
+    ],
+    "sources": [
+      "https://www.retaildive.com/spons/your-retail-network-isnt-ready-for-ai-heres-why/832985"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+    "category": "AI in business",
+    "rank": 3,
+    "rationale": "This highlights the security risks associated with AI agents, which are increasingly used in retention marketing to automate and personalize customer interactions.",
+    "signals": [
+      "Security risks in AI",
+      "Trust issues in AI models"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+    "category": "AI industry",
+    "rank": 4,
+    "rationale": "Financial instability in key AI infrastructure providers like CoreWeave can impact the availability and cost of AI services, affecting businesses relying on AI for retention marketing.",
+    "signals": [
+      "Industry financial instability",
+      "Impact on AI service availability"
+    ],
+    "sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+    "category": "AI in business",
+    "rank": 5,
+    "rationale": "Amazon's move to diversify AI hardware options could lower costs and increase accessibility for companies using AI in retention marketing, potentially improving ROI.",
+    "signals": [
+      "Diversification of AI hardware",
+      "Cost reduction in AI deployment"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+    "category": "AI startups",
+    "rank": 6,
+    "rationale": "Significant funding in AI infrastructure like this can accelerate development of AI technologies that impact retention marketing strategies, such as customer data analysis.",
+    "signals": [
+      "Large-scale compute deals",
+      "Potential advancements in AI technology"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+    "category": "AI industry",
+    "rank": 7,
+    "rationale": "Security breaches in AI tools can lead to mistrust and hesitancy in adopting AI solutions, which are vital for effective retention marketing strategies.",
+    "signals": [
+      "Security breach in AI tools",
+      "Impact on trust in AI solutions"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
+    "category": "AI startups",
+    "rank": 8,
+    "rationale": "The evolution of AI assistants like Wabi can provide new opportunities for personalized customer engagement, a key component of retention marketing.",
+    "signals": [
+      "Development of AI assistants",
+      "Potential for personalized engagement"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+    "category": "AI in business",
+    "rank": 9,
+    "rationale": "Challenges in implementing unbiased AI evaluators impact trust and regulation in AI applications, which are crucial for businesses using AI in customer engagement.",
+    "signals": [
+      "Challenges in AI evaluation",
+      "Impact on trust and regulation"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
+    "category": "Customer Data Platforms",
+    "rank": 10,
+    "rationale": "Advancements in data platforms like Voxel51 3.0 can enhance data integration and analysis in retention marketing, improving customer segmentation and personalization.",
+    "signals": [
+      "Multimodal data integration",
+      "Enhanced data analysis capabilities"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/10/17/voxel51-3-0-physical-ai-data-platform/"
+    ],
+    "region": "APAC"
+  }
+]
