@@ -1,0 +1,479 @@
+[
+  {
+    "trend": {
+      "title": "Reformation implements new AI planning tool, helping in-stock rates",
+      "category": "AI industry, retention marketing",
+      "rank": 1,
+      "rationale": "Reformation's implementation of an AI planning tool to improve in-stock rates directly impacts retention marketing by enhancing product availability, a key factor in customer satisfaction and repeat purchases.",
+      "signals": [
+        "AI planning tool boosts in-stock rates",
+        "Improved inventory management can lead to better customer satisfaction and retention"
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/reformation-q3-earnings-sales-growth-ai-planning-tool-in-stock-rates/873991/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Reformation's AI tool improved in-stock rates.",
+        "support": "Reformation's Q3 earnings report highlights the success of the AI tool in maintaining in-stock rates.",
+        "url": "https://www.retaildive.com/news/reformation-q3-earnings-sales-growth-ai-planning-tool-in-stock-rates/873991/"
+      }
+    ],
+    "statistics": [
+      "No specific statistics found on in-stock rate improvements."
+    ],
+    "examples": [],
+    "recent_news": [
+      "Reformation reported a positive impact on sales from improved in-stock rates due to their AI tool."
+    ],
+    "risks": [
+      "Reliability of AI predictions in fluctuating market conditions."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Amazon adds over 100 Alexa for Shopping functions",
+      "category": "AI industry, CRM, loyalty",
+      "rank": 2,
+      "rationale": "The expansion of Alexa for Shopping functions showcases AI's growing role in enhancing customer experiences, supporting CRM strategies, and driving loyalty through personalized interactions and improved user convenience.",
+      "signals": [
+        "Alexa's new functions enhance shopping experience",
+        "AI-driven interactions improve customer engagement"
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/amazon-adds-alexa-ai-shopping-functions/873602/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Amazon added over 100 new Alexa for Shopping functions.",
+        "support": "Amazon's announcement via Retail Dive details the expansion of Alexa's capabilities.",
+        "url": "https://www.retaildive.com/news/amazon-adds-alexa-ai-shopping-functions/873602/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Amazon continues to enhance Alexa's capabilities to improve shopping experiences."
+    ],
+    "risks": [
+      "User privacy concerns with increased AI functionality."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "DeepSeek's open-source agent app Harness hits 1.54M DAUs",
+      "category": "AI industry, AI startups",
+      "rank": 3,
+      "rationale": "The rapid adoption of DeepSeek's agent app highlights the potential of AI startups in the APAC region to develop successful consumer-focused AI solutions, which can inspire similar innovations in retention marketing.",
+      "signals": [
+        "1.54M daily active users shortly after launch",
+        "Demonstrates demand for AI agents in consumer applications"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261108/p12#a261108p12"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "DeepSeek's app Harness reached 1.54M DAUs.",
+        "support": "Reported by Techmeme, indicating significant user adoption.",
+        "url": "https://www.techmeme.com/261108/p12#a261108p12"
+      }
+    ],
+    "statistics": [
+      "1.54M daily active users shortly after launch."
+    ],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Sustainability of user engagement over time."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Nvidia's investigation into Jensen Huang's relationship with a Chinese spy",
+      "category": "AI industry",
+      "rank": 4,
+      "rationale": "This investigation could have significant implications for Nvidia's operations and AI developments, potentially affecting partnerships and trust in the AI industry, particularly in regions where geopolitical tensions are high.",
+      "signals": [
+        "Investigation could affect Nvidia's market position",
+        "Highlights geopolitical risks in AI industry"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+        "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "claim": "Nvidia is investigating Jensen Huang's relationship with a possible Chinese spy.",
+        "support": "Both TechCrunch and The Verge report on this investigation.",
+        "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Nvidia has begun an internal investigation into its CEO's alleged connections."
+    ],
+    "risks": [
+      "Potential impact on Nvidia's stock and trust among partners."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+      "category": "AI industry, SaaS",
+      "rank": 5,
+      "rationale": "Kinference's release could enhance AI operational efficiency for SaaS companies in the APAC region by providing better resource management and cost reductions, which are crucial for scalable AI solutions in retention marketing.",
+      "signals": [
+        "Open-source Kubernetes control plane",
+        "Improves AI resource management and cost-efficiency"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Buoyant released Kinference for Kubernetes and vLLM.",
+        "support": "Detailed in MarkTechPost, highlighting its open-source nature and benefits.",
+        "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Buoyant's Kinference is expected to improve AI resource management."
+    ],
+    "risks": [
+      "Adoption challenges in diverse APAC markets."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Microsoft AI’s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
+      "category": "AI industry",
+      "rank": 6,
+      "rationale": "Microsoft's competitive pricing for AI transcription services could influence retention marketing by enabling more affordable customer interaction analysis, enhancing customer insights and engagement strategies.",
+      "signals": [
+        "Competitive pricing in AI transcription",
+        "Potential to enhance customer interaction analysis"
+      ],
+      "sources": [
+        "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Microsoft's MAI-Transcribe-2 is cheaper and faster.",
+        "support": "VentureBeat reports on the competitive advantages of MAI-Transcribe-2.",
+        "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Microsoft's transcription service gains attention for its cost-effectiveness."
+    ],
+    "risks": [
+      "Potential quality issues with lower-cost services."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Meta prices Muse Voice Transcribe at $0.18 an hour",
+      "category": "AI industry",
+      "rank": 7,
+      "rationale": "Meta's entry into the real-time speech-to-text market with competitive pricing and features could drive innovations in customer service and engagement, pivotal to enhancing retention marketing efforts.",
+      "signals": [
+        "Competitive pricing for real-time transcription",
+        "Enhances customer service and engagement"
+      ],
+      "sources": [
+        "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Meta offers Muse Voice Transcribe at $0.18 an hour.",
+        "support": "VentureBeat details Meta's competitive pricing strategy.",
+        "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Meta's pricing strategy is seen as disruptive in the transcription market."
+    ],
+    "risks": [
+      "Potential undercutting of market standards."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Walmart ramps up Sparky features in time for the holidays",
+      "category": "AI industry, retention marketing",
+      "rank": 8,
+      "rationale": "Walmart's enhancement of AI features for the holiday season underscores the importance of AI in driving customer engagement and loyalty, crucial for retention marketing strategies during peak shopping periods.",
+      "signals": [
+        "AI features to enhance holiday shopping experience",
+        "Focus on customer engagement and loyalty"
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/walmart-sparky-features-AI-holidays/873718/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Walmart enhances AI features for holidays.",
+        "support": "Retail Dive reports on Walmart's AI strategy for the holiday season.",
+        "url": "https://www.retaildive.com/news/walmart-sparky-features-AI-holidays/873718/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Walmart's AI enhancements are part of its holiday strategy."
+    ],
+    "risks": [
+      "Potential over-reliance on AI during critical periods."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "category": "AI industry",
+      "rank": 9,
+      "rationale": "Google's plugin for spec-first coding could streamline AI development processes, impacting the speed and efficiency of deploying AI-driven retention marketing tools, a critical factor in staying competitive in the APAC market.",
+      "signals": [
+        "Spec-first coding streamlines AI development",
+        "Potential to accelerate AI tool deployment"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Google's plugin streamlines AI development.",
+        "support": "MarkTechPost highlights the benefits of spec-first coding.",
+        "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Adoption hurdles in existing development workflows."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AI visibility gap: Why great brands disappear from AI answers",
+      "category": "AI industry, retention marketing",
+      "rank": 10,
+      "rationale": "Understanding the AI visibility gap is crucial for retention marketing, as it affects how brands are perceived in AI-driven search and recommendation systems, impacting brand loyalty and customer retention.",
+      "signals": [
+        "Brands disappearing from AI-driven answers",
+        "Impact on brand perception and loyalty"
+      ],
+      "sources": [
+        "https://venturebeat.com/technology/the-ai-visibility-gap-why-great-brands-disappear-from-ai-answers"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "claim": "Brands are disappearing from AI-driven answers.",
+        "support": "VentureBeat discusses the challenges brands face in AI visibility.",
+        "url": "https://venturebeat.com/technology/the-ai-visibility-gap-why-great-brands-disappear-from-ai-answers"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Discussions on AI visibility gaps affecting brand strategies."
+    ],
+    "risks": [
+      "Potential misalignment of AI algorithms with brand strategies."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Tencent AI scientist warns about AI's bio abilities and risks",
+      "category": "AI industry",
+      "rank": 11,
+      "rationale": "Warnings about AI's capabilities in biology highlight the need for ethical considerations and regulatory frameworks, which are vital for maintaining consumer trust and ensuring the responsible use of AI in retention marketing.",
+      "signals": [
+        "AI's growing capabilities in biology",
+        "Need for ethical AI use and regulation"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261108/p21#a261108p21"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Tencent AI scientist warns about bio risks.",
+        "support": "Techmeme covers the scientist's warnings about AI's potential in biology.",
+        "url": "https://www.techmeme.com/261108/p21#a261108p21"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Increased focus on ethical AI use in biological applications."
+    ],
+    "risks": [
+      "Potential misuse of AI in biological contexts."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Epic Games Launcher is coming to SteamOS",
+      "category": "SaaS",
+      "rank": 12,
+      "rationale": "The expansion of Epic Games Launcher to SteamOS could influence SaaS strategies by expanding platform compatibility, crucial for SaaS providers looking to enhance user engagement and retention across diverse operating systems.",
+      "signals": [
+        "Expansion to SteamOS increases platform reach",
+        "Potential impact on SaaS user engagement"
+      ],
+      "sources": [
+        "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Epic Games Launcher will be available on SteamOS.",
+        "support": "The Verge reports on this expansion to SteamOS.",
+        "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Epic Games' strategic move to include SteamOS in its platform support."
+    ],
+    "risks": [
+      "Potential technical challenges in adapting to a new OS."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Chainalysis says hackers stole credentials and tokens for all customers",
+      "category": "AI industry",
+      "rank": 13,
+      "rationale": "Security breaches like those at Chainalysis underscore the importance of robust security measures in AI-driven platforms, critical for protecting customer data and maintaining trust in retention marketing solutions.",
+      "signals": [
+        "Security breach affecting customer data",
+        "Importance of data protection in AI platforms"
+      ],
+      "sources": [
+        "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Chainalysis experienced a significant security breach.",
+        "support": "Ars Technica reports on the breach affecting all customers.",
+        "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Chainalysis is addressing a major security incident involving customer data."
+    ],
+    "risks": [
+      "Loss of customer trust and potential legal consequences."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+      "category": "AI industry, SaaS",
+      "rank": 5,
+      "rationale": "Kinference's release could enhance AI operational efficiency for SaaS companies in the APAC region by providing better resource management and cost reductions, which are crucial for scalable AI solutions in retention marketing.",
+      "signals": [
+        "Open-source Kubernetes control plane",
+        "Improves AI resource management and cost-efficiency"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Buoyant released Kinference for Kubernetes and vLLM.",
+        "support": "Detailed in MarkTechPost, highlighting its open-source nature and benefits.",
+        "url": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Buoyant's Kinference is expected to improve AI resource management."
+    ],
+    "risks": [
+      "Adoption challenges in diverse APAC markets."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]
