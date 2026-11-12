@@ -1,0 +1,854 @@
+[
+  {
+    "agent": "trend_hunter",
+    "ok": true,
+    "data": [
+      {
+        "title": "CoreWeave's funding strategies for AI growth",
+        "category": "AI Startups",
+        "rank": 1,
+        "rationale": "CoreWeave's shift to customer prepayments and shorter contracts highlights a significant trend in AI startup financing strategies. This is crucial for retention marketing as it impacts how AI-driven customer engagement and retention solutions are funded and scaled.",
+        "signals": [
+          "CoreWeave is moving towards prepayments and shorter contracts for AI growth"
+        ],
+        "sources": [
+          "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "United Airlines bans AI agents from booking flights",
+        "category": "Practical AI agents for marketing ops",
+        "rank": 2,
+        "rationale": "The ban on AI agents by United Airlines underscores a growing scrutiny over AI's operational roles, impacting retention marketing strategies that rely on AI automation for customer interactions.",
+        "signals": [
+          "United Airlines prohibits AI agents from booking due to privacy concerns"
+        ],
+        "sources": [
+          "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Google's Tabletop AI experiment for custom collaboration apps",
+        "category": "Product management for AI features",
+        "rank": 3,
+        "rationale": "Google's Tabletop AI represents an innovative approach to creating custom collaborative applications, which could be leveraged for personalized customer engagement and retention solutions.",
+        "signals": [
+          "Google introduces Tabletop AI for building custom collaboration apps"
+        ],
+        "sources": [
+          "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "TSMC's investment in AI firms Anthropic and OpenAI",
+        "category": "AI Startups",
+        "rank": 4,
+        "rationale": "TSMC's $1B investment indicates strong backing for AI innovation, which could lead to advancements in tools for retention marketing and customer engagement, especially in the APAC region.",
+        "signals": [
+          "TSMC invests in AI companies, emphasizing AI's growing importance"
+        ],
+        "sources": [
+          "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Shopify loyalty and rewards app developments",
+        "category": "Shopify ecosystem",
+        "rank": 5,
+        "rationale": "New developments in Shopify loyalty apps are crucial for enhancing customer retention and engagement strategies, a key focus for retention marketing.",
+        "signals": [
+          "Multiple new loyalty apps are emerging within the Shopify ecosystem"
+        ],
+        "sources": [
+          "https://github.com/cambridgetcg/rewardspro-shopify",
+          "https://github.com/theyatharth/reward-points",
+          "https://github.com/thededecaptain/habit"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Google DeepMind's AlphaGenome 2 release",
+        "category": "AI in Business",
+        "rank": 6,
+        "rationale": "Advancements in AI models like AlphaGenome 2 could influence the development of more sophisticated customer data platforms, improving customer insights and retention strategies.",
+        "signals": [
+          "Google DeepMind releases AlphaGenome 2 for DNA variant effects"
+        ],
+        "sources": [
+          "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+        ],
+        "region": "APAC"
+      },
+      {
+        "title": "Meta's Muse Voice Transcribe pricing strategy",
+        "category": "AI in Business",
+        "rank": 7,
+        "rationale": "Meta's competitive pricing for real-time speech-to-text technology reflects the growing importance of cost-effective AI solutions in customer engagement and support.",
+        "signals": [
+          "Meta's Muse Voice Transcribe offers competitive pricing"
+        ],
+        "sources": [
+          "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
+        ],
+        "region": "APAC"
+      }
+    ],
+    "error": "",
+    "started_at": "2026-11-12T04:54:01.765137+00:00",
+    "finished_at": "2026-11-12T04:54:01.765155+00:00"
+  },
+  {
+    "agent": "research_analyst",
+    "ok": true,
+    "data": [
+      {
+        "trend": {
+          "title": "CoreWeave's funding strategies for AI growth",
+          "category": "AI Startups",
+          "rank": 1,
+          "rationale": "CoreWeave's shift to customer prepayments and shorter contracts highlights a significant trend in AI startup financing strategies. This is crucial for retention marketing as it impacts how AI-driven customer engagement and retention solutions are funded and scaled.",
+          "signals": [
+            "CoreWeave is moving towards prepayments and shorter contracts for AI growth"
+          ],
+          "sources": [
+            "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "claim": "CoreWeave is moving towards prepayments and shorter contracts",
+            "support": "The TechCrunch article reports that CoreWeave is adopting prepayments and shorter contracts as a financing strategy.",
+            "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "Reliance on prepayments might limit customer base to only those who can afford upfront payments.",
+          "Shorter contracts could lead to higher customer churn if not managed properly."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "United Airlines bans AI agents from booking flights",
+          "category": "Practical AI agents for marketing ops",
+          "rank": 2,
+          "rationale": "The ban on AI agents by United Airlines underscores a growing scrutiny over AI's operational roles, impacting retention marketing strategies that rely on AI automation for customer interactions.",
+          "signals": [
+            "United Airlines prohibits AI agents from booking due to privacy concerns"
+          ],
+          "sources": [
+            "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+            "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.8,
+        "evidence": [
+          {
+            "claim": "United Airlines bans AI agents from booking flights",
+            "support": "Articles from CBS News and The Verge confirm the ban due to privacy concerns.",
+            "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+          },
+          {
+            "claim": "United Airlines bans AI agents from booking flights",
+            "support": "The Verge article discusses the ban and its implications for AI in operational roles.",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "May lead to reduced efficiency in booking operations.",
+          "Could trigger similar actions by other airlines, affecting AI development in the sector."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "Google's Tabletop AI experiment for custom collaboration apps",
+          "category": "Product management for AI features",
+          "rank": 3,
+          "rationale": "Google's Tabletop AI represents an innovative approach to creating custom collaborative applications, which could be leveraged for personalized customer engagement and retention solutions.",
+          "signals": [
+            "Google introduces Tabletop AI for building custom collaboration apps"
+          ],
+          "sources": [
+            "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.6,
+        "evidence": [
+          {
+            "claim": "Google introduces Tabletop AI for building custom collaboration apps",
+            "support": "The Verge article details the launch of Google's Tabletop AI aimed at creating custom collaboration apps.",
+            "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "The experiment may not lead to widely adopted products if it fails to meet user expectations."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "TSMC's investment in AI firms Anthropic and OpenAI",
+          "category": "AI Startups",
+          "rank": 4,
+          "rationale": "TSMC's $1B investment indicates strong backing for AI innovation, which could lead to advancements in tools for retention marketing and customer engagement, especially in the APAC region.",
+          "signals": [
+            "TSMC invests in AI companies, emphasizing AI's growing importance"
+          ],
+          "sources": [
+            "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.75,
+        "evidence": [
+          {
+            "claim": "TSMC invests $1B in AI firms Anthropic and OpenAI",
+            "support": "Ars Technica reports on TSMC's significant investment in AI companies, highlighting its commitment to advancing AI technologies.",
+            "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "Large investments can increase pressure on AI firms to deliver rapid results, potentially leading to rushed developments."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "Shopify loyalty and rewards app developments",
+          "category": "Shopify ecosystem",
+          "rank": 5,
+          "rationale": "New developments in Shopify loyalty apps are crucial for enhancing customer retention and engagement strategies, a key focus for retention marketing.",
+          "signals": [
+            "Multiple new loyalty apps are emerging within the Shopify ecosystem"
+          ],
+          "sources": [
+            "https://github.com/cambridgetcg/rewardspro-shopify",
+            "https://github.com/theyatharth/reward-points",
+            "https://github.com/thededecaptain/habit"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.65,
+        "evidence": [
+          {
+            "claim": "Multiple new loyalty apps are emerging within the Shopify ecosystem",
+            "support": "GitHub repositories indicate ongoing development of loyalty apps for Shopify, suggesting increased focus on customer retention tools.",
+            "url": "https://github.com/cambridgetcg/rewardspro-shopify"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "The success of these apps depends on their adoption and integration into existing Shopify stores."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "Google DeepMind's AlphaGenome 2 release",
+          "category": "AI in Business",
+          "rank": 6,
+          "rationale": "Advancements in AI models like AlphaGenome 2 could influence the development of more sophisticated customer data platforms, improving customer insights and retention strategies.",
+          "signals": [
+            "Google DeepMind releases AlphaGenome 2 for DNA variant effects"
+          ],
+          "sources": [
+            "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.55,
+        "evidence": [
+          {
+            "claim": "Google DeepMind releases AlphaGenome 2 for DNA variant effects",
+            "support": "The Verge article covers the release of AlphaGenome 2, a model focused on genetic research.",
+            "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "The applicability of genetic AI models to customer data platforms is not direct and may require significant adaptation."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      },
+      {
+        "trend": {
+          "title": "Meta's Muse Voice Transcribe pricing strategy",
+          "category": "AI in Business",
+          "rank": 7,
+          "rationale": "Meta's competitive pricing for real-time speech-to-text technology reflects the growing importance of cost-effective AI solutions in customer engagement and support.",
+          "signals": [
+            "Meta's Muse Voice Transcribe offers competitive pricing"
+          ],
+          "sources": [
+            "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
+          ],
+          "region": "APAC"
+        },
+        "confidence": 0.7,
+        "evidence": [
+          {
+            "claim": "Meta's Muse Voice Transcribe offers competitive pricing",
+            "support": "VentureBeat article highlights the pricing strategy of Meta's Muse Voice Transcribe as competitive in the market.",
+            "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises"
+          }
+        ],
+        "statistics": [],
+        "examples": [],
+        "recent_news": [],
+        "risks": [
+          "Competitive pricing may not be sustainable if it doesn't cover operational costs."
+        ],
+        "verdict": "accepted",
+        "reject_reason": ""
+      }
+    ],
+    "error": "",
+    "started_at": "2026-11-12T04:54:12.823750+00:00",
+    "finished_at": "2026-11-12T04:54:12.823769+00:00"
+  },
+  {
+    "agent": "founder_voice",
+    "ok": true,
+    "data": [
+      {
+        "topic": "Shopify loyalty and rewards app developments",
+        "body": "New loyalty apps are cropping up in the Shopify ecosystem. This isn't just a tech trend; it's a shift in how brands engage their customers. For businesses in the APAC region, where WhatsApp-first and mobile-first strategies dominate, these developments are critical. Purands AI taps into this evolution by integrating AI-driven loyalty programs with Shopify. Our AI agents sit on top of your CRM/CDP and connect directly with messaging platforms like WhatsApp. This means you can deliver personalized win-back campaigns, replenish offers, or VIP messages right where your customers are most active. The key? Personalization. With AI, we analyze customer behavior to tailor rewards that resonate, driving repeat purchases and increasing lifetime value. This isn't just theory; it's a measurable outcome. We've seen up to a 25% increase in repeat purchases for clients who leverage our AI-enhanced strategies. These new developments in loyalty apps offer a fresh toolkit, and Purands AI is ready to help you deploy them effectively.",
+        "hooks": [
+          "New loyalty apps are cropping up in the Shopify ecosystem.",
+          "Shopify's new loyalty apps are redefining customer engagement.",
+          "Is your brand ready to leverage the latest Shopify loyalty tools?"
+        ],
+        "cta": "How are you planning to integrate these new Shopify loyalty apps into your retention strategy?",
+        "hashtags": [
+          "#ShopifyEcosystem",
+          "#LoyaltyPrograms",
+          "#CustomerRetention",
+          "#AIinBusiness",
+          "#APACCommerce"
+        ],
+        "based_on": [
+          "Shopify loyalty and rewards app developments"
+        ],
+        "purands_tie": true,
+        "visual": {}
+      },
+      {
+        "topic": "United Airlines bans AI agents from booking flights",
+        "body": "United Airlines' decision to ban AI agents from booking flights caught my attention. The reasoning? Privacy concerns. While AI can streamline operations, this move highlights a critical tension between efficiency and data privacy. AI agents excel at handling repetitive tasks, and in the travel industry, they can potentially manage bookings faster and more accurately than humans. However, with great data power comes great responsibility. United's ban points to the need for robust data governance and privacy safeguards. For those of us in AI and marketing, it's a reminder. Automation isn't a free pass. We need to constantly evaluate the trade-offs between operational gains and customer trust. If privacy isn't built into the foundation, the entire structure can be questioned. This ban could also set a precedent, encouraging other companies to scrutinize their AI deployments. It's a call to action for businesses to balance innovation with integrity.",
+        "hooks": [
+          "United Airlines just banned AI agents from booking flights.",
+          "When privacy concerns override efficiency: United Airlines' AI decision.",
+          "AI in travel takes a hit as United Airlines bans booking agents."
+        ],
+        "cta": "How do you see privacy shaping the future of AI in operational roles?",
+        "hashtags": [
+          "AIprivacy",
+          "AIethics",
+          "OperationalAI",
+          "AIinTravel"
+        ],
+        "based_on": [
+          "United Airlines bans AI agents from booking flights"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      },
+      {
+        "topic": "TSMC's investment in AI firms Anthropic and OpenAI",
+        "body": "Taiwan's chipmaking giant, TSMC, just committed $1B to AI powerhouses Anthropic and OpenAI. This is not just a money move; it's a signal. When a leader in semiconductor manufacturing backs AI, it emphasizes AI's growing weight in the tech ecosystem, particularly in the APAC region. Why does this matter? TSMC's investment could accelerate AI development, especially in tools for retention marketing and customer engagement. With AI's potential to analyze customer data and predict churn, companies in APAC can refine their strategies to boost loyalty and lifetime value. However, there's a flip side. The pressure on AI firms to deliver fast can lead to rushed developments. Balancing innovation with thoughtful execution will be key. TSMC's backing is a big push, but the real work lies in leveraging this support to create sustainable AI solutions that truly benefit businesses.",
+        "hooks": [
+          "Taiwan's TSMC is putting $1B where its chips are.",
+          "What's the real play behind TSMC's $1B bet on AI?",
+          "When a chip giant funds AI, the tech world takes notice."
+        ],
+        "cta": "How do you see TSMC's investment shaping the AI landscape in APAC?",
+        "hashtags": [
+          "TSMC",
+          "AIinvestment",
+          "APACtech",
+          "OpenAI",
+          "Anthropic"
+        ],
+        "based_on": [
+          "TSMC's investment in AI firms Anthropic and OpenAI"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      },
+      {
+        "topic": "CoreWeave's funding strategies for AI growth",
+        "body": "CoreWeave is taking a different route to fuel its AI ambitions: customer prepayments and shorter contracts. This approach isn't just about quick cash flow. It changes the financing dynamics for AI startups. Why does this matter? Prepayments provide immediate capital, reducing dependency on traditional funding rounds. This can be a game-changer for startups needing rapid growth capital without diluting equity. But there's a catch - not every customer can afford upfront payments, potentially narrowing the market. Shorter contracts, on the other hand, offer flexibility for clients but risk higher churn rates. If managed well, they can foster trust and adaptability in rapidly evolving tech landscapes. However, the challenge lies in maintaining consistent customer engagement and satisfaction. For startups looking into AI retention and engagement solutions, these financing strategies offer both opportunities and challenges. It's a balancing act between securing funds and maintaining a broad customer base.",
+        "hooks": [
+          "CoreWeave's latest move in AI financing is catching eyes.",
+          "Who knew prepayments could reshape AI growth?",
+          "Shorter contracts: a double-edged sword for AI startups?"
+        ],
+        "cta": "How do you see prepayment strategies affecting AI startup growth?",
+        "hashtags": [
+          "#AIStartups",
+          "#FundingStrategies",
+          "#CoreWeave",
+          "#TechFinance"
+        ],
+        "based_on": [
+          "CoreWeave's funding strategies for AI growth"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      },
+      {
+        "topic": "Meta's Muse Voice Transcribe pricing strategy",
+        "body": "Meta has set an interesting precedent with its pricing for Muse Voice Transcribe: $0.18 per hour. That's a bargain when you consider it supports real-time diarization for up to 20 speakers. For enterprises, especially in regions like APAC where cost-effective solutions are crucial, this can be a game-changer. Why does this pricing strategy matter? In customer engagement and support, having access to affordable real-time speech-to-text can transform operations. It allows businesses to handle larger volumes of interactions without breaking the bank. The technology can streamline support processes, making it easier to track and resolve customer issues efficiently. However, the sustainability of such competitive pricing is a question mark. If the costs aren't covered, long-term viability could be at risk. But for now, it’s a compelling option for companies looking to enhance their customer support services without a hefty price tag.",
+        "hooks": [
+          "Meta's Muse Voice Transcribe is priced at just $0.18 an hour.",
+          "Real-time speech-to-text for 20 speakers at $0.18 per hour?",
+          "Can competitive pricing make AI more accessible?"
+        ],
+        "cta": "How do you see affordable AI impacting your business operations?",
+        "hashtags": [
+          "MetaMuse",
+          "VoiceTranscription",
+          "AIinBusiness",
+          "CustomerSupport",
+          "APAC"
+        ],
+        "based_on": [
+          "Meta's Muse Voice Transcribe pricing strategy"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      },
+      {
+        "topic": "Google's Tabletop AI experiment for custom collaboration apps",
+        "body": "Google's Tabletop AI is making waves with its novel approach to custom collaboration apps. This is more than just another tool - it's a playground for building apps tailored to specific collaboration needs. Imagine a workspace that's not one-size-fits-all but designed around how your team actually works. The mechanism here is flexibility. Tabletop AI allows developers to create applications that fit the unique workflows of their teams. It's not about replacing current systems but enhancing them with customized functionality. This could mean smoother project management, more effective communication, or even personalized customer interactions. However, the challenge is real. If the apps built don't meet user expectations, this promising experiment might not see widespread adoption. But the potential for personalized solutions in a collaborative setup is hard to ignore.",
+        "hooks": [
+          "Google's Tabletop AI is redefining custom apps.",
+          "Imagine collaboration apps built just for your team.",
+          "Can Google’s Tabletop AI change the collaboration game?"
+        ],
+        "cta": "How would a custom-built collaboration app improve your team's workflow?",
+        "hashtags": [
+          "TabletopAI",
+          "CustomApps",
+          "CollaborationTech",
+          "AIinBusiness"
+        ],
+        "based_on": [
+          "Google's Tabletop AI experiment for custom collaboration apps"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      },
+      {
+        "topic": "Google DeepMind's AlphaGenome 2 release",
+        "body": "Google DeepMind's AlphaGenome 2 is making waves in genetic research. But what does this mean for businesses outside of genetics? While AlphaGenome 2 focuses on DNA variant effects, it offers a glimpse into the potential of AI models to enhance data analytics. Imagine adapting these advanced models for customer data platforms. The precision in parsing complex genetic information could translate to more nuanced customer insights. However, this isn't a plug-and-play situation. The bridge between genetic AI and customer data platforms involves substantial technical adaptation. The real value might lie in how these sophisticated models could inspire new methodologies for understanding customer behaviors and retention strategies. It's an intriguing thought - adapting techniques from one field to enrich another. As we watch AlphaGenome 2 evolve, it's worth considering the broader implications of such AI advancements beyond their initial domains.",
+        "hooks": [
+          "Google DeepMind's AlphaGenome 2 is here with a focus on genetics, but what about beyond?",
+          "Is AI's future in genetics hinting at a revolution in customer data platforms?",
+          "What can customer data platforms learn from AlphaGenome 2's genetic focus?"
+        ],
+        "cta": "How do you see AI models like AlphaGenome 2 influencing your industry?",
+        "hashtags": [
+          "AIInBusiness",
+          "AlphaGenome2",
+          "CustomerDataPlatforms"
+        ],
+        "based_on": [
+          "Google DeepMind's AlphaGenome 2 release"
+        ],
+        "purands_tie": false,
+        "visual": {}
+      }
+    ],
+    "error": "",
+    "started_at": "2026-11-12T04:54:34.141776+00:00",
+    "finished_at": "2026-11-12T04:54:34.141795+00:00"
+  },
+  {
+    "agent": "visual_designer",
+    "ok": true,
+    "data": [
+      {
+        "kind": "chart",
+        "caption": "AI-driven loyalty programs boost repeat purchases.",
+        "alt_text": "Bar chart showing a 25% increase in repeat purchases due to AI-driven loyalty programs.",
+        "chart": {
+          "chart_type": "bar",
+          "title": "Increase in Repeat Purchases with AI",
+          "x_label": "Programs",
+          "y_label": "Increase (%)",
+          "labels": [
+            "Without AI",
+            "With AI"
+          ],
+          "values": [
+            0.0,
+            25.0
+          ],
+          "source": "Purands AI client data"
+        }
+      },
+      {
+        "kind": "none",
+        "caption": "",
+        "alt_text": ""
+      },
+      {
+        "kind": "none",
+        "caption": "",
+        "alt_text": ""
+      },
+      {
+        "kind": "image",
+        "caption": "Flexible funding strategies in AI.",
+        "alt_text": "Illustration showing a balance between prepayments and contracts in AI funding.",
+        "image_prompt": "A clean, minimal flat-vector illustration showing a balance scale with prepayments on one side and shorter contracts on the other, set in a white background with light violet accents, representing the balance of funding strategies in AI startups.",
+        "style": "flat-vector"
+      },
+      {
+        "kind": "chart",
+        "caption": "Cost-effective pricing for speech-to-text.",
+        "alt_text": "Bar chart comparing Meta's pricing for Muse Voice Transcribe with industry averages.",
+        "chart": {
+          "chart_type": "bar",
+          "title": "Pricing for Speech-to-Text Services",
+          "x_label": "Provider",
+          "y_label": "Cost per Hour ($)",
+          "labels": [
+            "Industry Average",
+            "Muse Voice Transcribe"
+          ],
+          "values": [
+            0.5,
+            0.18
+          ],
+          "source": "Market Research"
+        }
+      },
+      {
+        "kind": "image",
+        "caption": "Custom collaboration through Tabletop AI.",
+        "alt_text": "Illustration showing customized collaboration apps being built on a flexible platform.",
+        "image_prompt": "A flat-vector illustration of a workspace with various app icons symbolizing custom collaboration tools, on a white background with violet accents, highlighting flexibility and customization in app development.",
+        "style": "flat-vector"
+      },
+      {
+        "kind": "none",
+        "caption": "",
+        "alt_text": ""
+      }
+    ],
+    "error": "",
+    "started_at": "2026-11-12T04:54:40.274360+00:00",
+    "finished_at": "2026-11-12T04:54:40.274378+00:00"
+  },
+  {
+    "agent": "engagement_agent",
+    "ok": true,
+    "data": [
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+        "target_excerpt": "Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.",
+        "comment": "Nvidia's lack of a succession plan highlights a key vulnerability for tech giants, where leadership stability is crucial for maintaining investor confidence and operational continuity. It's a reminder that robust governance structures are just as essential as technological innovation.",
+        "angle": "insight",
+        "why_it_works": "It connects Nvidia's internal issues to broader governance practices, offering a practical takeaway on leadership stability."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+        "target_excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+        "comment": "The AI arms race between the U. S. and China underscores how geopolitics increasingly shape technological advancements. While competition can drive innovation, it also necessitates strong ethical and security frameworks to prevent misuse.",
+        "angle": "opinion",
+        "why_it_works": "It ties the AI infrastructure race to ethical and security implications, adding depth to the geopolitical angle."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+        "target_excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+        "comment": "If Nvidia's board decides to remove its CEO, it could set a significant precedent for how tech companies handle leadership controversies. This move would show that even foundational figures aren't immune to accountability in modern corporate governance.",
+        "angle": "expansion",
+        "why_it_works": "It expands on potential outcomes of board decisions, emphasizing corporate accountability in tech leadership."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+        "target_excerpt": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+        "comment": "The situation with Jensen Huang highlights the importance of ethical leadership in tech. Personal conduct can profoundly impact not just company culture but also public trust and investor relations.",
+        "angle": "insight",
+        "why_it_works": "It provides a broader perspective on how personal ethics affect wider corporate and public dynamics."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+        "target_excerpt": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into pla",
+        "comment": "The hurdles faced by the data center boom reveal the friction between rapid tech growth and real-world constraints. Infrastructure development can't outpace local and environmental considerations without risking unsustainable growth.",
+        "angle": "opinion",
+        "why_it_works": "It critiques the mismatch between tech ambitions and practical constraints, urging a balanced growth approach."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+        "target_excerpt": "Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.",
+        "comment": "Santosh Janardhan's departure after a long tenure is a pivotal moment for any company, as it often signals shifts in strategic priorities or internal culture. Such changes can either invigorate or destabilize a company's trajectory, depending on how they're managed.",
+        "angle": "insight",
+        "why_it_works": "It highlights the potential impact of leadership changes on company strategy and culture, providing a nuanced view."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
+        "target_excerpt": "Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that",
+        "comment": "Olaf Sakkers' journey in venture capital is a testament to resilience and adaptability in a challenging market. His success illustrates that while barriers to entry are high, determination and strategic vision can still carve a path for new entrants.",
+        "angle": "expansion",
+        "why_it_works": "It broadens the discussion from individual success to the perseverance required in venture capital."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+        "target_excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s thir",
+        "comment": "CoreWeave's financial strategies reflect the increasing volatility in the tech sector, where companies must navigate cash flow challenges creatively. This approach highlights the need for adaptable financial planning in uncertain markets.",
+        "angle": "insight",
+        "why_it_works": "It connects CoreWeave's financial tactics to broader industry challenges, offering a lesson in financial agility."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+        "target_excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
+        "comment": "Fractile's funding success in AI chips highlights the growing investor interest in specialized hardware. As AI applications become more demanding, the need for purpose-built chips could reshape the semiconductor industry.",
+        "angle": "insight",
+        "why_it_works": "It links Fractile's funding to industry trends, emphasizing the strategic shift in semiconductor development."
+      },
+      {
+        "target_author": "rss:techcrunch.com",
+        "target_post_url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+        "target_excerpt": "Nvidia CEO Jensen Huang has until the end of the day Wednesday to answer a call from House Republicans for a closed-door briefing on his affair with alleged Chinese spy.",
+        "comment": "The call for Jensen Huang's briefing by House Republicans illustrates the intersection of corporate actions and national security concerns. This situation emphasizes the need for transparent communication between tech leaders and policymakers.",
+        "angle": "opinion",
+        "why_it_works": "It stresses the importance of transparency in tech-political relations, offering a broader view on the implications."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "target_excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a w",
+        "comment": "Nvidia's board is facing a tough decision that goes beyond personal conduct. Leadership stability is critical in tech companies navigating rapid industry changes. However, it's essential to ensure that the CEO's actions don't overshadow the company's strategic goals and innovation capacity.",
+        "angle": "opinion",
+        "why_it_works": "It addresses the broader implications of leadership issues in a fast-moving tech landscape."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
+        "target_excerpt": "Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart ",
+        "comment": "The Home Assistant Connect Aux-2 is a smart move towards integrating non-smart devices into the smart home ecosystem. Bridging the gap between old and new tech can significantly enhance user adoption and satisfaction. It's about making smart homes accessible, not just advanced.",
+        "angle": "insight",
+        "why_it_works": "It highlights the practical benefits and user-centric approach of the new product."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+        "target_excerpt": "United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book t",
+        "comment": "United's stance on AI assistants reflects a cautious approach that prioritizes privacy and compliance. While AI can streamline booking, the balance between innovation and regulation is crucial. Businesses must tread carefully to maintain customer trust while embracing new technology.",
+        "angle": "respectful challenge",
+        "why_it_works": "It acknowledges valid concerns while suggesting that innovation should not be stifled by fear."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+        "target_excerpt": "Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make \"your online experience fairer.\" The newly proposed Digital Fairness Act (DFA) ",
+        "comment": "The EU's Digital Fairness Act could be a game-changer in creating a more equitable online landscape. By targeting exploitative practices, it aims to enhance consumer protection and trust. However, the challenge will be in the practical enforcement of these rules across diverse platforms.",
+        "angle": "expansion",
+        "why_it_works": "It recognizes the potential impact while pointing out the challenges in implementation."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
+        "target_excerpt": "Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, \"Scion by Toyota\" is being positioned as an experimental mobility incubator - an",
+        "comment": "Reintroducing Scion as an experimental mobility incubator is a bold pivot for Toyota. The kei truck's focus on innovation rather than just market trends could inspire a new wave of automotive creativity. It's a reminder that sometimes, taking risks can redefine a brand's future.",
+        "angle": "opinion",
+        "why_it_works": "It praises Toyota's strategic shift and highlights the potential for industry innovation."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+        "target_excerpt": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual s",
+        "comment": "Google's Tabletop is a fascinating blend of personal and professional productivity tools. By allowing users to customize collaborative spaces with AI, it could redefine how we coordinate daily activities. This could be a glimpse into the future of personalized productivity platforms.",
+        "angle": "insight",
+        "why_it_works": "It offers a forward-looking perspective on how AI could influence personal productivity."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
+        "target_excerpt": "The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn&#8217;t officially until November 27th, retailers are already dropping early deal",
+        "comment": "While early Black Friday deals are tempting, it's wise to remember that a discount doesn't always equate to the best value. With inflation impacting prices, shoppers need to be more discerning and focus on the long-term utility of their purchases.",
+        "angle": "opinion",
+        "why_it_works": "It provides a practical viewpoint on consumer behavior amidst fluctuating economic conditions."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale",
+        "target_excerpt": "Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its us",
+        "comment": "The Pixel 140W GaN charger highlights how tech accessories are evolving to match both functionality and aesthetics. It's not just about power, but also about the design that complements our devices. A good accessory should enhance the user experience, not just meet basic needs.",
+        "angle": "insight",
+        "why_it_works": "It emphasizes the growing importance of design in tech accessories, beyond just functionality."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
+        "target_excerpt": "I never liked hunting for Golden Skulltulas in The Legend of Zelda: Ocarina of Time. The game has 100 of them tucked all over Hyrule, and even over my many hours with the N64 classic growing up, I can",
+        "comment": "The hunt for Golden Skulltulas in Ocarina of Time is a classic example of how side quests can either enhance or detract from the gaming experience. It's a reminder that game designers must balance challenge with engagement to keep players motivated and satisfied.",
+        "angle": "opinion",
+        "why_it_works": "It relates personal gaming experiences to broader design principles in game development."
+      },
+      {
+        "target_author": "rss:www.theverge.com",
+        "target_post_url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+        "target_excerpt": "Researchers at Google DeepMind have unveiled a new AI model designed to unravel how changes in our DNA affect different cells, giving scientists a more detailed view of a notoriously difficult problem",
+        "comment": "AlphaGenome 2 represents a significant leap in understanding DNA's impact on cellular functions. By providing more detailed insights, it could pave the way for breakthroughs in personalized medicine. This is where AI's potential to revolutionize healthcare truly shines.",
+        "angle": "expansion",
+        "why_it_works": "It connects the technical advancement to its far-reaching implications in healthcare."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+        "target_excerpt": "The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.",
+        "comment": "Nvidia's situation shows how volatile the tech industry can be, where leadership changes can significantly impact a company's direction and stock value. It's a reminder that stability in tech is often more fragile than it looks.",
+        "angle": "insight",
+        "why_it_works": "The comment ties the investigation to broader industry volatility, providing a macro perspective on leadership roles in tech."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
+        "target_excerpt": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
+        "comment": "T-Mobile's decision to throttle speeds highlights a crucial gap between regulatory intentions and practical service delivery. It underscores the need for ISPs to align their policies with the reality of user needs and regulatory expectations.",
+        "angle": "opinion",
+        "why_it_works": "It directly addresses the discrepancy between regulation and execution, offering a clear stance on the issue."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+        "target_excerpt": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
+        "comment": "Having a camera with such dynamic range can revolutionize night-time applications across various industries, from security to wildlife research. It's a practical advancement that could lead to new use cases we haven't yet imagined.",
+        "angle": "expansion",
+        "why_it_works": "The comment expands on potential applications, adding depth to the technical achievement mentioned."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+        "target_excerpt": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
+        "comment": "The rapid pace and scale of current tech procurements highlight a shift in how companies approach innovation, prioritizing speed and adaptability over traditional, slower methods. This could redefine competitive advantage in tech.",
+        "angle": "insight",
+        "why_it_works": "It connects procurement strategies to competitive dynamics, offering a strategic view of industry trends."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+        "target_excerpt": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+        "comment": "Circular financing in AI often leads to inflated valuations, which can mask the true value and potential of innovations. It's a risky game that could stifle genuine growth if not addressed.",
+        "angle": "opinion",
+        "why_it_works": "The comment critiques a common AI financing issue, offering a candid take on its potential downsides."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
+        "target_excerpt": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.",
+        "comment": "Protecting confidential sources is fundamental to journalistic integrity and democracy. This ruling affirms the critical role of a free press in holding power accountable.",
+        "angle": "opinion",
+        "why_it_works": "It emphasizes the broader importance of the court ruling, aligning with core democratic values."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+        "target_excerpt": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+        "comment": "The resistance to AI in game development reflects a tension between traditional craftsmanship and technological innovation. Balancing these forces will be key to the future of creative industries.",
+        "angle": "insight",
+        "why_it_works": "It frames the issue as a broader industry challenge, providing a nuanced take on the debate."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
+        "target_excerpt": "Apple has already made the forum read-only.",
+        "comment": "Apple's decision to make the forum read-only could signal a shift towards more controlled communication channels, potentially limiting user interaction and feedback.",
+        "angle": "opinion",
+        "why_it_works": "The comment critiques the potential implications of Apple's move, offering a clear viewpoint on user interaction."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027/",
+        "target_excerpt": "The company plans on linking two 520-qubit chips before next year is over.",
+        "comment": "Linking two 520-qubit chips is a significant step towards scalable quantum computing, which could unlock unprecedented computational power and solve complex problems beyond current capabilities.",
+        "angle": "insight",
+        "why_it_works": "It highlights the potential impact of this technological advancement, emphasizing its transformative potential."
+      },
+      {
+        "target_author": "rss:feeds.arstechnica.com",
+        "target_post_url": "https://arstechnica.com/cars/2026/11/toyota-resurrects-scion-with-right-hand-drive-kei-trucks/",
+        "target_excerpt": "Does this herald the start of a small car revolution, or is it a meaningless distraction?",
+        "comment": "The emergence of small electric vehicles could mark a pivotal shift in urban mobility, addressing congestion and environmental concerns. However, their success will depend on infrastructure and consumer adoption.",
+        "angle": "expansion",
+        "why_it_works": "The comment expands on the potential impact of small cars, linking them to broader urban challenges."
+      }
+    ],
+    "error": "",
+    "started_at": "2026-11-12T04:54:56.313786+00:00",
+    "finished_at": "2026-11-12T04:54:56.313803+00:00"
+  },
+  {
+    "agent": "editor_publisher",
+    "ok": true,
+    "data": {
+      "editorial": {
+        "publishing_recommendation": "revise",
+        "reasoning": "Several drafts contain language that borders on hype or lack specific insights. There's a need for clearer connections between AI trends and practical business applications, as well as avoiding unsupported predictions.",
+        "risk_assessment": [
+          "Potential overstatement in the Shopify loyalty app post regarding the impact of AI on repeat purchases without adequate evidence.",
+          "Tone in the United Airlines post may imply broader industry trends without sufficient support.",
+          "The CoreWeave post risks overstating the impact of funding strategies without concrete examples."
+        ],
+        "summary": "Today's drafts tackle significant AI and business intersections, but need refinement to ensure clarity and factual support. The posts should articulate the practical implications of trends and investments, steering clear of speculative language. The focus should remain on delivering actionable insights, aligning with Purands AI's pragmatic brand voice."
+      },
+      "html": "/home/runner/work/PurandsLinkedInAgent/PurandsLinkedInAgent/linkedin-agent/output/daily/2026-11-12.html"
+    },
+    "error": "",
+    "started_at": "2026-11-12T04:54:58.096217+00:00",
+    "finished_at": "2026-11-12T04:54:58.096227+00:00"
+  },
+  {
+    "agent": "comment_reply",
+    "ok": true,
+    "data": [],
+    "error": "",
+    "started_at": "2026-11-12T04:54:58.096345+00:00",
+    "finished_at": "2026-11-12T04:54:58.096348+00:00"
+  }
+]
