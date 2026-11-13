@@ -1,0 +1,378 @@
+[
+  {
+    "trend": {
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "category": "AI industry",
+      "rank": 1,
+      "rationale": "Nectar's AI agent represents a significant advancement in automating influencer marketing, a key component of modern retention marketing strategies. By streamlining creator discovery and outreach, brands can enhance customer engagement and retention.",
+      "signals": [
+        "AI agents facilitating marketing tasks",
+        "Automation in influencer marketing",
+        "Impact on customer engagement strategies"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Nectar has launched an AI agent to automate creator discovery and outreach.",
+        "support": "The TechCrunch article confirms the launch and describes the AI agent's capabilities in streamlining influencer marketing tasks.",
+        "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "Brands leveraging AI to discover and engage with influencers more efficiently."
+    ],
+    "recent_news": [
+      "TechCrunch article detailing the launch of Nectar's AI agent."
+    ],
+    "risks": [
+      "Potential data privacy concerns with automated outreach.",
+      "Dependence on AI could reduce human creativity in campaign strategies."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "TikTok Shop pilots paid membership",
+      "category": "WhatsApp commerce",
+      "rank": 2,
+      "rationale": "TikTok's experiment with paid memberships could reshape e-commerce strategies, particularly in WhatsApp-first and mobile-first markets like APAC. This model may influence how brands approach customer loyalty and retention.",
+      "signals": [
+        "E-commerce innovation",
+        "Potential impact on loyalty programs",
+        "Influence on APAC commerce strategies"
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/tiktok-shop-plus-paid-membership/874451/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "TikTok Shop is piloting a paid membership.",
+        "support": "The Retail Dive article discusses TikTok's launch of a pilot program for paid memberships and its potential impact on e-commerce strategies.",
+        "url": "https://www.retaildive.com/news/tiktok-shop-plus-paid-membership/874451/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "Platforms like Amazon Prime influencing the paid membership model."
+    ],
+    "recent_news": [
+      "Retail Dive's coverage of TikTok Shop's new membership model."
+    ],
+    "risks": [
+      "Consumer resistance to paying for memberships on social media platforms.",
+      "Potential mismatch between membership benefits and customer expectations."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
+      "category": "AI startups",
+      "rank": 3,
+      "rationale": "The AWS Emulator, powered by AI agents, highlights the growing role of AI in enhancing cloud service accessibility and efficiency. This advancement could lower barriers for startups and SMBs in APAC to leverage powerful cloud services.",
+      "signals": [
+        "AI-driven cloud service innovations",
+        "Accessibility for SMEs",
+        "Potential for cost reduction"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "AWS Emulator enables local emulation of AWS services.",
+        "support": "The MarkTechPost article describes the AWS Emulator's features and its potential benefits for startups and SMBs.",
+        "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Details of AWS Emulator's release and its capabilities."
+    ],
+    "risks": [
+      "Possible legal and compliance issues with emulating AWS services.",
+      "Technical challenges in maintaining up-to-date emulation with AWS's regular updates."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "category": "SaaS",
+      "rank": 4,
+      "rationale": "Muse's new functionality in placing calls represents a key development in SaaS tools for business communication. This feature could enhance CRM and customer engagement strategies, crucial for retention marketing.",
+      "signals": [
+        "Advancements in SaaS communication tools",
+        "Impacts on CRM strategies",
+        "Enhanced customer engagement"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Muse's new feature allows paid users to place calls to US businesses.",
+        "support": "TechCrunch article confirms the launch of Muse's calling feature and its implications for business communication.",
+        "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "Businesses using Muse to facilitate direct communication with US partners."
+    ],
+    "recent_news": [
+      "TechCrunch article discussing Muse's new calling capabilities."
+    ],
+    "risks": [
+      "Dependence on a single communication tool might limit flexibility.",
+      "Cost implications for businesses opting for premium services."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Google's new Gemini model is better at understanding complicated questions",
+      "category": "AI industry",
+      "rank": 5,
+      "rationale": "Google's advancement in AI with the Gemini model offers improved search capabilities, which can be leveraged in customer data platforms and CRM to enhance customer interactions and support retention efforts.",
+      "signals": [
+        "AI advancements in natural language processing",
+        "Potential applications in CRM",
+        "Enhanced customer support tools"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Google's Gemini model improves understanding of complex queries.",
+        "support": "The Verge article outlines the capabilities of Gemini, emphasizing its enhanced natural language processing skills.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "CRM systems using Gemini model to provide more accurate customer support."
+    ],
+    "recent_news": [
+      "The Verge article on Google's new AI model and its potential applications."
+    ],
+    "risks": [
+      "Potential over-reliance on AI for complex interactions.",
+      "Privacy concerns with deeper data integration in CRM systems."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker",
+      "category": "AI startups",
+      "rank": 6,
+      "rationale": "OpenBot 1.0 provides a self-hostable AI coworker solution, which could empower businesses in APAC to deploy AI in retention marketing, improving operational efficiency and customer engagement.",
+      "signals": [
+        "Self-hostable AI solutions",
+        "Empowerment of businesses with AI tools",
+        "Potential for operational efficiency"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "OpenBot 1.0 is a self-hostable AI coworker solution.",
+        "support": "MarkTechPost article details the release and the open-source nature of OpenBot, highlighting its potential uses.",
+        "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "Companies using OpenBot for internal process automation."
+    ],
+    "recent_news": [
+      "Discussion on the open-source release of OpenBot 1.0."
+    ],
+    "risks": [
+      "Technical expertise required for deployment and maintenance.",
+      "Security concerns with self-hosted solutions."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Google's latest Search upgrade promises better answers to your most complicated questions",
+      "category": "AI industry",
+      "rank": 7,
+      "rationale": "With Google's Search upgrade, businesses can improve customer engagement through more accurate and contextually relevant information delivery, supporting retention marketing strategies.",
+      "signals": [
+        "Improvements in AI-driven search capabilities",
+        "Impact on customer engagement",
+        "Relevance to retention marketing"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Google's new Search upgrade offers enhanced answer accuracy.",
+        "support": "TechCrunch article explains the upgrade and its implications for search accuracy and user engagement.",
+        "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "Improved customer service responses based on better search capabilities."
+    ],
+    "recent_news": [
+      "TechCrunch article discussing Google's search improvements."
+    ],
+    "risks": [
+      "Potential over-reliance on AI-driven responses.",
+      "Challenges in maintaining up-to-date contextual knowledge."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
+      "category": "AI industry",
+      "rank": 8,
+      "rationale": "LiquidCodec's launch highlights advancements in audio processing, which can enhance voice-based CRM tools and customer interactions, crucial for personalized retention marketing strategies.",
+      "signals": [
+        "Advancements in audio processing technology",
+        "Potential enhancements for CRM tools",
+        "Impacts on customer interaction quality"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Liquid AI released LiquidCodec for improved audio processing.",
+        "support": "MarkTechPost article highlights the features of LiquidCodec and its potential applications in CRM.",
+        "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "CRM systems integrating LiquidCodec for enhanced audio interactions."
+    ],
+    "recent_news": [
+      "Discussion on the release of LiquidCodec and its capabilities."
+    ],
+    "risks": [
+      "Technical challenges in implementing new audio codecs.",
+      "Compatibility issues with existing systems."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Nvidia employees petition to bring back Jensen Huang",
+      "category": "AI industry",
+      "rank": 9,
+      "rationale": "The internal dynamics at Nvidia, influenced by leadership changes, could impact AI advancements and availability, affecting APAC regions reliant on Nvidia's technology for AI-driven retention marketing strategies.",
+      "signals": [
+        "Leadership changes in major AI companies",
+        "Potential impacts on AI technology availability",
+        "Relevance to retention marketing strategies"
+      ],
+      "sources": [
+        "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.5,
+    "evidence": [
+      {
+        "claim": "Nvidia employees have petitioned to bring back Jensen Huang.",
+        "support": "Wired article reports on the employee petition at Nvidia regarding leadership changes.",
+        "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [
+      "Wired article on the internal petition at Nvidia."
+    ],
+    "risks": [
+      "Potential disruptions in Nvidia's product development pipeline.",
+      "Impact on market confidence and stock prices."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Hatz AI raises $24M to expand platform, double headcount",
+      "category": "AI startups",
+      "rank": 10,
+      "rationale": "Hatz AI's funding round signals growth in AI tools for SMBs, relevant for APAC markets seeking affordable AI solutions to enhance retention marketing and customer engagement.",
+      "signals": [
+        "Growth in AI tools for small businesses",
+        "Funding in AI startups",
+        "Potential impacts on customer engagement strategies"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261112/p65#a261112p65"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Hatz AI has raised $24M in funding to expand operations.",
+        "support": "TechMeme article confirms the funding round and planned expansion by Hatz AI.",
+        "url": "https://www.techmeme.com/261112/p65#a261112p65"
+      }
+    ],
+    "statistics": [],
+    "examples": [
+      "SMBs adopting Hatz AI's tools to improve customer engagement."
+    ],
+    "recent_news": [
+      "TechMeme article on Hatz AI's recent funding success."
+    ],
+    "risks": [
+      "Market saturation with similar AI tools could limit growth.",
+      "Challenges in scaling operations to meet increased demand."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]
