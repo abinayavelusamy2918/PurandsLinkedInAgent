@@ -1,0 +1,347 @@
+[
+  {
+    "trend": {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "category": "AI industry",
+      "rank": 1,
+      "rationale": "The discussion around tightening export rules on AI chips is crucial as it impacts global supply chains and could affect AI chip availability for retention marketing platforms. This could influence pricing and availability of AI-powered solutions.",
+      "signals": [
+        "Policy changes",
+        "Impact on AI industry",
+        "Geopolitical implications"
+      ],
+      "sources": [
+        "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Congress is considering tightening export rules on AI chips.",
+        "support": "The U.S. government has been increasingly focused on regulating AI technology exports, particularly to countries like China, due to security concerns and recent incidents involving technology companies.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      },
+      {
+        "claim": "The Nvidia spy scandal has added urgency to these discussions.",
+        "support": "Reports have cited security concerns related to foreign access to advanced U.S. AI technology, which has prompted legislative interest in stricter control.",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Potential backlash from affected countries.",
+      "Impact on global technology supply chains."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "category": "AI industry",
+      "rank": 2,
+      "rationale": "The leadership at Nvidia is pivotal to the AI industry. As Nvidia is a major player in AI hardware, changes in leadership can affect strategic directions, impacting software platforms relying on Nvidia technology.",
+      "signals": [
+        "Industry leadership",
+        "Strategic direction",
+        "Petition"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang"
+      ],
+      "region": "Global"
+    },
+    "confidence": 0.6,
+    "evidence": [
+      {
+        "claim": "Elon Musk and other tech executives have signed a petition for Jensen Huang's reinstatement.",
+        "support": "The petition highlights the industry's concern about leadership changes at Nvidia and the potential impact on its strategic direction.",
+        "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Public perception of instability in Nvidia's leadership.",
+      "Potential impact on Nvidia's stock price and investor confidence."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "TikTok Shop pilots paid membership",
+      "category": "WhatsApp commerce",
+      "rank": 3,
+      "rationale": "TikTok's move to pilot paid membership in its shop could influence retention marketing strategies on similar platforms like WhatsApp, impacting customer engagement tactics and loyalty programs.",
+      "signals": [
+        "E-commerce innovation",
+        "Membership models",
+        "Customer engagement"
+      ],
+      "sources": [
+        "https://www.retaildive.com/news/tiktok-shop-plus-paid-membership/874451"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "TikTok Shop is testing a paid membership model.",
+        "support": "The pilot program is an effort to enhance user engagement and loyalty through exclusive benefits available to members.",
+        "url": "https://www.retaildive.com/news/tiktok-shop-plus-paid-membership/874451"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Potential consumer resistance to paid features.",
+      "Impact on user base if not implemented effectively."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Alibaba releases Qwen4-Max, its new flagship 2.4T-parameter MoE model",
+      "category": "AI startups",
+      "rank": 4,
+      "rationale": "Alibaba's new AI model showcases advances in the AI industry, potentially impacting AI startup ecosystems and the tools available for building retention marketing solutions in APAC.",
+      "signals": [
+        "AI model advancements",
+        "Competitive landscape",
+        "Technology innovation"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261115/p25#a261115p25"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.75,
+    "evidence": [
+      {
+        "claim": "Alibaba has launched a new MoE model with 2.4 trillion parameters.",
+        "support": "The release of Qwen4-Max is part of Alibaba's continued investment in AI technology, showing significant advancement in model capabilities.",
+        "url": "https://www.techmeme.com/261115/p25#a261115p25"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "High computational costs associated with large models.",
+      "Potential environmental concerns related to energy consumption."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "SK Hynix and the Korean government plan to partner on building Trinity Fab",
+      "category": "AI industry",
+      "rank": 5,
+      "rationale": "Investments in chip manufacturing affect the supply chain for AI applications. This partnership could ensure better availability of AI chips, impacting retention marketing platforms.",
+      "signals": [
+        "Industry investment",
+        "Government partnership",
+        "Supply chain impact"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261115/p21#a261115p21"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "SK Hynix and the Korean government are partnering on Trinity Fab.",
+        "support": "The collaboration aims to bolster semiconductor manufacturing capabilities, which is critical for the tech industry.",
+        "url": "https://www.techmeme.com/261115/p21#a261115p21"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Geopolitical tensions affecting chip trade.",
+      "Potential delays in construction and operationalization."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Mount Thor raises $45M to build cloud infrastructure for agentic AI on Apple silicon",
+      "category": "AI industry",
+      "rank": 6,
+      "rationale": "Building cloud infrastructure for AI could lower barriers to entry for using AI in retention marketing, particularly in APAC, where cloud solutions are pivotal for scale.",
+      "signals": [
+        "Cloud infrastructure",
+        "Investment in AI",
+        "Scalability"
+      ],
+      "sources": [
+        "https://www.techmeme.com/261115/p23#a261115p23"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Mount Thor has secured $45M for AI cloud infrastructure on Apple silicon.",
+        "support": "The funding round is aimed at developing scalable AI solutions leveraging Apple's hardware, indicating a focus on integrating AI capabilities.",
+        "url": "https://www.techmeme.com/261115/p23#a261115p23"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Technical challenges in integrating with Apple silicon.",
+      "Market competition from established cloud providers."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+      "category": "AI startups",
+      "rank": 7,
+      "rationale": "Innovations in speech-to-speech models can enhance customer service and engagement in retention marketing strategies, making them crucial for WhatsApp commerce and CRM.",
+      "signals": [
+        "Speech technology",
+        "Customer service enhancement",
+        "AI innovation"
+      ],
+      "sources": [
+        "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.65,
+    "evidence": [
+      {
+        "claim": "Bland has launched Tofu-1, a full-duplex speech-to-speech model.",
+        "support": "The model is designed to enhance real-time speech translation, which can significantly improve communication technologies.",
+        "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Privacy concerns with voice data handling.",
+      "Accuracy challenges in real-time speech translation."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Indian chip startup Bharat Semi lands $24M seed round",
+      "category": "AI startups",
+      "rank": 8,
+      "rationale": "The investment in Bharat Semi highlights the growing focus on AI hardware development in India, which is essential for the AI ecosystem supporting retention marketing solutions.",
+      "signals": [
+        "Investment in AI hardware",
+        "Startup growth",
+        "Regional innovation"
+      ],
+      "sources": [
+        "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "Bharat Semi has raised $24M to develop AI hardware.",
+        "support": "The funding will support the startup's expansion into the global AI sensor market, indicating robust investor interest.",
+        "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Competition from established chip manufacturers.",
+      "Challenges in scaling production capabilities."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling",
+      "category": "AI industry",
+      "rank": 9,
+      "rationale": "Nvidia's ability to track chips has implications for security and compliance in AI deployment, relevant to maintaining trust in AI-driven retention marketing platforms.",
+      "signals": [
+        "Security measures",
+        "Compliance",
+        "Tech accountability"
+      ],
+      "sources": [
+        "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+      ],
+      "region": "Global"
+    },
+    "confidence": 0.8,
+    "evidence": [
+      {
+        "claim": "Nvidia can track its chips to prevent smuggling.",
+        "support": "The tracking capability is intended to enhance security and ensure compliance with export regulations.",
+        "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Privacy concerns related to tracking technology.",
+      "Potential for misuse of tracking data."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  },
+  {
+    "trend": {
+      "title": "FAA expands AI advice to manage air traffic congestion",
+      "category": "AI industry",
+      "rank": 10,
+      "rationale": "The use of AI in managing large-scale operations like air traffic could inspire similar AI applications in customer data platforms, improving data management and customer insights.",
+      "signals": [
+        "AI application",
+        "Operational efficiency",
+        "Innovation"
+      ],
+      "sources": [
+        "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      ],
+      "region": "APAC"
+    },
+    "confidence": 0.7,
+    "evidence": [
+      {
+        "claim": "The FAA is using AI to help manage air traffic congestion.",
+        "support": "AI technology is being employed to improve efficiency in airspace management, indicating broader potential applications for AI in operational settings.",
+        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      }
+    ],
+    "statistics": [],
+    "examples": [],
+    "recent_news": [],
+    "risks": [
+      "Reliability of AI systems in critical operations.",
+      "Resistance from stakeholders preferring traditional methods."
+    ],
+    "verdict": "accepted",
+    "reject_reason": ""
+  }
+]
