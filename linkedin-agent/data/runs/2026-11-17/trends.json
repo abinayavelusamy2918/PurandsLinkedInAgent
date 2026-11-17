@@ -1,0 +1,201 @@
+[
+  {
+    "title": "California state AG sues OpenAI over rogue agent incidents",
+    "category": "AI industry",
+    "rank": 1,
+    "rationale": "This lawsuit highlights the growing concerns over the control and accountability of AI agents, a critical issue for AI in retention marketing where trust and data security are paramount.",
+    "signals": [
+      "Legal accountability for AI actions",
+      "Impact on AI agent deployment and trust"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+    ],
+    "region": "US"
+  },
+  {
+    "title": "J. Crew introduces AI-powered Style Advisor",
+    "category": "AI startups",
+    "rank": 2,
+    "rationale": "The introduction of AI in styling provides a concrete example of AI enhancing customer engagement in retail, which is vital for retention marketing strategies.",
+    "signals": [
+      "AI enhancing customer personalization",
+      "Retail adoption of AI technologies"
+    ],
+    "sources": [
+      "https://www.retaildive.com/news/j-crew-introduces-ai-style-advisor/874596/"
+    ],
+    "region": "US"
+  },
+  {
+    "title": "Meta is testing Direct, a standalone messaging app for Instagram",
+    "category": "WhatsApp commerce",
+    "rank": 3,
+    "rationale": "The expansion of messaging apps in commerce highlights the trend towards mobile-first and messaging-first strategies, crucial for engagement in APAC markets.",
+    "signals": [
+      "Growth of messaging apps in commerce",
+      "Focus on mobile-first strategies"
+    ],
+    "sources": [
+      "https://www.techmeme.com/261116/p53#a261116p53"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "Holiday retail’s AI test: From skeptical shoppers to agents they trust after checkout",
+    "category": "Retention marketing",
+    "rank": 4,
+    "rationale": "This discussion around AI in retail highlights the importance of building trust with consumers, a core component in enhancing retention efforts through AI.",
+    "signals": [
+      "AI trust issues in retail",
+      "Impact of AI on consumer trust"
+    ],
+    "sources": [
+      "https://www.retaildive.com/spons/holiday-retails-ai-test-from-skeptical-shoppers-to-agents-they-trust-afte/874054/"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Optimizely compromised, served malware on Zoom, GitLab",
+    "category": "AI industry",
+    "rank": 5,
+    "rationale": "Security breaches in AI platforms raise significant concerns for customer data protection, a critical factor in CRM and retention marketing.",
+    "signals": [
+      "Security risks in AI platforms",
+      "Impact on data protection"
+    ],
+    "sources": [
+      "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "https://www.techmeme.com/261116/p46#a261116p46"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active",
+    "category": "AI industry",
+    "rank": 6,
+    "rationale": "Alibaba's release of a large model enhances the capabilities for personalization and data-driven engagement, relevant to retention marketing efforts.",
+    "signals": [
+      "Advancements in AI model capabilities",
+      "Potential for enhanced personalization"
+    ],
+    "sources": [
+      "https://www.marktechpost.com/2026/11/16/alibaba-qwen4-max-release/"
+    ],
+    "region": "APAC"
+  },
+  {
+    "title": "US data centers now burn more electricity than a midsized country",
+    "category": "AI industry",
+    "rank": 7,
+    "rationale": "The environmental impact of data centers is increasingly relevant as AI and CDPs continue to expand, affecting operational sustainability considerations.",
+    "signals": [
+      "Environmental footprint of data centers",
+      "Sustainability in AI infrastructure"
+    ],
+    "sources": [
+      "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard"
+    ],
+    "region": "US"
+  },
+  {
+    "title": "Anthropic tells investors Claude Mythos Preview got its AI running on AMD GPUs in ~3 days",
+    "category": "AI startups",
+    "rank": 8,
+    "rationale": "Rapid deployment of AI models on new hardware platforms can significantly reduce costs and increase flexibility in AI operations, crucial for competitive retention marketing.",
+    "signals": [
+      "Efficiency in AI deployment",
+      "Cost reduction in AI operations"
+    ],
+    "sources": [
+      "https://www.techmeme.com/261116/p52#a261116p52"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Building AI that can work across the enterprise",
+    "category": "AI industry",
+    "rank": 9,
+    "rationale": "Integrating AI across enterprise functions highlights the potential for AI to enhance CRM and customer engagement strategies at scale.",
+    "signals": [
+      "Enterprise-wide AI integration",
+      "Scaling AI for CRM and engagement"
+    ],
+    "sources": [
+      "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Apple reveals new Mac security controls as AI agents raise privacy risks",
+    "category": "AI industry",
+    "rank": 10,
+    "rationale": "Enhancements in security controls for AI applications are crucial for building trust in AI-driven retention marketing tools.",
+    "signals": [
+      "Security improvements in AI applications",
+      "Privacy concerns in AI usage"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks/"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin gigafactory expansion",
+    "category": "AI industry",
+    "rank": 11,
+    "rationale": "Tesla's expansion highlights the role of AI in manufacturing and logistics, impacting supply chain efficiency and customer satisfaction, key components of retention marketing.",
+    "signals": [
+      "AI in manufacturing and logistics",
+      "Impact on supply chain efficiency"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/11/16/tesla-goes-all-in-on-the-cybercab-with-upcoming-e3b-berlin-gigafactory-expansion/"
+    ],
+    "region": "Europe"
+  },
+  {
+    "title": "How much warehouse automation do you really need, and should you build or outsource?",
+    "category": "Product management",
+    "rank": 12,
+    "rationale": "Decisions around warehouse automation impact inventory management and fulfillment efficiency, directly affecting the customer experience and retention.",
+    "signals": [
+      "Warehouse automation strategies",
+      "Impact on inventory and fulfillment"
+    ],
+    "sources": [
+      "https://www.retaildive.com/spons/how-much-warehouse-automation-do-you-really-need-and-should-you-build-or-o/874469/"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Running coding agents without handing them my credentials",
+    "category": "AI industry",
+    "rank": 13,
+    "rationale": "Security and privacy in running AI agents is critical for trust and integrity, especially in retention marketing platforms that handle sensitive customer data.",
+    "signals": [
+      "Privacy and security in AI operations",
+      "Trust in AI agent deployment"
+    ],
+    "sources": [
+      "https://blog.antonio.cx/running-agents-with-lend",
+      "https://news.ycombinator.com/item?id=50526152"
+    ],
+    "region": "Global"
+  },
+  {
+    "title": "Apple adds ‘face unlock’ to the iPhone Duo, but it’s not Face ID",
+    "category": "AI industry",
+    "rank": 14,
+    "rationale": "Innovation in mobile device security features enhances user trust and engagement, which is crucial for mobile-first retention marketing strategies.",
+    "signals": [
+      "Mobile security innovations",
+      "User engagement through technology"
+    ],
+    "sources": [
+      "https://techcrunch.com/2026/11/16/apple-adds-face-unlock-to-the-iphone-duo-but-its-not-face-id/"
+    ],
+    "region": "Global"
+  }
+]
